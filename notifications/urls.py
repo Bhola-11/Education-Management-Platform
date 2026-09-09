@@ -1,20 +1,20 @@
 """
-URL Routes for Notifications: Campus Broadcasts
+URL Routes for Notifications: Notification Preferences
 """
 
 from django.urls import path
-from notifications import views_notifications_broadcast as views
+from notifications import views_notifications_preferences as views
 
 app_name = "notifications"
 
 urlpatterns = [
-    path("notifications_broadcast/", views.NotificationsBroadcastListView.as_view(), name="notifications_broadcast_list"),
-    path("notifications_broadcast/<int:pk>/", views.NotificationsBroadcastDetailView.as_view(), name="notifications_broadcast_detail"),
-    path("notifications_broadcast/create/", views.NotificationsBroadcastCreateView.as_view(), name="notifications_broadcast_create"),
-    path("notifications_broadcast/<int:pk>/edit/", views.NotificationsBroadcastUpdateView.as_view(), name="notifications_broadcast_update"),
-    path("notifications_broadcast/<int:pk>/delete/", views.NotificationsBroadcastDeleteView.as_view(), name="notifications_broadcast_delete"),
-    path("notifications_broadcast/<int:pk>/print/", views.NotificationsBroadcastPrintView.as_view(), name="notifications_broadcast_print"),
-    path("notifications_broadcast/analytics/", views.NotificationsBroadcastAnalyticsView.as_view(), name="notifications_broadcast_analytics"),
-    path("notifications_broadcast/export/csv/", views.export_notifications_broadcast_csv, name="notifications_broadcast_export_csv"),
-    path("notifications_broadcast/export/json/", views.export_notifications_broadcast_json, name="notifications_broadcast_export_json"),
+    path("notifications_preferences/", views.NotificationsPreferencesListView.as_view(), name="notifications_preferences_list"),
+    path("notifications_preferences/<int:pk>/", views.NotificationsPreferencesDetailView.as_view(), name="notifications_preferences_detail"),
+    path("notifications_preferences/create/", views.NotificationsPreferencesCreateView.as_view(), name="notifications_preferences_create"),
+    path("notifications_preferences/<int:pk>/edit/", views.NotificationsPreferencesUpdateView.as_view(), name="notifications_preferences_update"),
+    path("notifications_preferences/<int:pk>/delete/", views.NotificationsPreferencesDeleteView.as_view(), name="notifications_preferences_delete"),
+    path("notifications_preferences/<int:pk>/print/", views.NotificationsPreferencesPrintView.as_view(), name="notifications_preferences_print"),
+    path("notifications_preferences/analytics/", views.NotificationsPreferencesAnalyticsView.as_view(), name="notifications_preferences_analytics"),
+    path("notifications_preferences/export/csv/", views.export_notifications_preferences_csv, name="notifications_preferences_export_csv"),
+    path("notifications_preferences/export/json/", views.export_notifications_preferences_json, name="notifications_preferences_export_json"),
 ]
