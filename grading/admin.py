@@ -1,2 +1,2 @@
 from django.contrib import admin
-from grading.admin_grading_transcripts import *
+from grading.admin_grading_rank_lists import *
