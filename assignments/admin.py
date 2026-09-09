@@ -1,2 +1,2 @@
 from django.contrib import admin
-from assignments.admin_assignments_core import *
+from assignments.admin_assignments_submissions import *

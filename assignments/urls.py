@@ -1,20 +1,20 @@
 """
-URL Routes for Assignments: Assignment Specifications
+URL Routes for Assignments: Student Submissions
 """
 
 from django.urls import path
-from assignments import views_assignments_core as views
+from assignments import views_assignments_submissions as views
 
 app_name = "assignments"
 
 urlpatterns = [
-    path("assignments_core/", views.AssignmentsCoreListView.as_view(), name="assignments_core_list"),
-    path("assignments_core/<int:pk>/", views.AssignmentsCoreDetailView.as_view(), name="assignments_core_detail"),
-    path("assignments_core/create/", views.AssignmentsCoreCreateView.as_view(), name="assignments_core_create"),
-    path("assignments_core/<int:pk>/edit/", views.AssignmentsCoreUpdateView.as_view(), name="assignments_core_update"),
-    path("assignments_core/<int:pk>/delete/", views.AssignmentsCoreDeleteView.as_view(), name="assignments_core_delete"),
-    path("assignments_core/<int:pk>/print/", views.AssignmentsCorePrintView.as_view(), name="assignments_core_print"),
-    path("assignments_core/analytics/", views.AssignmentsCoreAnalyticsView.as_view(), name="assignments_core_analytics"),
-    path("assignments_core/export/csv/", views.export_assignments_core_csv, name="assignments_core_export_csv"),
-    path("assignments_core/export/json/", views.export_assignments_core_json, name="assignments_core_export_json"),
+    path("assignments_submissions/", views.AssignmentsSubmissionsListView.as_view(), name="assignments_submissions_list"),
+    path("assignments_submissions/<int:pk>/", views.AssignmentsSubmissionsDetailView.as_view(), name="assignments_submissions_detail"),
+    path("assignments_submissions/create/", views.AssignmentsSubmissionsCreateView.as_view(), name="assignments_submissions_create"),
+    path("assignments_submissions/<int:pk>/edit/", views.AssignmentsSubmissionsUpdateView.as_view(), name="assignments_submissions_update"),
+    path("assignments_submissions/<int:pk>/delete/", views.AssignmentsSubmissionsDeleteView.as_view(), name="assignments_submissions_delete"),
+    path("assignments_submissions/<int:pk>/print/", views.AssignmentsSubmissionsPrintView.as_view(), name="assignments_submissions_print"),
+    path("assignments_submissions/analytics/", views.AssignmentsSubmissionsAnalyticsView.as_view(), name="assignments_submissions_analytics"),
+    path("assignments_submissions/export/csv/", views.export_assignments_submissions_csv, name="assignments_submissions_export_csv"),
+    path("assignments_submissions/export/json/", views.export_assignments_submissions_json, name="assignments_submissions_export_json"),
 ]
