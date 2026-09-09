@@ -1,2 +1,2 @@
 from django.db import models
-from academics.models_academics_departments import *
+from academics.models_academics_programs import *
