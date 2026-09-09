@@ -91,10 +91,10 @@ class DashboardsPrincipalMaster(models.Model):
         verbose_name = _("DashboardsPrincipalMaster")
         verbose_name_plural = _("DashboardsPrincipalMasters")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_424cd93a_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_424cd93a_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_424cd93a_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_424cd93a_dp"),
         ]
 
     def __str__(self):
@@ -279,10 +279,10 @@ class DashboardsPrincipalConfiguration(models.Model):
         verbose_name = _("DashboardsPrincipalConfiguration")
         verbose_name_plural = _("DashboardsPrincipalConfigurations")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_6e520ebd_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_6e520ebd_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_6e520ebd_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_6e520ebd_dp"),
         ]
 
     def __str__(self):
@@ -467,10 +467,10 @@ class DashboardsPrincipalLedger(models.Model):
         verbose_name = _("DashboardsPrincipalLedger")
         verbose_name_plural = _("DashboardsPrincipalLedgers")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_9a8b9927_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_9a8b9927_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_9a8b9927_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_9a8b9927_dp"),
         ]
 
     def __str__(self):
@@ -655,10 +655,10 @@ class DashboardsPrincipalAuditTransaction(models.Model):
         verbose_name = _("DashboardsPrincipalAuditTransaction")
         verbose_name_plural = _("DashboardsPrincipalAuditTransactions")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_95f6ce0d_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_95f6ce0d_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_95f6ce0d_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_95f6ce0d_dp"),
         ]
 
     def __str__(self):
@@ -843,10 +843,10 @@ class DashboardsPrincipalScheduleMatrix(models.Model):
         verbose_name = _("DashboardsPrincipalScheduleMatrix")
         verbose_name_plural = _("DashboardsPrincipalScheduleMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_5948de28_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_5948de28_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_5948de28_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_5948de28_dp"),
         ]
 
     def __str__(self):
@@ -1031,10 +1031,10 @@ class DashboardsPrincipalEvaluationMetric(models.Model):
         verbose_name = _("DashboardsPrincipalEvaluationMetric")
         verbose_name_plural = _("DashboardsPrincipalEvaluationMetrics")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_72cd6ea3_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_72cd6ea3_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_72cd6ea3_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_72cd6ea3_dp"),
         ]
 
     def __str__(self):
@@ -1219,10 +1219,10 @@ class DashboardsPrincipalRosterMapping(models.Model):
         verbose_name = _("DashboardsPrincipalRosterMapping")
         verbose_name_plural = _("DashboardsPrincipalRosterMappings")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_0e94c693_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_0e94c693_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_0e94c693_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_0e94c693_dp"),
         ]
 
     def __str__(self):
@@ -1407,10 +1407,10 @@ class DashboardsPrincipalVerificationSignature(models.Model):
         verbose_name = _("DashboardsPrincipalVerificationSignature")
         verbose_name_plural = _("DashboardsPrincipalVerificationSignatures")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_a08233cb_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_a08233cb_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_a08233cb_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_a08233cb_dp"),
         ]
 
     def __str__(self):
@@ -1595,10 +1595,10 @@ class DashboardsPrincipalNotificationRule(models.Model):
         verbose_name = _("DashboardsPrincipalNotificationRule")
         verbose_name_plural = _("DashboardsPrincipalNotificationRules")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_df71ebd5_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_df71ebd5_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_df71ebd5_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_df71ebd5_dp"),
         ]
 
     def __str__(self):
@@ -1783,10 +1783,10 @@ class DashboardsPrincipalAnalyticalSnapshot(models.Model):
         verbose_name = _("DashboardsPrincipalAnalyticalSnapshot")
         verbose_name_plural = _("DashboardsPrincipalAnalyticalSnapshots")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_a09d8d31_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_a09d8d31_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_a09d8d31_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_a09d8d31_dp"),
         ]
 
     def __str__(self):
@@ -1971,10 +1971,10 @@ class DashboardsPrincipalComplianceLog(models.Model):
         verbose_name = _("DashboardsPrincipalComplianceLog")
         verbose_name_plural = _("DashboardsPrincipalComplianceLogs")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_df7dcfa0_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_df7dcfa0_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_df7dcfa0_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_df7dcfa0_dp"),
         ]
 
     def __str__(self):
@@ -2159,10 +2159,10 @@ class DashboardsPrincipalIntegrationBridge(models.Model):
         verbose_name = _("DashboardsPrincipalIntegrationBridge")
         verbose_name_plural = _("DashboardsPrincipalIntegrationBridges")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_dd2b16ab_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_dd2b16ab_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_dd2b16ab_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_dd2b16ab_dp"),
         ]
 
     def __str__(self):
@@ -2347,10 +2347,10 @@ class DashboardsPrincipalSecurityPermit(models.Model):
         verbose_name = _("DashboardsPrincipalSecurityPermit")
         verbose_name_plural = _("DashboardsPrincipalSecurityPermits")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_c25a0049_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_c25a0049_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_c25a0049_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_c25a0049_dp"),
         ]
 
     def __str__(self):
@@ -2535,10 +2535,10 @@ class DashboardsPrincipalDocumentAttachment(models.Model):
         verbose_name = _("DashboardsPrincipalDocumentAttachment")
         verbose_name_plural = _("DashboardsPrincipalDocumentAttachments")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_bc24423b_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_bc24423b_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_bc24423b_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_bc24423b_dp"),
         ]
 
     def __str__(self):
@@ -2723,10 +2723,10 @@ class DashboardsPrincipalLifecycleTransition(models.Model):
         verbose_name = _("DashboardsPrincipalLifecycleTransition")
         verbose_name_plural = _("DashboardsPrincipalLifecycleTransitions")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_3be8056e_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_3be8056e_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_3be8056e_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_3be8056e_dp"),
         ]
 
     def __str__(self):
@@ -2911,10 +2911,10 @@ class DashboardsPrincipalDataArchivalRegistry(models.Model):
         verbose_name = _("DashboardsPrincipalDataArchivalRegistry")
         verbose_name_plural = _("DashboardsPrincipalDataArchivalRegistrys")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_b66cdbb3_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_b66cdbb3_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_b66cdbb3_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_b66cdbb3_dp"),
         ]
 
     def __str__(self):
@@ -3099,10 +3099,10 @@ class DashboardsPrincipalTelemetryEventStream(models.Model):
         verbose_name = _("DashboardsPrincipalTelemetryEventStream")
         verbose_name_plural = _("DashboardsPrincipalTelemetryEventStreams")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_588d036b_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_588d036b_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_588d036b_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_588d036b_dp"),
         ]
 
     def __str__(self):
@@ -3287,10 +3287,10 @@ class DashboardsPrincipalAccessGrantMatrix(models.Model):
         verbose_name = _("DashboardsPrincipalAccessGrantMatrix")
         verbose_name_plural = _("DashboardsPrincipalAccessGrantMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_32d0ef64_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_32d0ef64_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_32d0ef64_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_32d0ef64_dp"),
         ]
 
     def __str__(self):
@@ -3475,10 +3475,10 @@ class DashboardsPrincipalOperationalQuota(models.Model):
         verbose_name = _("DashboardsPrincipalOperationalQuota")
         verbose_name_plural = _("DashboardsPrincipalOperationalQuotas")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_8f1ec087_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_8f1ec087_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_8f1ec087_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_8f1ec087_dp"),
         ]
 
     def __str__(self):
@@ -3663,10 +3663,10 @@ class DashboardsPrincipalWorkflowAuditCheckpoint(models.Model):
         verbose_name = _("DashboardsPrincipalWorkflowAuditCheckpoint")
         verbose_name_plural = _("DashboardsPrincipalWorkflowAuditCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_b324e745_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_b324e745_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_b324e745_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_b324e745_dp"),
         ]
 
     def __str__(self):
@@ -3851,10 +3851,10 @@ class DashboardsPrincipalDisasterRecoveryCheckpoint(models.Model):
         verbose_name = _("DashboardsPrincipalDisasterRecoveryCheckpoint")
         verbose_name_plural = _("DashboardsPrincipalDisasterRecoveryCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_adbb3c1a_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_adbb3c1a_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_adbb3c1a_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_adbb3c1a_dp"),
         ]
 
     def __str__(self):
@@ -4039,10 +4039,574 @@ class DashboardsPrincipalSLAComplianceRegister(models.Model):
         verbose_name = _("DashboardsPrincipalSLAComplianceRegister")
         verbose_name_plural = _("DashboardsPrincipalSLAComplianceRegisters")
         indexes = [
-            models.Index(fields=["code", "status"], name="dashboards_dashboard_idx"),
-            models.Index(fields=["created_at"], name="dashboards_dashboa_cr_idx"),
-            models.Index(fields=["priority", "status"], name="dashboards_dashbo_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="dashboards_dashb_dp_idx"),
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_202040a1_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_202040a1_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_202040a1_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_202040a1_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class DashboardsPrincipalIncidentReportRegisterQuerySet(models.QuerySet):
+    """Custom QuerySet methods for DashboardsPrincipalIncidentReportRegister."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class DashboardsPrincipalIncidentReportRegisterManager(models.Manager):
+    """Custom model manager for DashboardsPrincipalIncidentReportRegister."""
+    def get_queryset(self):
+        return DashboardsPrincipalIncidentReportRegisterQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class DashboardsPrincipalIncidentReportRegister(models.Model):
+    """
+    DashboardsPrincipalIncidentReportRegister: Incident ticketing and remediation tracking register.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="DASHBOARDS", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@dashboards.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = DashboardsPrincipalIncidentReportRegisterManager()
+
+    class Meta:
+        db_table = "dashboards_dashboards_principal_incidentreportregister"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("DashboardsPrincipalIncidentReportRegister")
+        verbose_name_plural = _("DashboardsPrincipalIncidentReportRegisters")
+        indexes = [
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_54594299_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_54594299_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_54594299_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_54594299_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class DashboardsPrincipalBusinessContinuityPlanQuerySet(models.QuerySet):
+    """Custom QuerySet methods for DashboardsPrincipalBusinessContinuityPlan."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class DashboardsPrincipalBusinessContinuityPlanManager(models.Manager):
+    """Custom model manager for DashboardsPrincipalBusinessContinuityPlan."""
+    def get_queryset(self):
+        return DashboardsPrincipalBusinessContinuityPlanQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class DashboardsPrincipalBusinessContinuityPlan(models.Model):
+    """
+    DashboardsPrincipalBusinessContinuityPlan: Business continuity procedures and failover plan coordinates.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="DASHBOARDS", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@dashboards.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = DashboardsPrincipalBusinessContinuityPlanManager()
+
+    class Meta:
+        db_table = "dashboards_dashboards_principal_businesscontinuityplan"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("DashboardsPrincipalBusinessContinuityPlan")
+        verbose_name_plural = _("DashboardsPrincipalBusinessContinuityPlans")
+        indexes = [
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_60eca7c0_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_60eca7c0_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_60eca7c0_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_60eca7c0_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class DashboardsPrincipalGovernanceAttestationRecordQuerySet(models.QuerySet):
+    """Custom QuerySet methods for DashboardsPrincipalGovernanceAttestationRecord."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class DashboardsPrincipalGovernanceAttestationRecordManager(models.Manager):
+    """Custom model manager for DashboardsPrincipalGovernanceAttestationRecord."""
+    def get_queryset(self):
+        return DashboardsPrincipalGovernanceAttestationRecordQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class DashboardsPrincipalGovernanceAttestationRecord(models.Model):
+    """
+    DashboardsPrincipalGovernanceAttestationRecord: Formal institutional governance attestations and sign-offs.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="DASHBOARDS", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@dashboards.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = DashboardsPrincipalGovernanceAttestationRecordManager()
+
+    class Meta:
+        db_table = "dashboards_dashboards_principal_governanceattestationrecord"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("DashboardsPrincipalGovernanceAttestationRecord")
+        verbose_name_plural = _("DashboardsPrincipalGovernanceAttestationRecords")
+        indexes = [
+            models.Index(fields=["code", "status"], name="dashbo_dashbo_c813cbb0_cd"),
+            models.Index(fields=["created_at"], name="dashbo_dashbo_c813cbb0_cr"),
+            models.Index(fields=["priority", "status"], name="dashbo_dashbo_c813cbb0_pr"),
+            models.Index(fields=["department_tag", "status"], name="dashbo_dashbo_c813cbb0_dp"),
         ]
 
     def __str__(self):

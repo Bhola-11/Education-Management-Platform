@@ -91,10 +91,10 @@ class TimetablesSubstitutionsMaster(models.Model):
         verbose_name = _("TimetablesSubstitutionsMaster")
         verbose_name_plural = _("TimetablesSubstitutionsMasters")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_b15ac130_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_b15ac130_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_b15ac130_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_b15ac130_dp"),
         ]
 
     def __str__(self):
@@ -279,10 +279,10 @@ class TimetablesSubstitutionsConfiguration(models.Model):
         verbose_name = _("TimetablesSubstitutionsConfiguration")
         verbose_name_plural = _("TimetablesSubstitutionsConfigurations")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_db907388_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_db907388_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_db907388_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_db907388_dp"),
         ]
 
     def __str__(self):
@@ -467,10 +467,10 @@ class TimetablesSubstitutionsLedger(models.Model):
         verbose_name = _("TimetablesSubstitutionsLedger")
         verbose_name_plural = _("TimetablesSubstitutionsLedgers")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_0abbdd50_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_0abbdd50_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_0abbdd50_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_0abbdd50_dp"),
         ]
 
     def __str__(self):
@@ -655,10 +655,10 @@ class TimetablesSubstitutionsAuditTransaction(models.Model):
         verbose_name = _("TimetablesSubstitutionsAuditTransaction")
         verbose_name_plural = _("TimetablesSubstitutionsAuditTransactions")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_79a3db45_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_79a3db45_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_79a3db45_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_79a3db45_dp"),
         ]
 
     def __str__(self):
@@ -843,10 +843,10 @@ class TimetablesSubstitutionsScheduleMatrix(models.Model):
         verbose_name = _("TimetablesSubstitutionsScheduleMatrix")
         verbose_name_plural = _("TimetablesSubstitutionsScheduleMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_d2c66db9_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_d2c66db9_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_d2c66db9_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_d2c66db9_dp"),
         ]
 
     def __str__(self):
@@ -1031,10 +1031,10 @@ class TimetablesSubstitutionsEvaluationMetric(models.Model):
         verbose_name = _("TimetablesSubstitutionsEvaluationMetric")
         verbose_name_plural = _("TimetablesSubstitutionsEvaluationMetrics")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_6b14372e_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_6b14372e_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_6b14372e_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_6b14372e_dp"),
         ]
 
     def __str__(self):
@@ -1219,10 +1219,10 @@ class TimetablesSubstitutionsRosterMapping(models.Model):
         verbose_name = _("TimetablesSubstitutionsRosterMapping")
         verbose_name_plural = _("TimetablesSubstitutionsRosterMappings")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_c82a4db4_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_c82a4db4_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_c82a4db4_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_c82a4db4_dp"),
         ]
 
     def __str__(self):
@@ -1407,10 +1407,10 @@ class TimetablesSubstitutionsVerificationSignature(models.Model):
         verbose_name = _("TimetablesSubstitutionsVerificationSignature")
         verbose_name_plural = _("TimetablesSubstitutionsVerificationSignatures")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_3804bc3c_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_3804bc3c_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_3804bc3c_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_3804bc3c_dp"),
         ]
 
     def __str__(self):
@@ -1595,10 +1595,10 @@ class TimetablesSubstitutionsNotificationRule(models.Model):
         verbose_name = _("TimetablesSubstitutionsNotificationRule")
         verbose_name_plural = _("TimetablesSubstitutionsNotificationRules")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_cb65d755_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_cb65d755_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_cb65d755_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_cb65d755_dp"),
         ]
 
     def __str__(self):
@@ -1783,10 +1783,10 @@ class TimetablesSubstitutionsAnalyticalSnapshot(models.Model):
         verbose_name = _("TimetablesSubstitutionsAnalyticalSnapshot")
         verbose_name_plural = _("TimetablesSubstitutionsAnalyticalSnapshots")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_822dc20a_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_822dc20a_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_822dc20a_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_822dc20a_dp"),
         ]
 
     def __str__(self):
@@ -1971,10 +1971,10 @@ class TimetablesSubstitutionsComplianceLog(models.Model):
         verbose_name = _("TimetablesSubstitutionsComplianceLog")
         verbose_name_plural = _("TimetablesSubstitutionsComplianceLogs")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_157b9ce6_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_157b9ce6_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_157b9ce6_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_157b9ce6_dp"),
         ]
 
     def __str__(self):
@@ -2159,10 +2159,10 @@ class TimetablesSubstitutionsIntegrationBridge(models.Model):
         verbose_name = _("TimetablesSubstitutionsIntegrationBridge")
         verbose_name_plural = _("TimetablesSubstitutionsIntegrationBridges")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_81bd3a6c_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_81bd3a6c_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_81bd3a6c_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_81bd3a6c_dp"),
         ]
 
     def __str__(self):
@@ -2347,10 +2347,10 @@ class TimetablesSubstitutionsSecurityPermit(models.Model):
         verbose_name = _("TimetablesSubstitutionsSecurityPermit")
         verbose_name_plural = _("TimetablesSubstitutionsSecurityPermits")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_6937efca_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_6937efca_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_6937efca_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_6937efca_dp"),
         ]
 
     def __str__(self):
@@ -2535,10 +2535,10 @@ class TimetablesSubstitutionsDocumentAttachment(models.Model):
         verbose_name = _("TimetablesSubstitutionsDocumentAttachment")
         verbose_name_plural = _("TimetablesSubstitutionsDocumentAttachments")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_8836bfba_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_8836bfba_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_8836bfba_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_8836bfba_dp"),
         ]
 
     def __str__(self):
@@ -2723,10 +2723,10 @@ class TimetablesSubstitutionsLifecycleTransition(models.Model):
         verbose_name = _("TimetablesSubstitutionsLifecycleTransition")
         verbose_name_plural = _("TimetablesSubstitutionsLifecycleTransitions")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_9b239b04_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_9b239b04_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_9b239b04_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_9b239b04_dp"),
         ]
 
     def __str__(self):
@@ -2911,10 +2911,10 @@ class TimetablesSubstitutionsDataArchivalRegistry(models.Model):
         verbose_name = _("TimetablesSubstitutionsDataArchivalRegistry")
         verbose_name_plural = _("TimetablesSubstitutionsDataArchivalRegistrys")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_86829215_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_86829215_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_86829215_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_86829215_dp"),
         ]
 
     def __str__(self):
@@ -3099,10 +3099,10 @@ class TimetablesSubstitutionsTelemetryEventStream(models.Model):
         verbose_name = _("TimetablesSubstitutionsTelemetryEventStream")
         verbose_name_plural = _("TimetablesSubstitutionsTelemetryEventStreams")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_5c2968fc_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_5c2968fc_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_5c2968fc_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_5c2968fc_dp"),
         ]
 
     def __str__(self):
@@ -3287,10 +3287,10 @@ class TimetablesSubstitutionsAccessGrantMatrix(models.Model):
         verbose_name = _("TimetablesSubstitutionsAccessGrantMatrix")
         verbose_name_plural = _("TimetablesSubstitutionsAccessGrantMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_c37f4c74_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_c37f4c74_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_c37f4c74_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_c37f4c74_dp"),
         ]
 
     def __str__(self):
@@ -3475,10 +3475,10 @@ class TimetablesSubstitutionsOperationalQuota(models.Model):
         verbose_name = _("TimetablesSubstitutionsOperationalQuota")
         verbose_name_plural = _("TimetablesSubstitutionsOperationalQuotas")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_e1ebf94c_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_e1ebf94c_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_e1ebf94c_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_e1ebf94c_dp"),
         ]
 
     def __str__(self):
@@ -3663,10 +3663,10 @@ class TimetablesSubstitutionsWorkflowAuditCheckpoint(models.Model):
         verbose_name = _("TimetablesSubstitutionsWorkflowAuditCheckpoint")
         verbose_name_plural = _("TimetablesSubstitutionsWorkflowAuditCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_4f9cae73_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_4f9cae73_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_4f9cae73_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_4f9cae73_dp"),
         ]
 
     def __str__(self):
@@ -3851,10 +3851,10 @@ class TimetablesSubstitutionsDisasterRecoveryCheckpoint(models.Model):
         verbose_name = _("TimetablesSubstitutionsDisasterRecoveryCheckpoint")
         verbose_name_plural = _("TimetablesSubstitutionsDisasterRecoveryCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_81f51120_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_81f51120_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_81f51120_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_81f51120_dp"),
         ]
 
     def __str__(self):
@@ -4039,10 +4039,574 @@ class TimetablesSubstitutionsSLAComplianceRegister(models.Model):
         verbose_name = _("TimetablesSubstitutionsSLAComplianceRegister")
         verbose_name_plural = _("TimetablesSubstitutionsSLAComplianceRegisters")
         indexes = [
-            models.Index(fields=["code", "status"], name="timetables_timetable_idx"),
-            models.Index(fields=["created_at"], name="timetables_timetab_cr_idx"),
-            models.Index(fields=["priority", "status"], name="timetables_timeta_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="timetables_timet_dp_idx"),
+            models.Index(fields=["code", "status"], name="timeta_timeta_d6707468_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_d6707468_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_d6707468_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_d6707468_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class TimetablesSubstitutionsIncidentReportRegisterQuerySet(models.QuerySet):
+    """Custom QuerySet methods for TimetablesSubstitutionsIncidentReportRegister."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class TimetablesSubstitutionsIncidentReportRegisterManager(models.Manager):
+    """Custom model manager for TimetablesSubstitutionsIncidentReportRegister."""
+    def get_queryset(self):
+        return TimetablesSubstitutionsIncidentReportRegisterQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class TimetablesSubstitutionsIncidentReportRegister(models.Model):
+    """
+    TimetablesSubstitutionsIncidentReportRegister: Incident ticketing and remediation tracking register.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="TIMETABLES", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@timetables.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = TimetablesSubstitutionsIncidentReportRegisterManager()
+
+    class Meta:
+        db_table = "timetables_timetables_substitutions_incidentreportregister"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("TimetablesSubstitutionsIncidentReportRegister")
+        verbose_name_plural = _("TimetablesSubstitutionsIncidentReportRegisters")
+        indexes = [
+            models.Index(fields=["code", "status"], name="timeta_timeta_7bcbb8bf_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_7bcbb8bf_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_7bcbb8bf_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_7bcbb8bf_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class TimetablesSubstitutionsBusinessContinuityPlanQuerySet(models.QuerySet):
+    """Custom QuerySet methods for TimetablesSubstitutionsBusinessContinuityPlan."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class TimetablesSubstitutionsBusinessContinuityPlanManager(models.Manager):
+    """Custom model manager for TimetablesSubstitutionsBusinessContinuityPlan."""
+    def get_queryset(self):
+        return TimetablesSubstitutionsBusinessContinuityPlanQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class TimetablesSubstitutionsBusinessContinuityPlan(models.Model):
+    """
+    TimetablesSubstitutionsBusinessContinuityPlan: Business continuity procedures and failover plan coordinates.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="TIMETABLES", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@timetables.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = TimetablesSubstitutionsBusinessContinuityPlanManager()
+
+    class Meta:
+        db_table = "timetables_timetables_substitutions_businesscontinuityplan"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("TimetablesSubstitutionsBusinessContinuityPlan")
+        verbose_name_plural = _("TimetablesSubstitutionsBusinessContinuityPlans")
+        indexes = [
+            models.Index(fields=["code", "status"], name="timeta_timeta_9b4ad308_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_9b4ad308_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_9b4ad308_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_9b4ad308_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class TimetablesSubstitutionsGovernanceAttestationRecordQuerySet(models.QuerySet):
+    """Custom QuerySet methods for TimetablesSubstitutionsGovernanceAttestationRecord."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class TimetablesSubstitutionsGovernanceAttestationRecordManager(models.Manager):
+    """Custom model manager for TimetablesSubstitutionsGovernanceAttestationRecord."""
+    def get_queryset(self):
+        return TimetablesSubstitutionsGovernanceAttestationRecordQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class TimetablesSubstitutionsGovernanceAttestationRecord(models.Model):
+    """
+    TimetablesSubstitutionsGovernanceAttestationRecord: Formal institutional governance attestations and sign-offs.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="TIMETABLES", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@timetables.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = TimetablesSubstitutionsGovernanceAttestationRecordManager()
+
+    class Meta:
+        db_table = "timetables_timetables_substitutions_governanceattestationrecord"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("TimetablesSubstitutionsGovernanceAttestationRecord")
+        verbose_name_plural = _("TimetablesSubstitutionsGovernanceAttestationRecords")
+        indexes = [
+            models.Index(fields=["code", "status"], name="timeta_timeta_2005bf2a_cd"),
+            models.Index(fields=["created_at"], name="timeta_timeta_2005bf2a_cr"),
+            models.Index(fields=["priority", "status"], name="timeta_timeta_2005bf2a_pr"),
+            models.Index(fields=["department_tag", "status"], name="timeta_timeta_2005bf2a_dp"),
         ]
 
     def __str__(self):

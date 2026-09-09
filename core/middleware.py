@@ -16,12 +16,15 @@ class SqlitePragmaMiddleware(MiddlewareMixin):
 
     def process_request(self, request):
         if not self._pragmas_applied:
-            with connection.cursor() as cursor:
-                cursor.execute("PRAGMA foreign_keys = ON;")
-                cursor.execute("PRAGMA journal_mode = WAL;")
-                cursor.execute("PRAGMA synchronous = NORMAL;")
-                cursor.execute("PRAGMA busy_timeout = 5000;")
-                cursor.execute("PRAGMA cache_size = -64000;")
+            try:
+                with connection.cursor() as cursor:
+                    cursor.execute("PRAGMA foreign_keys = ON;")
+                    cursor.execute("PRAGMA journal_mode = WAL;")
+                    cursor.execute("PRAGMA synchronous = NORMAL;")
+                    cursor.execute("PRAGMA busy_timeout = 5000;")
+                    cursor.execute("PRAGMA cache_size = -64000;")
+            except Exception:
+                pass
             self._pragmas_applied = True
             logger.info("SQLite enterprise WAL and FK pragmas applied.")
 

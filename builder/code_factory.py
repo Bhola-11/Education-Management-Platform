@@ -6,6 +6,7 @@ guaranteeing over 500,000 genuine LOC with zero duplication and 100% syntax vali
 
 import os
 import sys
+import hashlib
 from typing import Dict, List, Any
 from builder.domain_data import PR_CATALOG
 
@@ -442,12 +443,17 @@ def _generate_rich_models(app: str, sub: str, ent: str, domain: str, pr_num: int
         ('OperationalQuota', 'Resource quotas, bandwidth/usage limits, and consumption tracking.'),
         ('WorkflowAuditCheckpoint', 'Stage-gate checkpoints and sign-off validations.'),
         ('DisasterRecoveryCheckpoint', 'Point-in-time state checkpoint for high-availability disaster recovery validation.'),
-        ('SLAComplianceRegister', 'Service level agreement compliance tracker for operational responsiveness.')
+        ('SLAComplianceRegister', 'Service level agreement compliance tracker for operational responsiveness.'),
+        ('IncidentReportRegister', 'Incident ticketing and remediation tracking register.'),
+        ('BusinessContinuityPlan', 'Business continuity procedures and failover plan coordinates.'),
+        ('GovernanceAttestationRecord', 'Formal institutional governance attestations and sign-offs.')
     ]
 
     for suffix, purpose in model_entities:
         m_name = f"{ent}{suffix}"
         table_name = f"{app}_{sub}_{suffix.lower()}"
+        idx_hash = hashlib.md5(f"{app}_{sub}_{suffix}".encode()).hexdigest()[:8]
+        idx_pfx = f"{app[:6]}_{sub[:6]}"
         
         lines.extend([
             f'class {m_name}QuerySet(models.QuerySet):',
@@ -531,10 +537,10 @@ def _generate_rich_models(app: str, sub: str, ent: str, domain: str, pr_num: int
             f'        verbose_name = _("{m_name}")',
             f'        verbose_name_plural = _("{m_name}s")',
             f'        indexes = [',
-            f'            models.Index(fields=["code", "status"], name="{table_name[:20]}_idx"),',
-            f'            models.Index(fields=["created_at"], name="{table_name[:18]}_cr_idx"),',
-            f'            models.Index(fields=["priority", "status"], name="{table_name[:17]}_pr_idx"),',
-            f'            models.Index(fields=["department_tag", "status"], name="{table_name[:16]}_dp_idx"),',
+            f'            models.Index(fields=["code", "status"], name="{idx_pfx}_{idx_hash}_cd"),',
+            f'            models.Index(fields=["created_at"], name="{idx_pfx}_{idx_hash}_cr"),',
+            f'            models.Index(fields=["priority", "status"], name="{idx_pfx}_{idx_hash}_pr"),',
+            f'            models.Index(fields=["department_tag", "status"], name="{idx_pfx}_{idx_hash}_dp"),',
             f'        ]',
             '',
             f'    def __str__(self):',

@@ -91,10 +91,10 @@ class AccountsRolesRbacMaster(models.Model):
         verbose_name = _("AccountsRolesRbacMaster")
         verbose_name_plural = _("AccountsRolesRbacMasters")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_25316ce2_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_25316ce2_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_25316ce2_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_25316ce2_dp"),
         ]
 
     def __str__(self):
@@ -279,10 +279,10 @@ class AccountsRolesRbacConfiguration(models.Model):
         verbose_name = _("AccountsRolesRbacConfiguration")
         verbose_name_plural = _("AccountsRolesRbacConfigurations")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_b8436b16_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_b8436b16_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_b8436b16_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_b8436b16_dp"),
         ]
 
     def __str__(self):
@@ -467,10 +467,10 @@ class AccountsRolesRbacLedger(models.Model):
         verbose_name = _("AccountsRolesRbacLedger")
         verbose_name_plural = _("AccountsRolesRbacLedgers")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_362c7995_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_362c7995_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_362c7995_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_362c7995_dp"),
         ]
 
     def __str__(self):
@@ -655,10 +655,10 @@ class AccountsRolesRbacAuditTransaction(models.Model):
         verbose_name = _("AccountsRolesRbacAuditTransaction")
         verbose_name_plural = _("AccountsRolesRbacAuditTransactions")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_1a2356cd_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_1a2356cd_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_1a2356cd_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_1a2356cd_dp"),
         ]
 
     def __str__(self):
@@ -843,10 +843,10 @@ class AccountsRolesRbacScheduleMatrix(models.Model):
         verbose_name = _("AccountsRolesRbacScheduleMatrix")
         verbose_name_plural = _("AccountsRolesRbacScheduleMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_47bc4c42_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_47bc4c42_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_47bc4c42_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_47bc4c42_dp"),
         ]
 
     def __str__(self):
@@ -1031,10 +1031,10 @@ class AccountsRolesRbacEvaluationMetric(models.Model):
         verbose_name = _("AccountsRolesRbacEvaluationMetric")
         verbose_name_plural = _("AccountsRolesRbacEvaluationMetrics")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_7ede5cc8_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_7ede5cc8_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_7ede5cc8_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_7ede5cc8_dp"),
         ]
 
     def __str__(self):
@@ -1219,10 +1219,10 @@ class AccountsRolesRbacRosterMapping(models.Model):
         verbose_name = _("AccountsRolesRbacRosterMapping")
         verbose_name_plural = _("AccountsRolesRbacRosterMappings")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_293be523_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_293be523_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_293be523_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_293be523_dp"),
         ]
 
     def __str__(self):
@@ -1407,10 +1407,10 @@ class AccountsRolesRbacVerificationSignature(models.Model):
         verbose_name = _("AccountsRolesRbacVerificationSignature")
         verbose_name_plural = _("AccountsRolesRbacVerificationSignatures")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_bb9f8345_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_bb9f8345_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_bb9f8345_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_bb9f8345_dp"),
         ]
 
     def __str__(self):
@@ -1595,10 +1595,10 @@ class AccountsRolesRbacNotificationRule(models.Model):
         verbose_name = _("AccountsRolesRbacNotificationRule")
         verbose_name_plural = _("AccountsRolesRbacNotificationRules")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_209dab0c_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_209dab0c_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_209dab0c_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_209dab0c_dp"),
         ]
 
     def __str__(self):
@@ -1783,10 +1783,10 @@ class AccountsRolesRbacAnalyticalSnapshot(models.Model):
         verbose_name = _("AccountsRolesRbacAnalyticalSnapshot")
         verbose_name_plural = _("AccountsRolesRbacAnalyticalSnapshots")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_be646ead_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_be646ead_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_be646ead_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_be646ead_dp"),
         ]
 
     def __str__(self):
@@ -1971,10 +1971,10 @@ class AccountsRolesRbacComplianceLog(models.Model):
         verbose_name = _("AccountsRolesRbacComplianceLog")
         verbose_name_plural = _("AccountsRolesRbacComplianceLogs")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_8527b7ae_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_8527b7ae_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_8527b7ae_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_8527b7ae_dp"),
         ]
 
     def __str__(self):
@@ -2159,10 +2159,10 @@ class AccountsRolesRbacIntegrationBridge(models.Model):
         verbose_name = _("AccountsRolesRbacIntegrationBridge")
         verbose_name_plural = _("AccountsRolesRbacIntegrationBridges")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_4d03f05e_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_4d03f05e_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_4d03f05e_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_4d03f05e_dp"),
         ]
 
     def __str__(self):
@@ -2347,10 +2347,10 @@ class AccountsRolesRbacSecurityPermit(models.Model):
         verbose_name = _("AccountsRolesRbacSecurityPermit")
         verbose_name_plural = _("AccountsRolesRbacSecurityPermits")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_4738fa48_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_4738fa48_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_4738fa48_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_4738fa48_dp"),
         ]
 
     def __str__(self):
@@ -2535,10 +2535,10 @@ class AccountsRolesRbacDocumentAttachment(models.Model):
         verbose_name = _("AccountsRolesRbacDocumentAttachment")
         verbose_name_plural = _("AccountsRolesRbacDocumentAttachments")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_317ebd32_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_317ebd32_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_317ebd32_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_317ebd32_dp"),
         ]
 
     def __str__(self):
@@ -2723,10 +2723,10 @@ class AccountsRolesRbacLifecycleTransition(models.Model):
         verbose_name = _("AccountsRolesRbacLifecycleTransition")
         verbose_name_plural = _("AccountsRolesRbacLifecycleTransitions")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_a3a36505_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_a3a36505_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_a3a36505_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_a3a36505_dp"),
         ]
 
     def __str__(self):
@@ -2911,10 +2911,10 @@ class AccountsRolesRbacDataArchivalRegistry(models.Model):
         verbose_name = _("AccountsRolesRbacDataArchivalRegistry")
         verbose_name_plural = _("AccountsRolesRbacDataArchivalRegistrys")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_7db27335_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_7db27335_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_7db27335_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_7db27335_dp"),
         ]
 
     def __str__(self):
@@ -3099,10 +3099,10 @@ class AccountsRolesRbacTelemetryEventStream(models.Model):
         verbose_name = _("AccountsRolesRbacTelemetryEventStream")
         verbose_name_plural = _("AccountsRolesRbacTelemetryEventStreams")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_828ca612_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_828ca612_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_828ca612_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_828ca612_dp"),
         ]
 
     def __str__(self):
@@ -3287,10 +3287,10 @@ class AccountsRolesRbacAccessGrantMatrix(models.Model):
         verbose_name = _("AccountsRolesRbacAccessGrantMatrix")
         verbose_name_plural = _("AccountsRolesRbacAccessGrantMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_14375af2_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_14375af2_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_14375af2_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_14375af2_dp"),
         ]
 
     def __str__(self):
@@ -3475,10 +3475,10 @@ class AccountsRolesRbacOperationalQuota(models.Model):
         verbose_name = _("AccountsRolesRbacOperationalQuota")
         verbose_name_plural = _("AccountsRolesRbacOperationalQuotas")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_23bf8251_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_23bf8251_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_23bf8251_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_23bf8251_dp"),
         ]
 
     def __str__(self):
@@ -3663,10 +3663,10 @@ class AccountsRolesRbacWorkflowAuditCheckpoint(models.Model):
         verbose_name = _("AccountsRolesRbacWorkflowAuditCheckpoint")
         verbose_name_plural = _("AccountsRolesRbacWorkflowAuditCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_2455f29d_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_2455f29d_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_2455f29d_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_2455f29d_dp"),
         ]
 
     def __str__(self):
@@ -3851,10 +3851,10 @@ class AccountsRolesRbacDisasterRecoveryCheckpoint(models.Model):
         verbose_name = _("AccountsRolesRbacDisasterRecoveryCheckpoint")
         verbose_name_plural = _("AccountsRolesRbacDisasterRecoveryCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_00a9ff5e_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_00a9ff5e_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_00a9ff5e_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_00a9ff5e_dp"),
         ]
 
     def __str__(self):
@@ -4039,10 +4039,574 @@ class AccountsRolesRbacSLAComplianceRegister(models.Model):
         verbose_name = _("AccountsRolesRbacSLAComplianceRegister")
         verbose_name_plural = _("AccountsRolesRbacSLAComplianceRegisters")
         indexes = [
-            models.Index(fields=["code", "status"], name="accounts_accounts_ro_idx"),
-            models.Index(fields=["created_at"], name="accounts_accounts__cr_idx"),
-            models.Index(fields=["priority", "status"], name="accounts_accounts_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="accounts_account_dp_idx"),
+            models.Index(fields=["code", "status"], name="accoun_accoun_a39e1f7b_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_a39e1f7b_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_a39e1f7b_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_a39e1f7b_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class AccountsRolesRbacIncidentReportRegisterQuerySet(models.QuerySet):
+    """Custom QuerySet methods for AccountsRolesRbacIncidentReportRegister."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class AccountsRolesRbacIncidentReportRegisterManager(models.Manager):
+    """Custom model manager for AccountsRolesRbacIncidentReportRegister."""
+    def get_queryset(self):
+        return AccountsRolesRbacIncidentReportRegisterQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class AccountsRolesRbacIncidentReportRegister(models.Model):
+    """
+    AccountsRolesRbacIncidentReportRegister: Incident ticketing and remediation tracking register.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="ACCOUNTS", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@accounts.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = AccountsRolesRbacIncidentReportRegisterManager()
+
+    class Meta:
+        db_table = "accounts_accounts_roles_rbac_incidentreportregister"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("AccountsRolesRbacIncidentReportRegister")
+        verbose_name_plural = _("AccountsRolesRbacIncidentReportRegisters")
+        indexes = [
+            models.Index(fields=["code", "status"], name="accoun_accoun_5c9e920c_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_5c9e920c_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_5c9e920c_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_5c9e920c_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class AccountsRolesRbacBusinessContinuityPlanQuerySet(models.QuerySet):
+    """Custom QuerySet methods for AccountsRolesRbacBusinessContinuityPlan."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class AccountsRolesRbacBusinessContinuityPlanManager(models.Manager):
+    """Custom model manager for AccountsRolesRbacBusinessContinuityPlan."""
+    def get_queryset(self):
+        return AccountsRolesRbacBusinessContinuityPlanQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class AccountsRolesRbacBusinessContinuityPlan(models.Model):
+    """
+    AccountsRolesRbacBusinessContinuityPlan: Business continuity procedures and failover plan coordinates.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="ACCOUNTS", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@accounts.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = AccountsRolesRbacBusinessContinuityPlanManager()
+
+    class Meta:
+        db_table = "accounts_accounts_roles_rbac_businesscontinuityplan"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("AccountsRolesRbacBusinessContinuityPlan")
+        verbose_name_plural = _("AccountsRolesRbacBusinessContinuityPlans")
+        indexes = [
+            models.Index(fields=["code", "status"], name="accoun_accoun_c0d9d839_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_c0d9d839_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_c0d9d839_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_c0d9d839_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class AccountsRolesRbacGovernanceAttestationRecordQuerySet(models.QuerySet):
+    """Custom QuerySet methods for AccountsRolesRbacGovernanceAttestationRecord."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class AccountsRolesRbacGovernanceAttestationRecordManager(models.Manager):
+    """Custom model manager for AccountsRolesRbacGovernanceAttestationRecord."""
+    def get_queryset(self):
+        return AccountsRolesRbacGovernanceAttestationRecordQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class AccountsRolesRbacGovernanceAttestationRecord(models.Model):
+    """
+    AccountsRolesRbacGovernanceAttestationRecord: Formal institutional governance attestations and sign-offs.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="ACCOUNTS", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@accounts.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = AccountsRolesRbacGovernanceAttestationRecordManager()
+
+    class Meta:
+        db_table = "accounts_accounts_roles_rbac_governanceattestationrecord"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("AccountsRolesRbacGovernanceAttestationRecord")
+        verbose_name_plural = _("AccountsRolesRbacGovernanceAttestationRecords")
+        indexes = [
+            models.Index(fields=["code", "status"], name="accoun_accoun_b97ebc11_cd"),
+            models.Index(fields=["created_at"], name="accoun_accoun_b97ebc11_cr"),
+            models.Index(fields=["priority", "status"], name="accoun_accoun_b97ebc11_pr"),
+            models.Index(fields=["department_tag", "status"], name="accoun_accoun_b97ebc11_dp"),
         ]
 
     def __str__(self):

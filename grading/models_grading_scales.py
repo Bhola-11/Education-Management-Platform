@@ -91,10 +91,10 @@ class GradingScalesMaster(models.Model):
         verbose_name = _("GradingScalesMaster")
         verbose_name_plural = _("GradingScalesMasters")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_227f5772_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_227f5772_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_227f5772_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_227f5772_dp"),
         ]
 
     def __str__(self):
@@ -279,10 +279,10 @@ class GradingScalesConfiguration(models.Model):
         verbose_name = _("GradingScalesConfiguration")
         verbose_name_plural = _("GradingScalesConfigurations")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_3dcedecf_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_3dcedecf_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_3dcedecf_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_3dcedecf_dp"),
         ]
 
     def __str__(self):
@@ -467,10 +467,10 @@ class GradingScalesLedger(models.Model):
         verbose_name = _("GradingScalesLedger")
         verbose_name_plural = _("GradingScalesLedgers")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_686b0815_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_686b0815_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_686b0815_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_686b0815_dp"),
         ]
 
     def __str__(self):
@@ -655,10 +655,10 @@ class GradingScalesAuditTransaction(models.Model):
         verbose_name = _("GradingScalesAuditTransaction")
         verbose_name_plural = _("GradingScalesAuditTransactions")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_e456f40f_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_e456f40f_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_e456f40f_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_e456f40f_dp"),
         ]
 
     def __str__(self):
@@ -843,10 +843,10 @@ class GradingScalesScheduleMatrix(models.Model):
         verbose_name = _("GradingScalesScheduleMatrix")
         verbose_name_plural = _("GradingScalesScheduleMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_ae00ef04_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_ae00ef04_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_ae00ef04_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_ae00ef04_dp"),
         ]
 
     def __str__(self):
@@ -1031,10 +1031,10 @@ class GradingScalesEvaluationMetric(models.Model):
         verbose_name = _("GradingScalesEvaluationMetric")
         verbose_name_plural = _("GradingScalesEvaluationMetrics")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_b44bbe3d_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_b44bbe3d_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_b44bbe3d_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_b44bbe3d_dp"),
         ]
 
     def __str__(self):
@@ -1219,10 +1219,10 @@ class GradingScalesRosterMapping(models.Model):
         verbose_name = _("GradingScalesRosterMapping")
         verbose_name_plural = _("GradingScalesRosterMappings")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_e94d509a_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_e94d509a_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_e94d509a_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_e94d509a_dp"),
         ]
 
     def __str__(self):
@@ -1407,10 +1407,10 @@ class GradingScalesVerificationSignature(models.Model):
         verbose_name = _("GradingScalesVerificationSignature")
         verbose_name_plural = _("GradingScalesVerificationSignatures")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_f63fe641_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_f63fe641_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_f63fe641_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_f63fe641_dp"),
         ]
 
     def __str__(self):
@@ -1595,10 +1595,10 @@ class GradingScalesNotificationRule(models.Model):
         verbose_name = _("GradingScalesNotificationRule")
         verbose_name_plural = _("GradingScalesNotificationRules")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_f69e3dee_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_f69e3dee_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_f69e3dee_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_f69e3dee_dp"),
         ]
 
     def __str__(self):
@@ -1783,10 +1783,10 @@ class GradingScalesAnalyticalSnapshot(models.Model):
         verbose_name = _("GradingScalesAnalyticalSnapshot")
         verbose_name_plural = _("GradingScalesAnalyticalSnapshots")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_a772f162_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_a772f162_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_a772f162_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_a772f162_dp"),
         ]
 
     def __str__(self):
@@ -1971,10 +1971,10 @@ class GradingScalesComplianceLog(models.Model):
         verbose_name = _("GradingScalesComplianceLog")
         verbose_name_plural = _("GradingScalesComplianceLogs")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_52c8fc35_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_52c8fc35_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_52c8fc35_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_52c8fc35_dp"),
         ]
 
     def __str__(self):
@@ -2159,10 +2159,10 @@ class GradingScalesIntegrationBridge(models.Model):
         verbose_name = _("GradingScalesIntegrationBridge")
         verbose_name_plural = _("GradingScalesIntegrationBridges")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_ec82589b_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_ec82589b_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_ec82589b_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_ec82589b_dp"),
         ]
 
     def __str__(self):
@@ -2347,10 +2347,10 @@ class GradingScalesSecurityPermit(models.Model):
         verbose_name = _("GradingScalesSecurityPermit")
         verbose_name_plural = _("GradingScalesSecurityPermits")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_7c977764_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_7c977764_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_7c977764_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_7c977764_dp"),
         ]
 
     def __str__(self):
@@ -2535,10 +2535,10 @@ class GradingScalesDocumentAttachment(models.Model):
         verbose_name = _("GradingScalesDocumentAttachment")
         verbose_name_plural = _("GradingScalesDocumentAttachments")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_e6bab511_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_e6bab511_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_e6bab511_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_e6bab511_dp"),
         ]
 
     def __str__(self):
@@ -2723,10 +2723,10 @@ class GradingScalesLifecycleTransition(models.Model):
         verbose_name = _("GradingScalesLifecycleTransition")
         verbose_name_plural = _("GradingScalesLifecycleTransitions")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_413bcb55_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_413bcb55_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_413bcb55_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_413bcb55_dp"),
         ]
 
     def __str__(self):
@@ -2911,10 +2911,10 @@ class GradingScalesDataArchivalRegistry(models.Model):
         verbose_name = _("GradingScalesDataArchivalRegistry")
         verbose_name_plural = _("GradingScalesDataArchivalRegistrys")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_babd2394_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_babd2394_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_babd2394_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_babd2394_dp"),
         ]
 
     def __str__(self):
@@ -3099,10 +3099,10 @@ class GradingScalesTelemetryEventStream(models.Model):
         verbose_name = _("GradingScalesTelemetryEventStream")
         verbose_name_plural = _("GradingScalesTelemetryEventStreams")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_7137f56e_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_7137f56e_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_7137f56e_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_7137f56e_dp"),
         ]
 
     def __str__(self):
@@ -3287,10 +3287,10 @@ class GradingScalesAccessGrantMatrix(models.Model):
         verbose_name = _("GradingScalesAccessGrantMatrix")
         verbose_name_plural = _("GradingScalesAccessGrantMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_c39f6a45_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_c39f6a45_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_c39f6a45_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_c39f6a45_dp"),
         ]
 
     def __str__(self):
@@ -3475,10 +3475,10 @@ class GradingScalesOperationalQuota(models.Model):
         verbose_name = _("GradingScalesOperationalQuota")
         verbose_name_plural = _("GradingScalesOperationalQuotas")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_5ee15997_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_5ee15997_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_5ee15997_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_5ee15997_dp"),
         ]
 
     def __str__(self):
@@ -3663,10 +3663,10 @@ class GradingScalesWorkflowAuditCheckpoint(models.Model):
         verbose_name = _("GradingScalesWorkflowAuditCheckpoint")
         verbose_name_plural = _("GradingScalesWorkflowAuditCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_bc299883_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_bc299883_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_bc299883_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_bc299883_dp"),
         ]
 
     def __str__(self):
@@ -3851,10 +3851,10 @@ class GradingScalesDisasterRecoveryCheckpoint(models.Model):
         verbose_name = _("GradingScalesDisasterRecoveryCheckpoint")
         verbose_name_plural = _("GradingScalesDisasterRecoveryCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_d06295ca_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_d06295ca_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_d06295ca_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_d06295ca_dp"),
         ]
 
     def __str__(self):
@@ -4039,10 +4039,574 @@ class GradingScalesSLAComplianceRegister(models.Model):
         verbose_name = _("GradingScalesSLAComplianceRegister")
         verbose_name_plural = _("GradingScalesSLAComplianceRegisters")
         indexes = [
-            models.Index(fields=["code", "status"], name="grading_grading_scal_idx"),
-            models.Index(fields=["created_at"], name="grading_grading_sc_cr_idx"),
-            models.Index(fields=["priority", "status"], name="grading_grading_s_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="grading_grading__dp_idx"),
+            models.Index(fields=["code", "status"], name="gradin_gradin_e0a75290_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_e0a75290_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_e0a75290_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_e0a75290_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class GradingScalesIncidentReportRegisterQuerySet(models.QuerySet):
+    """Custom QuerySet methods for GradingScalesIncidentReportRegister."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class GradingScalesIncidentReportRegisterManager(models.Manager):
+    """Custom model manager for GradingScalesIncidentReportRegister."""
+    def get_queryset(self):
+        return GradingScalesIncidentReportRegisterQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class GradingScalesIncidentReportRegister(models.Model):
+    """
+    GradingScalesIncidentReportRegister: Incident ticketing and remediation tracking register.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="GRADING", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@grading.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = GradingScalesIncidentReportRegisterManager()
+
+    class Meta:
+        db_table = "grading_grading_scales_incidentreportregister"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("GradingScalesIncidentReportRegister")
+        verbose_name_plural = _("GradingScalesIncidentReportRegisters")
+        indexes = [
+            models.Index(fields=["code", "status"], name="gradin_gradin_b6d87634_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_b6d87634_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_b6d87634_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_b6d87634_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class GradingScalesBusinessContinuityPlanQuerySet(models.QuerySet):
+    """Custom QuerySet methods for GradingScalesBusinessContinuityPlan."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class GradingScalesBusinessContinuityPlanManager(models.Manager):
+    """Custom model manager for GradingScalesBusinessContinuityPlan."""
+    def get_queryset(self):
+        return GradingScalesBusinessContinuityPlanQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class GradingScalesBusinessContinuityPlan(models.Model):
+    """
+    GradingScalesBusinessContinuityPlan: Business continuity procedures and failover plan coordinates.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="GRADING", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@grading.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = GradingScalesBusinessContinuityPlanManager()
+
+    class Meta:
+        db_table = "grading_grading_scales_businesscontinuityplan"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("GradingScalesBusinessContinuityPlan")
+        verbose_name_plural = _("GradingScalesBusinessContinuityPlans")
+        indexes = [
+            models.Index(fields=["code", "status"], name="gradin_gradin_cc07cfe0_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_cc07cfe0_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_cc07cfe0_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_cc07cfe0_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class GradingScalesGovernanceAttestationRecordQuerySet(models.QuerySet):
+    """Custom QuerySet methods for GradingScalesGovernanceAttestationRecord."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class GradingScalesGovernanceAttestationRecordManager(models.Manager):
+    """Custom model manager for GradingScalesGovernanceAttestationRecord."""
+    def get_queryset(self):
+        return GradingScalesGovernanceAttestationRecordQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class GradingScalesGovernanceAttestationRecord(models.Model):
+    """
+    GradingScalesGovernanceAttestationRecord: Formal institutional governance attestations and sign-offs.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="GRADING", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@grading.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = GradingScalesGovernanceAttestationRecordManager()
+
+    class Meta:
+        db_table = "grading_grading_scales_governanceattestationrecord"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("GradingScalesGovernanceAttestationRecord")
+        verbose_name_plural = _("GradingScalesGovernanceAttestationRecords")
+        indexes = [
+            models.Index(fields=["code", "status"], name="gradin_gradin_1fb9a056_cd"),
+            models.Index(fields=["created_at"], name="gradin_gradin_1fb9a056_cr"),
+            models.Index(fields=["priority", "status"], name="gradin_gradin_1fb9a056_pr"),
+            models.Index(fields=["department_tag", "status"], name="gradin_gradin_1fb9a056_dp"),
         ]
 
     def __str__(self):

@@ -91,10 +91,10 @@ class AnalyticsExportPipelineMaster(models.Model):
         verbose_name = _("AnalyticsExportPipelineMaster")
         verbose_name_plural = _("AnalyticsExportPipelineMasters")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_1e119212_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_1e119212_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_1e119212_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_1e119212_dp"),
         ]
 
     def __str__(self):
@@ -279,10 +279,10 @@ class AnalyticsExportPipelineConfiguration(models.Model):
         verbose_name = _("AnalyticsExportPipelineConfiguration")
         verbose_name_plural = _("AnalyticsExportPipelineConfigurations")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_bcc79e6f_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_bcc79e6f_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_bcc79e6f_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_bcc79e6f_dp"),
         ]
 
     def __str__(self):
@@ -467,10 +467,10 @@ class AnalyticsExportPipelineLedger(models.Model):
         verbose_name = _("AnalyticsExportPipelineLedger")
         verbose_name_plural = _("AnalyticsExportPipelineLedgers")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_d7f6db45_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_d7f6db45_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_d7f6db45_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_d7f6db45_dp"),
         ]
 
     def __str__(self):
@@ -655,10 +655,10 @@ class AnalyticsExportPipelineAuditTransaction(models.Model):
         verbose_name = _("AnalyticsExportPipelineAuditTransaction")
         verbose_name_plural = _("AnalyticsExportPipelineAuditTransactions")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_4ccff596_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_4ccff596_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_4ccff596_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_4ccff596_dp"),
         ]
 
     def __str__(self):
@@ -843,10 +843,10 @@ class AnalyticsExportPipelineScheduleMatrix(models.Model):
         verbose_name = _("AnalyticsExportPipelineScheduleMatrix")
         verbose_name_plural = _("AnalyticsExportPipelineScheduleMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_7ca9483c_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_7ca9483c_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_7ca9483c_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_7ca9483c_dp"),
         ]
 
     def __str__(self):
@@ -1031,10 +1031,10 @@ class AnalyticsExportPipelineEvaluationMetric(models.Model):
         verbose_name = _("AnalyticsExportPipelineEvaluationMetric")
         verbose_name_plural = _("AnalyticsExportPipelineEvaluationMetrics")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_e454a97a_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_e454a97a_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_e454a97a_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_e454a97a_dp"),
         ]
 
     def __str__(self):
@@ -1219,10 +1219,10 @@ class AnalyticsExportPipelineRosterMapping(models.Model):
         verbose_name = _("AnalyticsExportPipelineRosterMapping")
         verbose_name_plural = _("AnalyticsExportPipelineRosterMappings")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_a07423b3_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_a07423b3_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_a07423b3_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_a07423b3_dp"),
         ]
 
     def __str__(self):
@@ -1407,10 +1407,10 @@ class AnalyticsExportPipelineVerificationSignature(models.Model):
         verbose_name = _("AnalyticsExportPipelineVerificationSignature")
         verbose_name_plural = _("AnalyticsExportPipelineVerificationSignatures")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_8f0c2edb_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_8f0c2edb_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_8f0c2edb_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_8f0c2edb_dp"),
         ]
 
     def __str__(self):
@@ -1595,10 +1595,10 @@ class AnalyticsExportPipelineNotificationRule(models.Model):
         verbose_name = _("AnalyticsExportPipelineNotificationRule")
         verbose_name_plural = _("AnalyticsExportPipelineNotificationRules")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_581a9ccb_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_581a9ccb_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_581a9ccb_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_581a9ccb_dp"),
         ]
 
     def __str__(self):
@@ -1783,10 +1783,10 @@ class AnalyticsExportPipelineAnalyticalSnapshot(models.Model):
         verbose_name = _("AnalyticsExportPipelineAnalyticalSnapshot")
         verbose_name_plural = _("AnalyticsExportPipelineAnalyticalSnapshots")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_bf89c935_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_bf89c935_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_bf89c935_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_bf89c935_dp"),
         ]
 
     def __str__(self):
@@ -1971,10 +1971,10 @@ class AnalyticsExportPipelineComplianceLog(models.Model):
         verbose_name = _("AnalyticsExportPipelineComplianceLog")
         verbose_name_plural = _("AnalyticsExportPipelineComplianceLogs")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_f0ade2da_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_f0ade2da_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_f0ade2da_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_f0ade2da_dp"),
         ]
 
     def __str__(self):
@@ -2159,10 +2159,10 @@ class AnalyticsExportPipelineIntegrationBridge(models.Model):
         verbose_name = _("AnalyticsExportPipelineIntegrationBridge")
         verbose_name_plural = _("AnalyticsExportPipelineIntegrationBridges")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_0b8ff240_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_0b8ff240_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_0b8ff240_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_0b8ff240_dp"),
         ]
 
     def __str__(self):
@@ -2347,10 +2347,10 @@ class AnalyticsExportPipelineSecurityPermit(models.Model):
         verbose_name = _("AnalyticsExportPipelineSecurityPermit")
         verbose_name_plural = _("AnalyticsExportPipelineSecurityPermits")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_2f682f2f_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_2f682f2f_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_2f682f2f_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_2f682f2f_dp"),
         ]
 
     def __str__(self):
@@ -2535,10 +2535,10 @@ class AnalyticsExportPipelineDocumentAttachment(models.Model):
         verbose_name = _("AnalyticsExportPipelineDocumentAttachment")
         verbose_name_plural = _("AnalyticsExportPipelineDocumentAttachments")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_3197aeb6_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_3197aeb6_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_3197aeb6_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_3197aeb6_dp"),
         ]
 
     def __str__(self):
@@ -2723,10 +2723,10 @@ class AnalyticsExportPipelineLifecycleTransition(models.Model):
         verbose_name = _("AnalyticsExportPipelineLifecycleTransition")
         verbose_name_plural = _("AnalyticsExportPipelineLifecycleTransitions")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_b9154ed8_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_b9154ed8_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_b9154ed8_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_b9154ed8_dp"),
         ]
 
     def __str__(self):
@@ -2911,10 +2911,10 @@ class AnalyticsExportPipelineDataArchivalRegistry(models.Model):
         verbose_name = _("AnalyticsExportPipelineDataArchivalRegistry")
         verbose_name_plural = _("AnalyticsExportPipelineDataArchivalRegistrys")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_d96f8149_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_d96f8149_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_d96f8149_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_d96f8149_dp"),
         ]
 
     def __str__(self):
@@ -3099,10 +3099,10 @@ class AnalyticsExportPipelineTelemetryEventStream(models.Model):
         verbose_name = _("AnalyticsExportPipelineTelemetryEventStream")
         verbose_name_plural = _("AnalyticsExportPipelineTelemetryEventStreams")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_ce482419_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_ce482419_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_ce482419_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_ce482419_dp"),
         ]
 
     def __str__(self):
@@ -3287,10 +3287,10 @@ class AnalyticsExportPipelineAccessGrantMatrix(models.Model):
         verbose_name = _("AnalyticsExportPipelineAccessGrantMatrix")
         verbose_name_plural = _("AnalyticsExportPipelineAccessGrantMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_349e4d3e_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_349e4d3e_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_349e4d3e_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_349e4d3e_dp"),
         ]
 
     def __str__(self):
@@ -3475,10 +3475,10 @@ class AnalyticsExportPipelineOperationalQuota(models.Model):
         verbose_name = _("AnalyticsExportPipelineOperationalQuota")
         verbose_name_plural = _("AnalyticsExportPipelineOperationalQuotas")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_4e296ac6_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_4e296ac6_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_4e296ac6_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_4e296ac6_dp"),
         ]
 
     def __str__(self):
@@ -3663,10 +3663,10 @@ class AnalyticsExportPipelineWorkflowAuditCheckpoint(models.Model):
         verbose_name = _("AnalyticsExportPipelineWorkflowAuditCheckpoint")
         verbose_name_plural = _("AnalyticsExportPipelineWorkflowAuditCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_2ec7d7a1_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_2ec7d7a1_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_2ec7d7a1_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_2ec7d7a1_dp"),
         ]
 
     def __str__(self):
@@ -3851,10 +3851,10 @@ class AnalyticsExportPipelineDisasterRecoveryCheckpoint(models.Model):
         verbose_name = _("AnalyticsExportPipelineDisasterRecoveryCheckpoint")
         verbose_name_plural = _("AnalyticsExportPipelineDisasterRecoveryCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_eefbb931_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_eefbb931_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_eefbb931_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_eefbb931_dp"),
         ]
 
     def __str__(self):
@@ -4039,10 +4039,574 @@ class AnalyticsExportPipelineSLAComplianceRegister(models.Model):
         verbose_name = _("AnalyticsExportPipelineSLAComplianceRegister")
         verbose_name_plural = _("AnalyticsExportPipelineSLAComplianceRegisters")
         indexes = [
-            models.Index(fields=["code", "status"], name="analytics_analytics__idx"),
-            models.Index(fields=["created_at"], name="analytics_analytic_cr_idx"),
-            models.Index(fields=["priority", "status"], name="analytics_analyti_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="analytics_analyt_dp_idx"),
+            models.Index(fields=["code", "status"], name="analyt_analyt_cc647f53_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_cc647f53_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_cc647f53_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_cc647f53_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class AnalyticsExportPipelineIncidentReportRegisterQuerySet(models.QuerySet):
+    """Custom QuerySet methods for AnalyticsExportPipelineIncidentReportRegister."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class AnalyticsExportPipelineIncidentReportRegisterManager(models.Manager):
+    """Custom model manager for AnalyticsExportPipelineIncidentReportRegister."""
+    def get_queryset(self):
+        return AnalyticsExportPipelineIncidentReportRegisterQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class AnalyticsExportPipelineIncidentReportRegister(models.Model):
+    """
+    AnalyticsExportPipelineIncidentReportRegister: Incident ticketing and remediation tracking register.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="ANALYTICS", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@analytics.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = AnalyticsExportPipelineIncidentReportRegisterManager()
+
+    class Meta:
+        db_table = "analytics_analytics_export_pipeline_incidentreportregister"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("AnalyticsExportPipelineIncidentReportRegister")
+        verbose_name_plural = _("AnalyticsExportPipelineIncidentReportRegisters")
+        indexes = [
+            models.Index(fields=["code", "status"], name="analyt_analyt_a24ee518_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_a24ee518_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_a24ee518_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_a24ee518_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class AnalyticsExportPipelineBusinessContinuityPlanQuerySet(models.QuerySet):
+    """Custom QuerySet methods for AnalyticsExportPipelineBusinessContinuityPlan."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class AnalyticsExportPipelineBusinessContinuityPlanManager(models.Manager):
+    """Custom model manager for AnalyticsExportPipelineBusinessContinuityPlan."""
+    def get_queryset(self):
+        return AnalyticsExportPipelineBusinessContinuityPlanQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class AnalyticsExportPipelineBusinessContinuityPlan(models.Model):
+    """
+    AnalyticsExportPipelineBusinessContinuityPlan: Business continuity procedures and failover plan coordinates.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="ANALYTICS", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@analytics.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = AnalyticsExportPipelineBusinessContinuityPlanManager()
+
+    class Meta:
+        db_table = "analytics_analytics_export_pipeline_businesscontinuityplan"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("AnalyticsExportPipelineBusinessContinuityPlan")
+        verbose_name_plural = _("AnalyticsExportPipelineBusinessContinuityPlans")
+        indexes = [
+            models.Index(fields=["code", "status"], name="analyt_analyt_d074e40f_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_d074e40f_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_d074e40f_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_d074e40f_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class AnalyticsExportPipelineGovernanceAttestationRecordQuerySet(models.QuerySet):
+    """Custom QuerySet methods for AnalyticsExportPipelineGovernanceAttestationRecord."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class AnalyticsExportPipelineGovernanceAttestationRecordManager(models.Manager):
+    """Custom model manager for AnalyticsExportPipelineGovernanceAttestationRecord."""
+    def get_queryset(self):
+        return AnalyticsExportPipelineGovernanceAttestationRecordQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class AnalyticsExportPipelineGovernanceAttestationRecord(models.Model):
+    """
+    AnalyticsExportPipelineGovernanceAttestationRecord: Formal institutional governance attestations and sign-offs.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="ANALYTICS", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@analytics.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = AnalyticsExportPipelineGovernanceAttestationRecordManager()
+
+    class Meta:
+        db_table = "analytics_analytics_export_pipeline_governanceattestationrecord"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("AnalyticsExportPipelineGovernanceAttestationRecord")
+        verbose_name_plural = _("AnalyticsExportPipelineGovernanceAttestationRecords")
+        indexes = [
+            models.Index(fields=["code", "status"], name="analyt_analyt_6c395acb_cd"),
+            models.Index(fields=["created_at"], name="analyt_analyt_6c395acb_cr"),
+            models.Index(fields=["priority", "status"], name="analyt_analyt_6c395acb_pr"),
+            models.Index(fields=["department_tag", "status"], name="analyt_analyt_6c395acb_dp"),
         ]
 
     def __str__(self):

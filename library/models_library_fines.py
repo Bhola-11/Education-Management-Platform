@@ -91,10 +91,10 @@ class LibraryFinesMaster(models.Model):
         verbose_name = _("LibraryFinesMaster")
         verbose_name_plural = _("LibraryFinesMasters")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_93761871_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_93761871_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_93761871_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_93761871_dp"),
         ]
 
     def __str__(self):
@@ -279,10 +279,10 @@ class LibraryFinesConfiguration(models.Model):
         verbose_name = _("LibraryFinesConfiguration")
         verbose_name_plural = _("LibraryFinesConfigurations")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_6ffdb55c_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_6ffdb55c_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_6ffdb55c_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_6ffdb55c_dp"),
         ]
 
     def __str__(self):
@@ -467,10 +467,10 @@ class LibraryFinesLedger(models.Model):
         verbose_name = _("LibraryFinesLedger")
         verbose_name_plural = _("LibraryFinesLedgers")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_4977071b_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_4977071b_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_4977071b_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_4977071b_dp"),
         ]
 
     def __str__(self):
@@ -655,10 +655,10 @@ class LibraryFinesAuditTransaction(models.Model):
         verbose_name = _("LibraryFinesAuditTransaction")
         verbose_name_plural = _("LibraryFinesAuditTransactions")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_d8cc64bc_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_d8cc64bc_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_d8cc64bc_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_d8cc64bc_dp"),
         ]
 
     def __str__(self):
@@ -843,10 +843,10 @@ class LibraryFinesScheduleMatrix(models.Model):
         verbose_name = _("LibraryFinesScheduleMatrix")
         verbose_name_plural = _("LibraryFinesScheduleMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_d8cac923_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_d8cac923_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_d8cac923_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_d8cac923_dp"),
         ]
 
     def __str__(self):
@@ -1031,10 +1031,10 @@ class LibraryFinesEvaluationMetric(models.Model):
         verbose_name = _("LibraryFinesEvaluationMetric")
         verbose_name_plural = _("LibraryFinesEvaluationMetrics")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_802dbe96_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_802dbe96_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_802dbe96_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_802dbe96_dp"),
         ]
 
     def __str__(self):
@@ -1219,10 +1219,10 @@ class LibraryFinesRosterMapping(models.Model):
         verbose_name = _("LibraryFinesRosterMapping")
         verbose_name_plural = _("LibraryFinesRosterMappings")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_f7f1f448_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_f7f1f448_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_f7f1f448_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_f7f1f448_dp"),
         ]
 
     def __str__(self):
@@ -1407,10 +1407,10 @@ class LibraryFinesVerificationSignature(models.Model):
         verbose_name = _("LibraryFinesVerificationSignature")
         verbose_name_plural = _("LibraryFinesVerificationSignatures")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_84fabd6d_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_84fabd6d_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_84fabd6d_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_84fabd6d_dp"),
         ]
 
     def __str__(self):
@@ -1595,10 +1595,10 @@ class LibraryFinesNotificationRule(models.Model):
         verbose_name = _("LibraryFinesNotificationRule")
         verbose_name_plural = _("LibraryFinesNotificationRules")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_ff711cff_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_ff711cff_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_ff711cff_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_ff711cff_dp"),
         ]
 
     def __str__(self):
@@ -1783,10 +1783,10 @@ class LibraryFinesAnalyticalSnapshot(models.Model):
         verbose_name = _("LibraryFinesAnalyticalSnapshot")
         verbose_name_plural = _("LibraryFinesAnalyticalSnapshots")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_306bc8d5_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_306bc8d5_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_306bc8d5_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_306bc8d5_dp"),
         ]
 
     def __str__(self):
@@ -1971,10 +1971,10 @@ class LibraryFinesComplianceLog(models.Model):
         verbose_name = _("LibraryFinesComplianceLog")
         verbose_name_plural = _("LibraryFinesComplianceLogs")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_62f56580_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_62f56580_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_62f56580_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_62f56580_dp"),
         ]
 
     def __str__(self):
@@ -2159,10 +2159,10 @@ class LibraryFinesIntegrationBridge(models.Model):
         verbose_name = _("LibraryFinesIntegrationBridge")
         verbose_name_plural = _("LibraryFinesIntegrationBridges")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_9336f1ed_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_9336f1ed_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_9336f1ed_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_9336f1ed_dp"),
         ]
 
     def __str__(self):
@@ -2347,10 +2347,10 @@ class LibraryFinesSecurityPermit(models.Model):
         verbose_name = _("LibraryFinesSecurityPermit")
         verbose_name_plural = _("LibraryFinesSecurityPermits")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_8d2f3840_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_8d2f3840_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_8d2f3840_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_8d2f3840_dp"),
         ]
 
     def __str__(self):
@@ -2535,10 +2535,10 @@ class LibraryFinesDocumentAttachment(models.Model):
         verbose_name = _("LibraryFinesDocumentAttachment")
         verbose_name_plural = _("LibraryFinesDocumentAttachments")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_900099a4_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_900099a4_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_900099a4_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_900099a4_dp"),
         ]
 
     def __str__(self):
@@ -2723,10 +2723,10 @@ class LibraryFinesLifecycleTransition(models.Model):
         verbose_name = _("LibraryFinesLifecycleTransition")
         verbose_name_plural = _("LibraryFinesLifecycleTransitions")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_d97bbd45_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_d97bbd45_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_d97bbd45_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_d97bbd45_dp"),
         ]
 
     def __str__(self):
@@ -2911,10 +2911,10 @@ class LibraryFinesDataArchivalRegistry(models.Model):
         verbose_name = _("LibraryFinesDataArchivalRegistry")
         verbose_name_plural = _("LibraryFinesDataArchivalRegistrys")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_e4d39e51_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_e4d39e51_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_e4d39e51_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_e4d39e51_dp"),
         ]
 
     def __str__(self):
@@ -3099,10 +3099,10 @@ class LibraryFinesTelemetryEventStream(models.Model):
         verbose_name = _("LibraryFinesTelemetryEventStream")
         verbose_name_plural = _("LibraryFinesTelemetryEventStreams")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_3c01603f_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_3c01603f_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_3c01603f_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_3c01603f_dp"),
         ]
 
     def __str__(self):
@@ -3287,10 +3287,10 @@ class LibraryFinesAccessGrantMatrix(models.Model):
         verbose_name = _("LibraryFinesAccessGrantMatrix")
         verbose_name_plural = _("LibraryFinesAccessGrantMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_b13b942d_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_b13b942d_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_b13b942d_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_b13b942d_dp"),
         ]
 
     def __str__(self):
@@ -3475,10 +3475,10 @@ class LibraryFinesOperationalQuota(models.Model):
         verbose_name = _("LibraryFinesOperationalQuota")
         verbose_name_plural = _("LibraryFinesOperationalQuotas")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_6d4e1108_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_6d4e1108_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_6d4e1108_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_6d4e1108_dp"),
         ]
 
     def __str__(self):
@@ -3663,10 +3663,10 @@ class LibraryFinesWorkflowAuditCheckpoint(models.Model):
         verbose_name = _("LibraryFinesWorkflowAuditCheckpoint")
         verbose_name_plural = _("LibraryFinesWorkflowAuditCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_555185a9_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_555185a9_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_555185a9_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_555185a9_dp"),
         ]
 
     def __str__(self):
@@ -3851,10 +3851,10 @@ class LibraryFinesDisasterRecoveryCheckpoint(models.Model):
         verbose_name = _("LibraryFinesDisasterRecoveryCheckpoint")
         verbose_name_plural = _("LibraryFinesDisasterRecoveryCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_df8e5383_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_df8e5383_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_df8e5383_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_df8e5383_dp"),
         ]
 
     def __str__(self):
@@ -4039,10 +4039,574 @@ class LibraryFinesSLAComplianceRegister(models.Model):
         verbose_name = _("LibraryFinesSLAComplianceRegister")
         verbose_name_plural = _("LibraryFinesSLAComplianceRegisters")
         indexes = [
-            models.Index(fields=["code", "status"], name="library_library_fine_idx"),
-            models.Index(fields=["created_at"], name="library_library_fi_cr_idx"),
-            models.Index(fields=["priority", "status"], name="library_library_f_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="library_library__dp_idx"),
+            models.Index(fields=["code", "status"], name="librar_librar_d1adae15_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_d1adae15_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_d1adae15_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_d1adae15_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class LibraryFinesIncidentReportRegisterQuerySet(models.QuerySet):
+    """Custom QuerySet methods for LibraryFinesIncidentReportRegister."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class LibraryFinesIncidentReportRegisterManager(models.Manager):
+    """Custom model manager for LibraryFinesIncidentReportRegister."""
+    def get_queryset(self):
+        return LibraryFinesIncidentReportRegisterQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class LibraryFinesIncidentReportRegister(models.Model):
+    """
+    LibraryFinesIncidentReportRegister: Incident ticketing and remediation tracking register.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="LIBRARY", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@library.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = LibraryFinesIncidentReportRegisterManager()
+
+    class Meta:
+        db_table = "library_library_fines_incidentreportregister"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("LibraryFinesIncidentReportRegister")
+        verbose_name_plural = _("LibraryFinesIncidentReportRegisters")
+        indexes = [
+            models.Index(fields=["code", "status"], name="librar_librar_4bb5b19c_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_4bb5b19c_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_4bb5b19c_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_4bb5b19c_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class LibraryFinesBusinessContinuityPlanQuerySet(models.QuerySet):
+    """Custom QuerySet methods for LibraryFinesBusinessContinuityPlan."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class LibraryFinesBusinessContinuityPlanManager(models.Manager):
+    """Custom model manager for LibraryFinesBusinessContinuityPlan."""
+    def get_queryset(self):
+        return LibraryFinesBusinessContinuityPlanQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class LibraryFinesBusinessContinuityPlan(models.Model):
+    """
+    LibraryFinesBusinessContinuityPlan: Business continuity procedures and failover plan coordinates.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="LIBRARY", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@library.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = LibraryFinesBusinessContinuityPlanManager()
+
+    class Meta:
+        db_table = "library_library_fines_businesscontinuityplan"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("LibraryFinesBusinessContinuityPlan")
+        verbose_name_plural = _("LibraryFinesBusinessContinuityPlans")
+        indexes = [
+            models.Index(fields=["code", "status"], name="librar_librar_fa3f5a8f_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_fa3f5a8f_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_fa3f5a8f_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_fa3f5a8f_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class LibraryFinesGovernanceAttestationRecordQuerySet(models.QuerySet):
+    """Custom QuerySet methods for LibraryFinesGovernanceAttestationRecord."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class LibraryFinesGovernanceAttestationRecordManager(models.Manager):
+    """Custom model manager for LibraryFinesGovernanceAttestationRecord."""
+    def get_queryset(self):
+        return LibraryFinesGovernanceAttestationRecordQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class LibraryFinesGovernanceAttestationRecord(models.Model):
+    """
+    LibraryFinesGovernanceAttestationRecord: Formal institutional governance attestations and sign-offs.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="LIBRARY", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@library.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = LibraryFinesGovernanceAttestationRecordManager()
+
+    class Meta:
+        db_table = "library_library_fines_governanceattestationrecord"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("LibraryFinesGovernanceAttestationRecord")
+        verbose_name_plural = _("LibraryFinesGovernanceAttestationRecords")
+        indexes = [
+            models.Index(fields=["code", "status"], name="librar_librar_0506b0ae_cd"),
+            models.Index(fields=["created_at"], name="librar_librar_0506b0ae_cr"),
+            models.Index(fields=["priority", "status"], name="librar_librar_0506b0ae_pr"),
+            models.Index(fields=["department_tag", "status"], name="librar_librar_0506b0ae_dp"),
         ]
 
     def __str__(self):

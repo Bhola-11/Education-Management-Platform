@@ -91,10 +91,10 @@ class StudentsLifecycleMaster(models.Model):
         verbose_name = _("StudentsLifecycleMaster")
         verbose_name_plural = _("StudentsLifecycleMasters")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_6d1486bb_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_6d1486bb_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_6d1486bb_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_6d1486bb_dp"),
         ]
 
     def __str__(self):
@@ -279,10 +279,10 @@ class StudentsLifecycleConfiguration(models.Model):
         verbose_name = _("StudentsLifecycleConfiguration")
         verbose_name_plural = _("StudentsLifecycleConfigurations")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_005404a0_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_005404a0_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_005404a0_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_005404a0_dp"),
         ]
 
     def __str__(self):
@@ -467,10 +467,10 @@ class StudentsLifecycleLedger(models.Model):
         verbose_name = _("StudentsLifecycleLedger")
         verbose_name_plural = _("StudentsLifecycleLedgers")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_4b7709f7_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_4b7709f7_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_4b7709f7_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_4b7709f7_dp"),
         ]
 
     def __str__(self):
@@ -655,10 +655,10 @@ class StudentsLifecycleAuditTransaction(models.Model):
         verbose_name = _("StudentsLifecycleAuditTransaction")
         verbose_name_plural = _("StudentsLifecycleAuditTransactions")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_ec5632b5_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_ec5632b5_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_ec5632b5_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_ec5632b5_dp"),
         ]
 
     def __str__(self):
@@ -843,10 +843,10 @@ class StudentsLifecycleScheduleMatrix(models.Model):
         verbose_name = _("StudentsLifecycleScheduleMatrix")
         verbose_name_plural = _("StudentsLifecycleScheduleMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_57f04e33_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_57f04e33_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_57f04e33_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_57f04e33_dp"),
         ]
 
     def __str__(self):
@@ -1031,10 +1031,10 @@ class StudentsLifecycleEvaluationMetric(models.Model):
         verbose_name = _("StudentsLifecycleEvaluationMetric")
         verbose_name_plural = _("StudentsLifecycleEvaluationMetrics")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_6d0cb931_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_6d0cb931_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_6d0cb931_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_6d0cb931_dp"),
         ]
 
     def __str__(self):
@@ -1219,10 +1219,10 @@ class StudentsLifecycleRosterMapping(models.Model):
         verbose_name = _("StudentsLifecycleRosterMapping")
         verbose_name_plural = _("StudentsLifecycleRosterMappings")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_78d45e99_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_78d45e99_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_78d45e99_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_78d45e99_dp"),
         ]
 
     def __str__(self):
@@ -1407,10 +1407,10 @@ class StudentsLifecycleVerificationSignature(models.Model):
         verbose_name = _("StudentsLifecycleVerificationSignature")
         verbose_name_plural = _("StudentsLifecycleVerificationSignatures")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_90af363a_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_90af363a_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_90af363a_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_90af363a_dp"),
         ]
 
     def __str__(self):
@@ -1595,10 +1595,10 @@ class StudentsLifecycleNotificationRule(models.Model):
         verbose_name = _("StudentsLifecycleNotificationRule")
         verbose_name_plural = _("StudentsLifecycleNotificationRules")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_cd8c3945_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_cd8c3945_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_cd8c3945_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_cd8c3945_dp"),
         ]
 
     def __str__(self):
@@ -1783,10 +1783,10 @@ class StudentsLifecycleAnalyticalSnapshot(models.Model):
         verbose_name = _("StudentsLifecycleAnalyticalSnapshot")
         verbose_name_plural = _("StudentsLifecycleAnalyticalSnapshots")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_c4e0b113_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_c4e0b113_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_c4e0b113_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_c4e0b113_dp"),
         ]
 
     def __str__(self):
@@ -1971,10 +1971,10 @@ class StudentsLifecycleComplianceLog(models.Model):
         verbose_name = _("StudentsLifecycleComplianceLog")
         verbose_name_plural = _("StudentsLifecycleComplianceLogs")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_1fb8783b_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_1fb8783b_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_1fb8783b_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_1fb8783b_dp"),
         ]
 
     def __str__(self):
@@ -2159,10 +2159,10 @@ class StudentsLifecycleIntegrationBridge(models.Model):
         verbose_name = _("StudentsLifecycleIntegrationBridge")
         verbose_name_plural = _("StudentsLifecycleIntegrationBridges")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_b6201e46_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_b6201e46_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_b6201e46_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_b6201e46_dp"),
         ]
 
     def __str__(self):
@@ -2347,10 +2347,10 @@ class StudentsLifecycleSecurityPermit(models.Model):
         verbose_name = _("StudentsLifecycleSecurityPermit")
         verbose_name_plural = _("StudentsLifecycleSecurityPermits")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_f682cc4a_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_f682cc4a_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_f682cc4a_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_f682cc4a_dp"),
         ]
 
     def __str__(self):
@@ -2535,10 +2535,10 @@ class StudentsLifecycleDocumentAttachment(models.Model):
         verbose_name = _("StudentsLifecycleDocumentAttachment")
         verbose_name_plural = _("StudentsLifecycleDocumentAttachments")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_b5dbb615_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_b5dbb615_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_b5dbb615_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_b5dbb615_dp"),
         ]
 
     def __str__(self):
@@ -2723,10 +2723,10 @@ class StudentsLifecycleLifecycleTransition(models.Model):
         verbose_name = _("StudentsLifecycleLifecycleTransition")
         verbose_name_plural = _("StudentsLifecycleLifecycleTransitions")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_42b03a32_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_42b03a32_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_42b03a32_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_42b03a32_dp"),
         ]
 
     def __str__(self):
@@ -2911,10 +2911,10 @@ class StudentsLifecycleDataArchivalRegistry(models.Model):
         verbose_name = _("StudentsLifecycleDataArchivalRegistry")
         verbose_name_plural = _("StudentsLifecycleDataArchivalRegistrys")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_d64e75c4_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_d64e75c4_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_d64e75c4_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_d64e75c4_dp"),
         ]
 
     def __str__(self):
@@ -3099,10 +3099,10 @@ class StudentsLifecycleTelemetryEventStream(models.Model):
         verbose_name = _("StudentsLifecycleTelemetryEventStream")
         verbose_name_plural = _("StudentsLifecycleTelemetryEventStreams")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_52020452_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_52020452_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_52020452_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_52020452_dp"),
         ]
 
     def __str__(self):
@@ -3287,10 +3287,10 @@ class StudentsLifecycleAccessGrantMatrix(models.Model):
         verbose_name = _("StudentsLifecycleAccessGrantMatrix")
         verbose_name_plural = _("StudentsLifecycleAccessGrantMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_36e83f62_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_36e83f62_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_36e83f62_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_36e83f62_dp"),
         ]
 
     def __str__(self):
@@ -3475,10 +3475,10 @@ class StudentsLifecycleOperationalQuota(models.Model):
         verbose_name = _("StudentsLifecycleOperationalQuota")
         verbose_name_plural = _("StudentsLifecycleOperationalQuotas")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_59f021f2_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_59f021f2_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_59f021f2_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_59f021f2_dp"),
         ]
 
     def __str__(self):
@@ -3663,10 +3663,10 @@ class StudentsLifecycleWorkflowAuditCheckpoint(models.Model):
         verbose_name = _("StudentsLifecycleWorkflowAuditCheckpoint")
         verbose_name_plural = _("StudentsLifecycleWorkflowAuditCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_49dbac5c_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_49dbac5c_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_49dbac5c_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_49dbac5c_dp"),
         ]
 
     def __str__(self):
@@ -3851,10 +3851,10 @@ class StudentsLifecycleDisasterRecoveryCheckpoint(models.Model):
         verbose_name = _("StudentsLifecycleDisasterRecoveryCheckpoint")
         verbose_name_plural = _("StudentsLifecycleDisasterRecoveryCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_c23d7ae2_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_c23d7ae2_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_c23d7ae2_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_c23d7ae2_dp"),
         ]
 
     def __str__(self):
@@ -4039,10 +4039,574 @@ class StudentsLifecycleSLAComplianceRegister(models.Model):
         verbose_name = _("StudentsLifecycleSLAComplianceRegister")
         verbose_name_plural = _("StudentsLifecycleSLAComplianceRegisters")
         indexes = [
-            models.Index(fields=["code", "status"], name="students_students_li_idx"),
-            models.Index(fields=["created_at"], name="students_students__cr_idx"),
-            models.Index(fields=["priority", "status"], name="students_students_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="students_student_dp_idx"),
+            models.Index(fields=["code", "status"], name="studen_studen_6455f76c_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_6455f76c_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_6455f76c_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_6455f76c_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class StudentsLifecycleIncidentReportRegisterQuerySet(models.QuerySet):
+    """Custom QuerySet methods for StudentsLifecycleIncidentReportRegister."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class StudentsLifecycleIncidentReportRegisterManager(models.Manager):
+    """Custom model manager for StudentsLifecycleIncidentReportRegister."""
+    def get_queryset(self):
+        return StudentsLifecycleIncidentReportRegisterQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class StudentsLifecycleIncidentReportRegister(models.Model):
+    """
+    StudentsLifecycleIncidentReportRegister: Incident ticketing and remediation tracking register.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="STUDENTS", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@students.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = StudentsLifecycleIncidentReportRegisterManager()
+
+    class Meta:
+        db_table = "students_students_lifecycle_incidentreportregister"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("StudentsLifecycleIncidentReportRegister")
+        verbose_name_plural = _("StudentsLifecycleIncidentReportRegisters")
+        indexes = [
+            models.Index(fields=["code", "status"], name="studen_studen_af070de2_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_af070de2_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_af070de2_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_af070de2_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class StudentsLifecycleBusinessContinuityPlanQuerySet(models.QuerySet):
+    """Custom QuerySet methods for StudentsLifecycleBusinessContinuityPlan."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class StudentsLifecycleBusinessContinuityPlanManager(models.Manager):
+    """Custom model manager for StudentsLifecycleBusinessContinuityPlan."""
+    def get_queryset(self):
+        return StudentsLifecycleBusinessContinuityPlanQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class StudentsLifecycleBusinessContinuityPlan(models.Model):
+    """
+    StudentsLifecycleBusinessContinuityPlan: Business continuity procedures and failover plan coordinates.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="STUDENTS", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@students.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = StudentsLifecycleBusinessContinuityPlanManager()
+
+    class Meta:
+        db_table = "students_students_lifecycle_businesscontinuityplan"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("StudentsLifecycleBusinessContinuityPlan")
+        verbose_name_plural = _("StudentsLifecycleBusinessContinuityPlans")
+        indexes = [
+            models.Index(fields=["code", "status"], name="studen_studen_05b56ba5_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_05b56ba5_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_05b56ba5_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_05b56ba5_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class StudentsLifecycleGovernanceAttestationRecordQuerySet(models.QuerySet):
+    """Custom QuerySet methods for StudentsLifecycleGovernanceAttestationRecord."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class StudentsLifecycleGovernanceAttestationRecordManager(models.Manager):
+    """Custom model manager for StudentsLifecycleGovernanceAttestationRecord."""
+    def get_queryset(self):
+        return StudentsLifecycleGovernanceAttestationRecordQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class StudentsLifecycleGovernanceAttestationRecord(models.Model):
+    """
+    StudentsLifecycleGovernanceAttestationRecord: Formal institutional governance attestations and sign-offs.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="STUDENTS", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@students.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = StudentsLifecycleGovernanceAttestationRecordManager()
+
+    class Meta:
+        db_table = "students_students_lifecycle_governanceattestationrecord"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("StudentsLifecycleGovernanceAttestationRecord")
+        verbose_name_plural = _("StudentsLifecycleGovernanceAttestationRecords")
+        indexes = [
+            models.Index(fields=["code", "status"], name="studen_studen_77d49c00_cd"),
+            models.Index(fields=["created_at"], name="studen_studen_77d49c00_cr"),
+            models.Index(fields=["priority", "status"], name="studen_studen_77d49c00_pr"),
+            models.Index(fields=["department_tag", "status"], name="studen_studen_77d49c00_dp"),
         ]
 
     def __str__(self):

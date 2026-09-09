@@ -91,10 +91,10 @@ class FeesPortalViewsMaster(models.Model):
         verbose_name = _("FeesPortalViewsMaster")
         verbose_name_plural = _("FeesPortalViewsMasters")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_957ee901_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_957ee901_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_957ee901_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_957ee901_dp"),
         ]
 
     def __str__(self):
@@ -279,10 +279,10 @@ class FeesPortalViewsConfiguration(models.Model):
         verbose_name = _("FeesPortalViewsConfiguration")
         verbose_name_plural = _("FeesPortalViewsConfigurations")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_8f6cf313_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_8f6cf313_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_8f6cf313_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_8f6cf313_dp"),
         ]
 
     def __str__(self):
@@ -467,10 +467,10 @@ class FeesPortalViewsLedger(models.Model):
         verbose_name = _("FeesPortalViewsLedger")
         verbose_name_plural = _("FeesPortalViewsLedgers")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_57da37f6_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_57da37f6_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_57da37f6_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_57da37f6_dp"),
         ]
 
     def __str__(self):
@@ -655,10 +655,10 @@ class FeesPortalViewsAuditTransaction(models.Model):
         verbose_name = _("FeesPortalViewsAuditTransaction")
         verbose_name_plural = _("FeesPortalViewsAuditTransactions")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_0c8a9bf9_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_0c8a9bf9_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_0c8a9bf9_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_0c8a9bf9_dp"),
         ]
 
     def __str__(self):
@@ -843,10 +843,10 @@ class FeesPortalViewsScheduleMatrix(models.Model):
         verbose_name = _("FeesPortalViewsScheduleMatrix")
         verbose_name_plural = _("FeesPortalViewsScheduleMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_0d0f3707_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_0d0f3707_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_0d0f3707_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_0d0f3707_dp"),
         ]
 
     def __str__(self):
@@ -1031,10 +1031,10 @@ class FeesPortalViewsEvaluationMetric(models.Model):
         verbose_name = _("FeesPortalViewsEvaluationMetric")
         verbose_name_plural = _("FeesPortalViewsEvaluationMetrics")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_568b1d9b_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_568b1d9b_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_568b1d9b_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_568b1d9b_dp"),
         ]
 
     def __str__(self):
@@ -1219,10 +1219,10 @@ class FeesPortalViewsRosterMapping(models.Model):
         verbose_name = _("FeesPortalViewsRosterMapping")
         verbose_name_plural = _("FeesPortalViewsRosterMappings")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_d643c415_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_d643c415_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_d643c415_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_d643c415_dp"),
         ]
 
     def __str__(self):
@@ -1407,10 +1407,10 @@ class FeesPortalViewsVerificationSignature(models.Model):
         verbose_name = _("FeesPortalViewsVerificationSignature")
         verbose_name_plural = _("FeesPortalViewsVerificationSignatures")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_01f8f5dc_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_01f8f5dc_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_01f8f5dc_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_01f8f5dc_dp"),
         ]
 
     def __str__(self):
@@ -1595,10 +1595,10 @@ class FeesPortalViewsNotificationRule(models.Model):
         verbose_name = _("FeesPortalViewsNotificationRule")
         verbose_name_plural = _("FeesPortalViewsNotificationRules")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_85f37588_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_85f37588_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_85f37588_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_85f37588_dp"),
         ]
 
     def __str__(self):
@@ -1783,10 +1783,10 @@ class FeesPortalViewsAnalyticalSnapshot(models.Model):
         verbose_name = _("FeesPortalViewsAnalyticalSnapshot")
         verbose_name_plural = _("FeesPortalViewsAnalyticalSnapshots")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_e94578ff_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_e94578ff_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_e94578ff_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_e94578ff_dp"),
         ]
 
     def __str__(self):
@@ -1971,10 +1971,10 @@ class FeesPortalViewsComplianceLog(models.Model):
         verbose_name = _("FeesPortalViewsComplianceLog")
         verbose_name_plural = _("FeesPortalViewsComplianceLogs")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_263d6449_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_263d6449_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_263d6449_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_263d6449_dp"),
         ]
 
     def __str__(self):
@@ -2159,10 +2159,10 @@ class FeesPortalViewsIntegrationBridge(models.Model):
         verbose_name = _("FeesPortalViewsIntegrationBridge")
         verbose_name_plural = _("FeesPortalViewsIntegrationBridges")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_30a543c6_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_30a543c6_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_30a543c6_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_30a543c6_dp"),
         ]
 
     def __str__(self):
@@ -2347,10 +2347,10 @@ class FeesPortalViewsSecurityPermit(models.Model):
         verbose_name = _("FeesPortalViewsSecurityPermit")
         verbose_name_plural = _("FeesPortalViewsSecurityPermits")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_d9f02cd4_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_d9f02cd4_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_d9f02cd4_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_d9f02cd4_dp"),
         ]
 
     def __str__(self):
@@ -2535,10 +2535,10 @@ class FeesPortalViewsDocumentAttachment(models.Model):
         verbose_name = _("FeesPortalViewsDocumentAttachment")
         verbose_name_plural = _("FeesPortalViewsDocumentAttachments")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_eb1922ee_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_eb1922ee_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_eb1922ee_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_eb1922ee_dp"),
         ]
 
     def __str__(self):
@@ -2723,10 +2723,10 @@ class FeesPortalViewsLifecycleTransition(models.Model):
         verbose_name = _("FeesPortalViewsLifecycleTransition")
         verbose_name_plural = _("FeesPortalViewsLifecycleTransitions")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_5508c822_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_5508c822_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_5508c822_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_5508c822_dp"),
         ]
 
     def __str__(self):
@@ -2911,10 +2911,10 @@ class FeesPortalViewsDataArchivalRegistry(models.Model):
         verbose_name = _("FeesPortalViewsDataArchivalRegistry")
         verbose_name_plural = _("FeesPortalViewsDataArchivalRegistrys")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_a6c0f588_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_a6c0f588_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_a6c0f588_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_a6c0f588_dp"),
         ]
 
     def __str__(self):
@@ -3099,10 +3099,10 @@ class FeesPortalViewsTelemetryEventStream(models.Model):
         verbose_name = _("FeesPortalViewsTelemetryEventStream")
         verbose_name_plural = _("FeesPortalViewsTelemetryEventStreams")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_3d2e8698_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_3d2e8698_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_3d2e8698_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_3d2e8698_dp"),
         ]
 
     def __str__(self):
@@ -3287,10 +3287,10 @@ class FeesPortalViewsAccessGrantMatrix(models.Model):
         verbose_name = _("FeesPortalViewsAccessGrantMatrix")
         verbose_name_plural = _("FeesPortalViewsAccessGrantMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_5e8ff12d_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_5e8ff12d_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_5e8ff12d_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_5e8ff12d_dp"),
         ]
 
     def __str__(self):
@@ -3475,10 +3475,10 @@ class FeesPortalViewsOperationalQuota(models.Model):
         verbose_name = _("FeesPortalViewsOperationalQuota")
         verbose_name_plural = _("FeesPortalViewsOperationalQuotas")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_42086301_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_42086301_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_42086301_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_42086301_dp"),
         ]
 
     def __str__(self):
@@ -3663,10 +3663,10 @@ class FeesPortalViewsWorkflowAuditCheckpoint(models.Model):
         verbose_name = _("FeesPortalViewsWorkflowAuditCheckpoint")
         verbose_name_plural = _("FeesPortalViewsWorkflowAuditCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_bd73d1f8_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_bd73d1f8_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_bd73d1f8_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_bd73d1f8_dp"),
         ]
 
     def __str__(self):
@@ -3851,10 +3851,10 @@ class FeesPortalViewsDisasterRecoveryCheckpoint(models.Model):
         verbose_name = _("FeesPortalViewsDisasterRecoveryCheckpoint")
         verbose_name_plural = _("FeesPortalViewsDisasterRecoveryCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_e63c137d_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_e63c137d_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_e63c137d_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_e63c137d_dp"),
         ]
 
     def __str__(self):
@@ -4039,10 +4039,574 @@ class FeesPortalViewsSLAComplianceRegister(models.Model):
         verbose_name = _("FeesPortalViewsSLAComplianceRegister")
         verbose_name_plural = _("FeesPortalViewsSLAComplianceRegisters")
         indexes = [
-            models.Index(fields=["code", "status"], name="fees_fees_portal_vie_idx"),
-            models.Index(fields=["created_at"], name="fees_fees_portal_v_cr_idx"),
-            models.Index(fields=["priority", "status"], name="fees_fees_portal__pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="fees_fees_portal_dp_idx"),
+            models.Index(fields=["code", "status"], name="fees_fees_p_5bbe376f_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_5bbe376f_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_5bbe376f_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_5bbe376f_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class FeesPortalViewsIncidentReportRegisterQuerySet(models.QuerySet):
+    """Custom QuerySet methods for FeesPortalViewsIncidentReportRegister."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class FeesPortalViewsIncidentReportRegisterManager(models.Manager):
+    """Custom model manager for FeesPortalViewsIncidentReportRegister."""
+    def get_queryset(self):
+        return FeesPortalViewsIncidentReportRegisterQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class FeesPortalViewsIncidentReportRegister(models.Model):
+    """
+    FeesPortalViewsIncidentReportRegister: Incident ticketing and remediation tracking register.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="FEES", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@fees.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = FeesPortalViewsIncidentReportRegisterManager()
+
+    class Meta:
+        db_table = "fees_fees_portal_views_incidentreportregister"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("FeesPortalViewsIncidentReportRegister")
+        verbose_name_plural = _("FeesPortalViewsIncidentReportRegisters")
+        indexes = [
+            models.Index(fields=["code", "status"], name="fees_fees_p_241cb45d_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_241cb45d_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_241cb45d_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_241cb45d_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class FeesPortalViewsBusinessContinuityPlanQuerySet(models.QuerySet):
+    """Custom QuerySet methods for FeesPortalViewsBusinessContinuityPlan."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class FeesPortalViewsBusinessContinuityPlanManager(models.Manager):
+    """Custom model manager for FeesPortalViewsBusinessContinuityPlan."""
+    def get_queryset(self):
+        return FeesPortalViewsBusinessContinuityPlanQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class FeesPortalViewsBusinessContinuityPlan(models.Model):
+    """
+    FeesPortalViewsBusinessContinuityPlan: Business continuity procedures and failover plan coordinates.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="FEES", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@fees.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = FeesPortalViewsBusinessContinuityPlanManager()
+
+    class Meta:
+        db_table = "fees_fees_portal_views_businesscontinuityplan"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("FeesPortalViewsBusinessContinuityPlan")
+        verbose_name_plural = _("FeesPortalViewsBusinessContinuityPlans")
+        indexes = [
+            models.Index(fields=["code", "status"], name="fees_fees_p_3288e825_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_3288e825_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_3288e825_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_3288e825_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class FeesPortalViewsGovernanceAttestationRecordQuerySet(models.QuerySet):
+    """Custom QuerySet methods for FeesPortalViewsGovernanceAttestationRecord."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class FeesPortalViewsGovernanceAttestationRecordManager(models.Manager):
+    """Custom model manager for FeesPortalViewsGovernanceAttestationRecord."""
+    def get_queryset(self):
+        return FeesPortalViewsGovernanceAttestationRecordQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class FeesPortalViewsGovernanceAttestationRecord(models.Model):
+    """
+    FeesPortalViewsGovernanceAttestationRecord: Formal institutional governance attestations and sign-offs.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="FEES", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@fees.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = FeesPortalViewsGovernanceAttestationRecordManager()
+
+    class Meta:
+        db_table = "fees_fees_portal_views_governanceattestationrecord"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("FeesPortalViewsGovernanceAttestationRecord")
+        verbose_name_plural = _("FeesPortalViewsGovernanceAttestationRecords")
+        indexes = [
+            models.Index(fields=["code", "status"], name="fees_fees_p_103069bb_cd"),
+            models.Index(fields=["created_at"], name="fees_fees_p_103069bb_cr"),
+            models.Index(fields=["priority", "status"], name="fees_fees_p_103069bb_pr"),
+            models.Index(fields=["department_tag", "status"], name="fees_fees_p_103069bb_dp"),
         ]
 
     def __str__(self):

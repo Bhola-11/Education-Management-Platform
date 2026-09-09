@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edutrack-enterprise"
+version = "1.0.0"
+description = "Production-Grade Education Management Platform built with Python and Django MVT"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "Django>=5.0.6",
+    "asgiref>=3.8.1",
+    "sqlparse>=0.5.0",
+    "tzdata>=2024.1",
+    "django-environ>=0.11.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-django>=4.8.0",
+    "pytest-cov>=5.0.0",
+]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "edutrack_project.settings"
+python_files = ["test_*.py", "tests_*.py"]
+addopts = "--verbose --strict-markers"

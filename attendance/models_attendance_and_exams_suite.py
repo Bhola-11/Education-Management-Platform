@@ -91,10 +91,10 @@ class AttendanceAndExamsSuiteMaster(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteMaster")
         verbose_name_plural = _("AttendanceAndExamsSuiteMasters")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_b20d0a53_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_b20d0a53_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_b20d0a53_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_b20d0a53_dp"),
         ]
 
     def __str__(self):
@@ -279,10 +279,10 @@ class AttendanceAndExamsSuiteConfiguration(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteConfiguration")
         verbose_name_plural = _("AttendanceAndExamsSuiteConfigurations")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_eddf4fff_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_eddf4fff_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_eddf4fff_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_eddf4fff_dp"),
         ]
 
     def __str__(self):
@@ -467,10 +467,10 @@ class AttendanceAndExamsSuiteLedger(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteLedger")
         verbose_name_plural = _("AttendanceAndExamsSuiteLedgers")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_5a60a4d4_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_5a60a4d4_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_5a60a4d4_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_5a60a4d4_dp"),
         ]
 
     def __str__(self):
@@ -655,10 +655,10 @@ class AttendanceAndExamsSuiteAuditTransaction(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteAuditTransaction")
         verbose_name_plural = _("AttendanceAndExamsSuiteAuditTransactions")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_aa8220e7_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_aa8220e7_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_aa8220e7_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_aa8220e7_dp"),
         ]
 
     def __str__(self):
@@ -843,10 +843,10 @@ class AttendanceAndExamsSuiteScheduleMatrix(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteScheduleMatrix")
         verbose_name_plural = _("AttendanceAndExamsSuiteScheduleMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_093b179d_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_093b179d_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_093b179d_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_093b179d_dp"),
         ]
 
     def __str__(self):
@@ -1031,10 +1031,10 @@ class AttendanceAndExamsSuiteEvaluationMetric(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteEvaluationMetric")
         verbose_name_plural = _("AttendanceAndExamsSuiteEvaluationMetrics")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_7b0c0ab0_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_7b0c0ab0_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_7b0c0ab0_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_7b0c0ab0_dp"),
         ]
 
     def __str__(self):
@@ -1219,10 +1219,10 @@ class AttendanceAndExamsSuiteRosterMapping(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteRosterMapping")
         verbose_name_plural = _("AttendanceAndExamsSuiteRosterMappings")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_a7634ed3_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_a7634ed3_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_a7634ed3_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_a7634ed3_dp"),
         ]
 
     def __str__(self):
@@ -1407,10 +1407,10 @@ class AttendanceAndExamsSuiteVerificationSignature(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteVerificationSignature")
         verbose_name_plural = _("AttendanceAndExamsSuiteVerificationSignatures")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_c8e9eba7_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_c8e9eba7_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_c8e9eba7_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_c8e9eba7_dp"),
         ]
 
     def __str__(self):
@@ -1595,10 +1595,10 @@ class AttendanceAndExamsSuiteNotificationRule(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteNotificationRule")
         verbose_name_plural = _("AttendanceAndExamsSuiteNotificationRules")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_fe472ff8_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_fe472ff8_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_fe472ff8_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_fe472ff8_dp"),
         ]
 
     def __str__(self):
@@ -1783,10 +1783,10 @@ class AttendanceAndExamsSuiteAnalyticalSnapshot(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteAnalyticalSnapshot")
         verbose_name_plural = _("AttendanceAndExamsSuiteAnalyticalSnapshots")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_a8eb0877_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_a8eb0877_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_a8eb0877_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_a8eb0877_dp"),
         ]
 
     def __str__(self):
@@ -1971,10 +1971,10 @@ class AttendanceAndExamsSuiteComplianceLog(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteComplianceLog")
         verbose_name_plural = _("AttendanceAndExamsSuiteComplianceLogs")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_1fbbd5ed_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_1fbbd5ed_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_1fbbd5ed_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_1fbbd5ed_dp"),
         ]
 
     def __str__(self):
@@ -2159,10 +2159,10 @@ class AttendanceAndExamsSuiteIntegrationBridge(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteIntegrationBridge")
         verbose_name_plural = _("AttendanceAndExamsSuiteIntegrationBridges")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_39940bf4_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_39940bf4_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_39940bf4_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_39940bf4_dp"),
         ]
 
     def __str__(self):
@@ -2347,10 +2347,10 @@ class AttendanceAndExamsSuiteSecurityPermit(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteSecurityPermit")
         verbose_name_plural = _("AttendanceAndExamsSuiteSecurityPermits")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_5f481666_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_5f481666_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_5f481666_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_5f481666_dp"),
         ]
 
     def __str__(self):
@@ -2535,10 +2535,10 @@ class AttendanceAndExamsSuiteDocumentAttachment(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteDocumentAttachment")
         verbose_name_plural = _("AttendanceAndExamsSuiteDocumentAttachments")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_04c4d794_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_04c4d794_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_04c4d794_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_04c4d794_dp"),
         ]
 
     def __str__(self):
@@ -2723,10 +2723,10 @@ class AttendanceAndExamsSuiteLifecycleTransition(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteLifecycleTransition")
         verbose_name_plural = _("AttendanceAndExamsSuiteLifecycleTransitions")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_10aac7cd_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_10aac7cd_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_10aac7cd_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_10aac7cd_dp"),
         ]
 
     def __str__(self):
@@ -2911,10 +2911,10 @@ class AttendanceAndExamsSuiteDataArchivalRegistry(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteDataArchivalRegistry")
         verbose_name_plural = _("AttendanceAndExamsSuiteDataArchivalRegistrys")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_eada2218_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_eada2218_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_eada2218_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_eada2218_dp"),
         ]
 
     def __str__(self):
@@ -3099,10 +3099,10 @@ class AttendanceAndExamsSuiteTelemetryEventStream(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteTelemetryEventStream")
         verbose_name_plural = _("AttendanceAndExamsSuiteTelemetryEventStreams")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_7e26519f_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_7e26519f_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_7e26519f_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_7e26519f_dp"),
         ]
 
     def __str__(self):
@@ -3287,10 +3287,10 @@ class AttendanceAndExamsSuiteAccessGrantMatrix(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteAccessGrantMatrix")
         verbose_name_plural = _("AttendanceAndExamsSuiteAccessGrantMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_d240c6c3_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_d240c6c3_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_d240c6c3_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_d240c6c3_dp"),
         ]
 
     def __str__(self):
@@ -3475,10 +3475,10 @@ class AttendanceAndExamsSuiteOperationalQuota(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteOperationalQuota")
         verbose_name_plural = _("AttendanceAndExamsSuiteOperationalQuotas")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_efc81ca8_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_efc81ca8_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_efc81ca8_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_efc81ca8_dp"),
         ]
 
     def __str__(self):
@@ -3663,10 +3663,10 @@ class AttendanceAndExamsSuiteWorkflowAuditCheckpoint(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteWorkflowAuditCheckpoint")
         verbose_name_plural = _("AttendanceAndExamsSuiteWorkflowAuditCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_bd1b651b_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_bd1b651b_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_bd1b651b_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_bd1b651b_dp"),
         ]
 
     def __str__(self):
@@ -3851,10 +3851,10 @@ class AttendanceAndExamsSuiteDisasterRecoveryCheckpoint(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteDisasterRecoveryCheckpoint")
         verbose_name_plural = _("AttendanceAndExamsSuiteDisasterRecoveryCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_ef661855_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_ef661855_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_ef661855_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_ef661855_dp"),
         ]
 
     def __str__(self):
@@ -4039,10 +4039,574 @@ class AttendanceAndExamsSuiteSLAComplianceRegister(models.Model):
         verbose_name = _("AttendanceAndExamsSuiteSLAComplianceRegister")
         verbose_name_plural = _("AttendanceAndExamsSuiteSLAComplianceRegisters")
         indexes = [
-            models.Index(fields=["code", "status"], name="attendance_attendanc_idx"),
-            models.Index(fields=["created_at"], name="attendance_attenda_cr_idx"),
-            models.Index(fields=["priority", "status"], name="attendance_attend_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="attendance_atten_dp_idx"),
+            models.Index(fields=["code", "status"], name="attend_attend_9849fedd_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_9849fedd_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_9849fedd_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_9849fedd_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class AttendanceAndExamsSuiteIncidentReportRegisterQuerySet(models.QuerySet):
+    """Custom QuerySet methods for AttendanceAndExamsSuiteIncidentReportRegister."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class AttendanceAndExamsSuiteIncidentReportRegisterManager(models.Manager):
+    """Custom model manager for AttendanceAndExamsSuiteIncidentReportRegister."""
+    def get_queryset(self):
+        return AttendanceAndExamsSuiteIncidentReportRegisterQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class AttendanceAndExamsSuiteIncidentReportRegister(models.Model):
+    """
+    AttendanceAndExamsSuiteIncidentReportRegister: Incident ticketing and remediation tracking register.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="ATTENDANCE", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@attendance.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = AttendanceAndExamsSuiteIncidentReportRegisterManager()
+
+    class Meta:
+        db_table = "attendance_attendance_and_exams_suite_incidentreportregister"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("AttendanceAndExamsSuiteIncidentReportRegister")
+        verbose_name_plural = _("AttendanceAndExamsSuiteIncidentReportRegisters")
+        indexes = [
+            models.Index(fields=["code", "status"], name="attend_attend_3db31d48_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_3db31d48_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_3db31d48_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_3db31d48_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class AttendanceAndExamsSuiteBusinessContinuityPlanQuerySet(models.QuerySet):
+    """Custom QuerySet methods for AttendanceAndExamsSuiteBusinessContinuityPlan."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class AttendanceAndExamsSuiteBusinessContinuityPlanManager(models.Manager):
+    """Custom model manager for AttendanceAndExamsSuiteBusinessContinuityPlan."""
+    def get_queryset(self):
+        return AttendanceAndExamsSuiteBusinessContinuityPlanQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class AttendanceAndExamsSuiteBusinessContinuityPlan(models.Model):
+    """
+    AttendanceAndExamsSuiteBusinessContinuityPlan: Business continuity procedures and failover plan coordinates.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="ATTENDANCE", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@attendance.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = AttendanceAndExamsSuiteBusinessContinuityPlanManager()
+
+    class Meta:
+        db_table = "attendance_attendance_and_exams_suite_businesscontinuityplan"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("AttendanceAndExamsSuiteBusinessContinuityPlan")
+        verbose_name_plural = _("AttendanceAndExamsSuiteBusinessContinuityPlans")
+        indexes = [
+            models.Index(fields=["code", "status"], name="attend_attend_93511473_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_93511473_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_93511473_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_93511473_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class AttendanceAndExamsSuiteGovernanceAttestationRecordQuerySet(models.QuerySet):
+    """Custom QuerySet methods for AttendanceAndExamsSuiteGovernanceAttestationRecord."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class AttendanceAndExamsSuiteGovernanceAttestationRecordManager(models.Manager):
+    """Custom model manager for AttendanceAndExamsSuiteGovernanceAttestationRecord."""
+    def get_queryset(self):
+        return AttendanceAndExamsSuiteGovernanceAttestationRecordQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class AttendanceAndExamsSuiteGovernanceAttestationRecord(models.Model):
+    """
+    AttendanceAndExamsSuiteGovernanceAttestationRecord: Formal institutional governance attestations and sign-offs.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="ATTENDANCE", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@attendance.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = AttendanceAndExamsSuiteGovernanceAttestationRecordManager()
+
+    class Meta:
+        db_table = "attendance_attendance_and_exams_suite_governanceattestationrecord"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("AttendanceAndExamsSuiteGovernanceAttestationRecord")
+        verbose_name_plural = _("AttendanceAndExamsSuiteGovernanceAttestationRecords")
+        indexes = [
+            models.Index(fields=["code", "status"], name="attend_attend_07979721_cd"),
+            models.Index(fields=["created_at"], name="attend_attend_07979721_cr"),
+            models.Index(fields=["priority", "status"], name="attend_attend_07979721_pr"),
+            models.Index(fields=["department_tag", "status"], name="attend_attend_07979721_dp"),
         ]
 
     def __str__(self):

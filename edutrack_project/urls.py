@@ -11,7 +11,7 @@ from django.views.generic import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', RedirectView.as_view(url='/dashboards/', permanent=False), name='index'),
+    path('', RedirectView.as_view(url='/dashboards/dashboards_librarian/', permanent=False), name='index'),
     
     # 17 Enterprise Domain Modules
     path('core/', include('core.urls', namespace='core')),

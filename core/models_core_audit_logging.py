@@ -91,10 +91,10 @@ class CoreAuditLoggingMaster(models.Model):
         verbose_name = _("CoreAuditLoggingMaster")
         verbose_name_plural = _("CoreAuditLoggingMasters")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_f63d70b0_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_f63d70b0_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_f63d70b0_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_f63d70b0_dp"),
         ]
 
     def __str__(self):
@@ -279,10 +279,10 @@ class CoreAuditLoggingConfiguration(models.Model):
         verbose_name = _("CoreAuditLoggingConfiguration")
         verbose_name_plural = _("CoreAuditLoggingConfigurations")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_21a342b4_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_21a342b4_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_21a342b4_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_21a342b4_dp"),
         ]
 
     def __str__(self):
@@ -467,10 +467,10 @@ class CoreAuditLoggingLedger(models.Model):
         verbose_name = _("CoreAuditLoggingLedger")
         verbose_name_plural = _("CoreAuditLoggingLedgers")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_c45eaa15_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_c45eaa15_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_c45eaa15_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_c45eaa15_dp"),
         ]
 
     def __str__(self):
@@ -655,10 +655,10 @@ class CoreAuditLoggingAuditTransaction(models.Model):
         verbose_name = _("CoreAuditLoggingAuditTransaction")
         verbose_name_plural = _("CoreAuditLoggingAuditTransactions")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_fb536b6c_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_fb536b6c_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_fb536b6c_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_fb536b6c_dp"),
         ]
 
     def __str__(self):
@@ -843,10 +843,10 @@ class CoreAuditLoggingScheduleMatrix(models.Model):
         verbose_name = _("CoreAuditLoggingScheduleMatrix")
         verbose_name_plural = _("CoreAuditLoggingScheduleMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_2e8a86c7_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_2e8a86c7_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_2e8a86c7_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_2e8a86c7_dp"),
         ]
 
     def __str__(self):
@@ -1031,10 +1031,10 @@ class CoreAuditLoggingEvaluationMetric(models.Model):
         verbose_name = _("CoreAuditLoggingEvaluationMetric")
         verbose_name_plural = _("CoreAuditLoggingEvaluationMetrics")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_22c02739_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_22c02739_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_22c02739_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_22c02739_dp"),
         ]
 
     def __str__(self):
@@ -1219,10 +1219,10 @@ class CoreAuditLoggingRosterMapping(models.Model):
         verbose_name = _("CoreAuditLoggingRosterMapping")
         verbose_name_plural = _("CoreAuditLoggingRosterMappings")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_b72411ef_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_b72411ef_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_b72411ef_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_b72411ef_dp"),
         ]
 
     def __str__(self):
@@ -1407,10 +1407,10 @@ class CoreAuditLoggingVerificationSignature(models.Model):
         verbose_name = _("CoreAuditLoggingVerificationSignature")
         verbose_name_plural = _("CoreAuditLoggingVerificationSignatures")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_6696d184_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_6696d184_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_6696d184_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_6696d184_dp"),
         ]
 
     def __str__(self):
@@ -1595,10 +1595,10 @@ class CoreAuditLoggingNotificationRule(models.Model):
         verbose_name = _("CoreAuditLoggingNotificationRule")
         verbose_name_plural = _("CoreAuditLoggingNotificationRules")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_5bd9f27f_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_5bd9f27f_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_5bd9f27f_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_5bd9f27f_dp"),
         ]
 
     def __str__(self):
@@ -1783,10 +1783,10 @@ class CoreAuditLoggingAnalyticalSnapshot(models.Model):
         verbose_name = _("CoreAuditLoggingAnalyticalSnapshot")
         verbose_name_plural = _("CoreAuditLoggingAnalyticalSnapshots")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_03ca9f1c_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_03ca9f1c_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_03ca9f1c_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_03ca9f1c_dp"),
         ]
 
     def __str__(self):
@@ -1971,10 +1971,10 @@ class CoreAuditLoggingComplianceLog(models.Model):
         verbose_name = _("CoreAuditLoggingComplianceLog")
         verbose_name_plural = _("CoreAuditLoggingComplianceLogs")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_b5d23991_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_b5d23991_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_b5d23991_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_b5d23991_dp"),
         ]
 
     def __str__(self):
@@ -2159,10 +2159,10 @@ class CoreAuditLoggingIntegrationBridge(models.Model):
         verbose_name = _("CoreAuditLoggingIntegrationBridge")
         verbose_name_plural = _("CoreAuditLoggingIntegrationBridges")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_885f1c64_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_885f1c64_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_885f1c64_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_885f1c64_dp"),
         ]
 
     def __str__(self):
@@ -2347,10 +2347,10 @@ class CoreAuditLoggingSecurityPermit(models.Model):
         verbose_name = _("CoreAuditLoggingSecurityPermit")
         verbose_name_plural = _("CoreAuditLoggingSecurityPermits")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_0ff95073_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_0ff95073_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_0ff95073_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_0ff95073_dp"),
         ]
 
     def __str__(self):
@@ -2535,10 +2535,10 @@ class CoreAuditLoggingDocumentAttachment(models.Model):
         verbose_name = _("CoreAuditLoggingDocumentAttachment")
         verbose_name_plural = _("CoreAuditLoggingDocumentAttachments")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_7eeba032_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_7eeba032_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_7eeba032_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_7eeba032_dp"),
         ]
 
     def __str__(self):
@@ -2723,10 +2723,10 @@ class CoreAuditLoggingLifecycleTransition(models.Model):
         verbose_name = _("CoreAuditLoggingLifecycleTransition")
         verbose_name_plural = _("CoreAuditLoggingLifecycleTransitions")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_240f282f_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_240f282f_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_240f282f_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_240f282f_dp"),
         ]
 
     def __str__(self):
@@ -2911,10 +2911,10 @@ class CoreAuditLoggingDataArchivalRegistry(models.Model):
         verbose_name = _("CoreAuditLoggingDataArchivalRegistry")
         verbose_name_plural = _("CoreAuditLoggingDataArchivalRegistrys")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_5666d230_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_5666d230_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_5666d230_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_5666d230_dp"),
         ]
 
     def __str__(self):
@@ -3099,10 +3099,10 @@ class CoreAuditLoggingTelemetryEventStream(models.Model):
         verbose_name = _("CoreAuditLoggingTelemetryEventStream")
         verbose_name_plural = _("CoreAuditLoggingTelemetryEventStreams")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_71e93ad5_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_71e93ad5_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_71e93ad5_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_71e93ad5_dp"),
         ]
 
     def __str__(self):
@@ -3287,10 +3287,10 @@ class CoreAuditLoggingAccessGrantMatrix(models.Model):
         verbose_name = _("CoreAuditLoggingAccessGrantMatrix")
         verbose_name_plural = _("CoreAuditLoggingAccessGrantMatrixs")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_9286c836_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_9286c836_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_9286c836_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_9286c836_dp"),
         ]
 
     def __str__(self):
@@ -3475,10 +3475,10 @@ class CoreAuditLoggingOperationalQuota(models.Model):
         verbose_name = _("CoreAuditLoggingOperationalQuota")
         verbose_name_plural = _("CoreAuditLoggingOperationalQuotas")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_ed4d114c_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_ed4d114c_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_ed4d114c_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_ed4d114c_dp"),
         ]
 
     def __str__(self):
@@ -3663,10 +3663,10 @@ class CoreAuditLoggingWorkflowAuditCheckpoint(models.Model):
         verbose_name = _("CoreAuditLoggingWorkflowAuditCheckpoint")
         verbose_name_plural = _("CoreAuditLoggingWorkflowAuditCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_2083205c_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_2083205c_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_2083205c_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_2083205c_dp"),
         ]
 
     def __str__(self):
@@ -3851,10 +3851,10 @@ class CoreAuditLoggingDisasterRecoveryCheckpoint(models.Model):
         verbose_name = _("CoreAuditLoggingDisasterRecoveryCheckpoint")
         verbose_name_plural = _("CoreAuditLoggingDisasterRecoveryCheckpoints")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_7411346a_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_7411346a_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_7411346a_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_7411346a_dp"),
         ]
 
     def __str__(self):
@@ -4039,10 +4039,574 @@ class CoreAuditLoggingSLAComplianceRegister(models.Model):
         verbose_name = _("CoreAuditLoggingSLAComplianceRegister")
         verbose_name_plural = _("CoreAuditLoggingSLAComplianceRegisters")
         indexes = [
-            models.Index(fields=["code", "status"], name="core_core_audit_logg_idx"),
-            models.Index(fields=["created_at"], name="core_core_audit_lo_cr_idx"),
-            models.Index(fields=["priority", "status"], name="core_core_audit_l_pr_idx"),
-            models.Index(fields=["department_tag", "status"], name="core_core_audit__dp_idx"),
+            models.Index(fields=["code", "status"], name="core_core_a_84847d9d_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_84847d9d_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_84847d9d_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_84847d9d_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class CoreAuditLoggingIncidentReportRegisterQuerySet(models.QuerySet):
+    """Custom QuerySet methods for CoreAuditLoggingIncidentReportRegister."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class CoreAuditLoggingIncidentReportRegisterManager(models.Manager):
+    """Custom model manager for CoreAuditLoggingIncidentReportRegister."""
+    def get_queryset(self):
+        return CoreAuditLoggingIncidentReportRegisterQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class CoreAuditLoggingIncidentReportRegister(models.Model):
+    """
+    CoreAuditLoggingIncidentReportRegister: Incident ticketing and remediation tracking register.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="CORE", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@core.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = CoreAuditLoggingIncidentReportRegisterManager()
+
+    class Meta:
+        db_table = "core_core_audit_logging_incidentreportregister"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("CoreAuditLoggingIncidentReportRegister")
+        verbose_name_plural = _("CoreAuditLoggingIncidentReportRegisters")
+        indexes = [
+            models.Index(fields=["code", "status"], name="core_core_a_f3ac84ab_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_f3ac84ab_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_f3ac84ab_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_f3ac84ab_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class CoreAuditLoggingBusinessContinuityPlanQuerySet(models.QuerySet):
+    """Custom QuerySet methods for CoreAuditLoggingBusinessContinuityPlan."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class CoreAuditLoggingBusinessContinuityPlanManager(models.Manager):
+    """Custom model manager for CoreAuditLoggingBusinessContinuityPlan."""
+    def get_queryset(self):
+        return CoreAuditLoggingBusinessContinuityPlanQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class CoreAuditLoggingBusinessContinuityPlan(models.Model):
+    """
+    CoreAuditLoggingBusinessContinuityPlan: Business continuity procedures and failover plan coordinates.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="CORE", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@core.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = CoreAuditLoggingBusinessContinuityPlanManager()
+
+    class Meta:
+        db_table = "core_core_audit_logging_businesscontinuityplan"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("CoreAuditLoggingBusinessContinuityPlan")
+        verbose_name_plural = _("CoreAuditLoggingBusinessContinuityPlans")
+        indexes = [
+            models.Index(fields=["code", "status"], name="core_core_a_648764b5_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_648764b5_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_648764b5_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_648764b5_dp"),
+        ]
+
+    def __str__(self):
+        return f"{self.code} - {self.name}"
+
+    def clean(self):
+        super().clean()
+        self.code = self.code.strip().upper()
+        if self.capacity_limit < 0:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Capacity limit cannot be negative."))
+        if self.allocated_count > self.capacity_limit:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Allocated count cannot exceed capacity limit."))
+        if self.alert_threshold_low > self.alert_threshold_high:
+            from django.core.exceptions import ValidationError
+            raise ValidationError(_("Alert low threshold cannot exceed alert high threshold."))
+
+    def is_expired(self) -> bool:
+        """Determines whether this policy or record has passed its expiration date."""
+        if not self.expiration_date:
+            return False
+        return timezone.now().date() > self.expiration_date
+
+    def calculate_utilization(self) -> float:
+        """Calculates percentage utilization against capacity limit."""
+        if not self.capacity_limit or self.capacity_limit == 0:
+            return 0.0
+        return round((float(self.allocated_count) / float(self.capacity_limit)) * 100.0, 2)
+
+    def has_available_capacity(self, delta: int = 1) -> bool:
+        """Validates whether additional allocations can be committed."""
+        return (self.allocated_count + delta) <= self.capacity_limit
+
+    def increment_allocation(self, delta: int = 1) -> None:
+        """Safely increments the committed allocation counter."""
+        if not self.has_available_capacity(delta):
+            from core.exceptions import CapacityExceededException
+            raise CapacityExceededException(f"Cannot allocate {delta} units: Capacity limit reached.")
+        self.allocated_count += delta
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def decrement_allocation(self, delta: int = 1) -> None:
+        """Safely decrements the allocated resource counter."""
+        self.allocated_count = max(0, self.allocated_count - delta)
+        self.save(update_fields=["allocated_count", "updated_at"])
+
+    def mark_as_verified(self, approver: str = "SYSTEM") -> None:
+        """Validates verification state and records signature in metadata."""
+        self.is_verified = True
+        self.metadata["verified_by"] = approver
+        self.metadata["verified_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_verified", "metadata", "updated_at"])
+
+    def lock_record(self, reason: str = "Administrative Lock") -> None:
+        """Freezes entity modifications for audit verification."""
+        self.is_locked = True
+        self.metadata["lock_reason"] = reason
+        self.metadata["locked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def unlock_record(self) -> None:
+        """Releases entity lock following audit review."""
+        self.is_locked = False
+        self.metadata["unlocked_at"] = timezone.now().isoformat()
+        self.save(update_fields=["is_locked", "metadata", "updated_at"])
+
+    def compute_composite_score(self) -> Decimal:
+        """Computes a multi-factor score incorporating rating, priority, and capacity load."""
+        utilization = Decimal(str(self.calculate_utilization()))
+        return round((self.score_rating * Decimal("0.60")) + (Decimal(self.priority) * Decimal("0.20")) + (utilization * Decimal("0.002")), 4)
+
+    def is_escalation_required(self) -> bool:
+        """Determines if utilization exceeds high alert threshold."""
+        return self.calculate_utilization() >= float(self.alert_threshold_high)
+
+    def calculate_depreciation(self, annual_rate: Decimal = Decimal("0.10")) -> Decimal:
+        """Calculates asset depreciation over operational lifecycle."""
+        years = max(1, (timezone.now().date() - self.effective_date).days // 365)
+        depreciated = self.monetary_value * ((Decimal("1.00") - annual_rate) ** years)
+        return round(max(Decimal("0.00"), depreciated), 2)
+
+    def to_summary_dict(self) -> dict:
+        """Exports a standardized dictionary representation for APIs and reports."""
+        return {
+            "code": self.code,
+            "name": self.name,
+            "status": self.status,
+            "priority": self.priority,
+            "department_tag": self.department_tag,
+            "fiscal_code": self.fiscal_code,
+            "approval_authority": self.approval_authority,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "is_locked": self.is_locked,
+            "capacity_limit": self.capacity_limit,
+            "allocated_count": self.allocated_count,
+            "utilization_pct": self.calculate_utilization(),
+            "composite_score": str(self.compute_composite_score()),
+            "monetary_value": str(self.monetary_value),
+            "created_at": self.created_at.isoformat(),
+        }
+
+class CoreAuditLoggingGovernanceAttestationRecordQuerySet(models.QuerySet):
+    """Custom QuerySet methods for CoreAuditLoggingGovernanceAttestationRecord."""
+    def active(self):
+        return self.filter(is_active=True)
+    def recent(self, days: int = 30):
+        cutoff = timezone.now() - timezone.timedelta(days=days)
+        return self.filter(created_at__gte=cutoff)
+    def search(self, query: str):
+        if not query:
+            return self
+        return self.filter(models.Q(code__icontains=query) | models.Q(name__icontains=query))
+    def verified(self):
+        return self.filter(is_verified=True)
+    def by_status(self, status: str):
+        return self.filter(status=status)
+    def priority_ordered(self):
+        return self.order_by("-priority", "-created_at")
+    def capacity_available(self):
+        return self.filter(allocated_count__lt=models.F("capacity_limit"))
+    def threshold_exceeded(self):
+        return self.filter(allocated_count__gte=models.F("capacity_limit"))
+    def with_high_score(self, min_score: Decimal = Decimal("3.00")):
+        return self.filter(score_rating__gte=min_score)
+
+class CoreAuditLoggingGovernanceAttestationRecordManager(models.Manager):
+    """Custom model manager for CoreAuditLoggingGovernanceAttestationRecord."""
+    def get_queryset(self):
+        return CoreAuditLoggingGovernanceAttestationRecordQuerySet(self.model, using=self._db)
+    def active(self):
+        return self.get_queryset().active()
+    def search(self, query: str):
+        return self.get_queryset().search(query)
+    def verified(self):
+        return self.get_queryset().verified()
+    def by_status(self, status: str):
+        return self.get_queryset().by_status(status)
+    def capacity_available(self):
+        return self.get_queryset().capacity_available()
+
+class CoreAuditLoggingGovernanceAttestationRecord(models.Model):
+    """
+    CoreAuditLoggingGovernanceAttestationRecord: Formal institutional governance attestations and sign-offs.
+    Enterprise Grade Institutional Entity with strict audit trails and SQLite optimization.
+    """
+    code = models.CharField(max_length=64, unique=True, db_index=True, verbose_name=_("Entity Code"))
+    name = models.CharField(max_length=255, db_index=True, verbose_name=_("Entity Name"))
+    slug = models.SlugField(max_length=255, unique=True, blank=True, null=True, verbose_name=_("Slug"))
+    description = models.TextField(blank=True, default="", verbose_name=_("Description"))
+    priority = models.PositiveIntegerField(default=1, verbose_name=_("Priority Weight"))
+    status = models.CharField(max_length=32, default="ACTIVE", db_index=True, verbose_name=_("Status"))
+    is_active = models.BooleanField(default=True, db_index=True, verbose_name=_("Active Flag"))
+    is_verified = models.BooleanField(default=False, verbose_name=_("Verified Flag"))
+    is_locked = models.BooleanField(default=False, verbose_name=_("Lock Flag"))
+    score_rating = models.DecimalField(max_digits=5, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Score"))
+    monetary_value = models.DecimalField(max_digits=12, decimal_places=2, default=Decimal("0.00"), verbose_name=_("Monetary Value"))
+    capacity_limit = models.PositiveIntegerField(default=100, verbose_name=_("Capacity Limit"))
+    allocated_count = models.PositiveIntegerField(default=0, verbose_name=_("Allocated Count"))
+    waitlist_count = models.PositiveIntegerField(default=0, verbose_name=_("Waitlist Count"))
+    alert_threshold_low = models.PositiveIntegerField(default=10, verbose_name=_("Alert Low"))
+    alert_threshold_high = models.PositiveIntegerField(default=90, verbose_name=_("Alert High"))
+    renewal_cycle_months = models.PositiveIntegerField(default=12, verbose_name=_("Renewal Months"))
+    department_tag = models.CharField(max_length=64, blank=True, default="CORE", verbose_name=_("Dept Tag"))
+    fiscal_code = models.CharField(max_length=64, blank=True, default="FY-2026", verbose_name=_("Fiscal Code"))
+    approval_authority = models.CharField(max_length=128, blank=True, default="DEAN", verbose_name=_("Approval Authority"))
+    escalation_email = models.EmailField(blank=True, default="compliance@core.edutrack.internal", verbose_name=_("Escalation Email"))
+    effective_date = models.DateField(default=timezone.now, verbose_name=_("Effective Date"))
+    expiration_date = models.DateField(null=True, blank=True, verbose_name=_("Expiration Date"))
+    external_reference = models.CharField(max_length=128, blank=True, default="", verbose_name=_("External Ref"))
+    version_number = models.PositiveIntegerField(default=1, verbose_name=_("Version"))
+    metadata = models.JSONField(default=dict, blank=True, verbose_name=_("Metadata Properties"))
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True, verbose_name=_("Created Timestamp"))
+    updated_at = models.DateTimeField(auto_now=True, verbose_name=_("Updated Timestamp"))
+
+    objects = CoreAuditLoggingGovernanceAttestationRecordManager()
+
+    class Meta:
+        db_table = "core_core_audit_logging_governanceattestationrecord"
+        ordering = ["-created_at", "code"]
+        verbose_name = _("CoreAuditLoggingGovernanceAttestationRecord")
+        verbose_name_plural = _("CoreAuditLoggingGovernanceAttestationRecords")
+        indexes = [
+            models.Index(fields=["code", "status"], name="core_core_a_23210ae4_cd"),
+            models.Index(fields=["created_at"], name="core_core_a_23210ae4_cr"),
+            models.Index(fields=["priority", "status"], name="core_core_a_23210ae4_pr"),
+            models.Index(fields=["department_tag", "status"], name="core_core_a_23210ae4_dp"),
         ]
 
     def __str__(self):
