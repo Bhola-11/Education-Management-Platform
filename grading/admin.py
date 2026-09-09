@@ -1,2 +1,2 @@
 from django.contrib import admin
-from grading.admin_grading_moderation import *
+from grading.admin_grading_gpa_engine import *
