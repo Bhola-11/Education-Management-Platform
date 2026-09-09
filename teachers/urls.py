@@ -1,20 +1,20 @@
 """
-URL Routes for Teachers: Faculty Credentials
+URL Routes for Teachers: Department Affiliations
 """
 
 from django.urls import path
-from teachers import views_teachers_credentials as views
+from teachers import views_teachers_departments as views
 
 app_name = "teachers"
 
 urlpatterns = [
-    path("teachers_credentials/", views.TeachersCredentialsListView.as_view(), name="teachers_credentials_list"),
-    path("teachers_credentials/<int:pk>/", views.TeachersCredentialsDetailView.as_view(), name="teachers_credentials_detail"),
-    path("teachers_credentials/create/", views.TeachersCredentialsCreateView.as_view(), name="teachers_credentials_create"),
-    path("teachers_credentials/<int:pk>/edit/", views.TeachersCredentialsUpdateView.as_view(), name="teachers_credentials_update"),
-    path("teachers_credentials/<int:pk>/delete/", views.TeachersCredentialsDeleteView.as_view(), name="teachers_credentials_delete"),
-    path("teachers_credentials/<int:pk>/print/", views.TeachersCredentialsPrintView.as_view(), name="teachers_credentials_print"),
-    path("teachers_credentials/analytics/", views.TeachersCredentialsAnalyticsView.as_view(), name="teachers_credentials_analytics"),
-    path("teachers_credentials/export/csv/", views.export_teachers_credentials_csv, name="teachers_credentials_export_csv"),
-    path("teachers_credentials/export/json/", views.export_teachers_credentials_json, name="teachers_credentials_export_json"),
+    path("teachers_departments/", views.TeachersDepartmentsListView.as_view(), name="teachers_departments_list"),
+    path("teachers_departments/<int:pk>/", views.TeachersDepartmentsDetailView.as_view(), name="teachers_departments_detail"),
+    path("teachers_departments/create/", views.TeachersDepartmentsCreateView.as_view(), name="teachers_departments_create"),
+    path("teachers_departments/<int:pk>/edit/", views.TeachersDepartmentsUpdateView.as_view(), name="teachers_departments_update"),
+    path("teachers_departments/<int:pk>/delete/", views.TeachersDepartmentsDeleteView.as_view(), name="teachers_departments_delete"),
+    path("teachers_departments/<int:pk>/print/", views.TeachersDepartmentsPrintView.as_view(), name="teachers_departments_print"),
+    path("teachers_departments/analytics/", views.TeachersDepartmentsAnalyticsView.as_view(), name="teachers_departments_analytics"),
+    path("teachers_departments/export/csv/", views.export_teachers_departments_csv, name="teachers_departments_export_csv"),
+    path("teachers_departments/export/json/", views.export_teachers_departments_json, name="teachers_departments_export_json"),
 ]

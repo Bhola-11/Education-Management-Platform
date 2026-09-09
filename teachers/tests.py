@@ -1,2 +1,2 @@
 from django.test import TestCase
-from teachers.tests_teachers_credentials import *
+from teachers.tests_teachers_departments import *
