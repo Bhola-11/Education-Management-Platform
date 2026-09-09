@@ -1,2 +1,2 @@
 from django.test import TestCase
-from timetables.tests_timetables_slots import *
+from timetables.tests_timetables_entry import *
