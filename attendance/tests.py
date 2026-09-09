@@ -1,2 +1,2 @@
 from django.test import TestCase
-from attendance.tests_attendance_daily_student import *
+from attendance.tests_attendance_period_level import *

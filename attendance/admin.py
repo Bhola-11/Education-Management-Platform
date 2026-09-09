@@ -1,2 +1,2 @@
 from django.contrib import admin
-from attendance.admin_attendance_daily_student import *
+from attendance.admin_attendance_period_level import *
