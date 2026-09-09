@@ -1,20 +1,20 @@
 """
-URL Routes for Attendance: Staff Timekeeping
+URL Routes for Attendance: Leave Workflow
 """
 
 from django.urls import path
-from attendance import views_attendance_staff as views
+from attendance import views_attendance_leave_workflow as views
 
 app_name = "attendance"
 
 urlpatterns = [
-    path("attendance_staff/", views.AttendanceStaffListView.as_view(), name="attendance_staff_list"),
-    path("attendance_staff/<int:pk>/", views.AttendanceStaffDetailView.as_view(), name="attendance_staff_detail"),
-    path("attendance_staff/create/", views.AttendanceStaffCreateView.as_view(), name="attendance_staff_create"),
-    path("attendance_staff/<int:pk>/edit/", views.AttendanceStaffUpdateView.as_view(), name="attendance_staff_update"),
-    path("attendance_staff/<int:pk>/delete/", views.AttendanceStaffDeleteView.as_view(), name="attendance_staff_delete"),
-    path("attendance_staff/<int:pk>/print/", views.AttendanceStaffPrintView.as_view(), name="attendance_staff_print"),
-    path("attendance_staff/analytics/", views.AttendanceStaffAnalyticsView.as_view(), name="attendance_staff_analytics"),
-    path("attendance_staff/export/csv/", views.export_attendance_staff_csv, name="attendance_staff_export_csv"),
-    path("attendance_staff/export/json/", views.export_attendance_staff_json, name="attendance_staff_export_json"),
+    path("attendance_leave_workflow/", views.AttendanceLeaveWorkflowListView.as_view(), name="attendance_leave_workflow_list"),
+    path("attendance_leave_workflow/<int:pk>/", views.AttendanceLeaveWorkflowDetailView.as_view(), name="attendance_leave_workflow_detail"),
+    path("attendance_leave_workflow/create/", views.AttendanceLeaveWorkflowCreateView.as_view(), name="attendance_leave_workflow_create"),
+    path("attendance_leave_workflow/<int:pk>/edit/", views.AttendanceLeaveWorkflowUpdateView.as_view(), name="attendance_leave_workflow_update"),
+    path("attendance_leave_workflow/<int:pk>/delete/", views.AttendanceLeaveWorkflowDeleteView.as_view(), name="attendance_leave_workflow_delete"),
+    path("attendance_leave_workflow/<int:pk>/print/", views.AttendanceLeaveWorkflowPrintView.as_view(), name="attendance_leave_workflow_print"),
+    path("attendance_leave_workflow/analytics/", views.AttendanceLeaveWorkflowAnalyticsView.as_view(), name="attendance_leave_workflow_analytics"),
+    path("attendance_leave_workflow/export/csv/", views.export_attendance_leave_workflow_csv, name="attendance_leave_workflow_export_csv"),
+    path("attendance_leave_workflow/export/json/", views.export_attendance_leave_workflow_json, name="attendance_leave_workflow_export_json"),
 ]

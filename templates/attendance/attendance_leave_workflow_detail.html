@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}{{ record.name }} | Leave Workflow{% endblock %}
+
+{% block breadcrumbs %}
+<a href="/dashboards/">Home</a> &raquo; <a href="{% url 'attendance:attendance_leave_workflow_list' %}">Leave Workflow</a> &raquo; <span>{{ record.code }}</span>
+{% endblock %}
+
+{% block page_actions %}
+<a href="{% url 'attendance:attendance_leave_workflow_print' record.pk %}" class="btn btn-secondary" target="_blank">🖨️ Print Layout</a>
+<a href="{% url 'attendance:attendance_leave_workflow_update' record.pk %}" class="btn btn-primary">Edit Record</a>
+<a href="{% url 'attendance:attendance_leave_workflow_list' %}" class="btn btn-secondary">Back to List</a>
+{% endblock %}
+
+{% block content %}
+<div class="detail-card">
+    <h2>{{ record.name }} ({{ record.code }})</h2>
+    <p class="description-text">{{ record.description|default:"No institutional description registered." }}</p>
+    
+    <div class="metrics-grid mt-3">
+        <div class="metric-card">
+            <span class="metric-label">Operational Status</span>
+            <span class="metric-value">{{ record.status }}</span>
+        </div>
+        <div class="metric-card">
+            <span class="metric-label">Capacity Limit</span>
+            <span class="metric-value">{{ record.capacity_limit }}</span>
+        </div>
+        <div class="metric-card">
+            <span class="metric-label">Allocated Units</span>
+            <span class="metric-value">{{ record.allocated_count }}</span>
+        </div>
+        <div class="metric-card">
+            <span class="metric-label">Utilization</span>
+            <span class="metric-value">{{ record.calculate_utilization }}%</span>
+        </div>
+        <div class="metric-card">
+            <span class="metric-label">Valuation</span>
+            <span class="metric-value">${{ record.monetary_value }}</span>
+        </div>
+        <div class="metric-card">
+            <span class="metric-label">Effective Date</span>
+            <span class="metric-value">{{ record.effective_date|date:"Y-m-d" }}</span>
+        </div>
+    </div>
+    
+    <div class="sub-items-section mt-4">
+        <h3>Audit & State Mutations</h3>
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Tx Code</th>
+                    <th>Action</th>
+                    <th>Status</th>
+                    <th>Timestamp</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for tx in transactions %}
+                <tr>
+                    <td>{{ tx.code }}</td>
+                    <td>{{ tx.name }}</td>
+                    <td><span class="badge badge-info">{{ tx.status }}</span></td>
+                    <td>{{ tx.created_at|date:"Y-m-d H:i" }}</td>
+                </tr>
+                {% empty %}
+                <tr><td colspan="4">No historical audit transactions recorded.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
