@@ -1,2 +1,2 @@
 from django.test import TestCase
-from fees.tests_fees_payments import *
+from fees.tests_fees_reconciliation import *

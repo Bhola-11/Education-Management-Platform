@@ -1,20 +1,20 @@
 """
-URL Routes for Fees: Payment Processing
+URL Routes for Fees: Fee Ledger & Accounting
 """
 
 from django.urls import path
-from fees import views_fees_payments as views
+from fees import views_fees_reconciliation as views
 
 app_name = "fees"
 
 urlpatterns = [
-    path("fees_payments/", views.FeesPaymentsListView.as_view(), name="fees_payments_list"),
-    path("fees_payments/<int:pk>/", views.FeesPaymentsDetailView.as_view(), name="fees_payments_detail"),
-    path("fees_payments/create/", views.FeesPaymentsCreateView.as_view(), name="fees_payments_create"),
-    path("fees_payments/<int:pk>/edit/", views.FeesPaymentsUpdateView.as_view(), name="fees_payments_update"),
-    path("fees_payments/<int:pk>/delete/", views.FeesPaymentsDeleteView.as_view(), name="fees_payments_delete"),
-    path("fees_payments/<int:pk>/print/", views.FeesPaymentsPrintView.as_view(), name="fees_payments_print"),
-    path("fees_payments/analytics/", views.FeesPaymentsAnalyticsView.as_view(), name="fees_payments_analytics"),
-    path("fees_payments/export/csv/", views.export_fees_payments_csv, name="fees_payments_export_csv"),
-    path("fees_payments/export/json/", views.export_fees_payments_json, name="fees_payments_export_json"),
+    path("fees_reconciliation/", views.FeesReconciliationListView.as_view(), name="fees_reconciliation_list"),
+    path("fees_reconciliation/<int:pk>/", views.FeesReconciliationDetailView.as_view(), name="fees_reconciliation_detail"),
+    path("fees_reconciliation/create/", views.FeesReconciliationCreateView.as_view(), name="fees_reconciliation_create"),
+    path("fees_reconciliation/<int:pk>/edit/", views.FeesReconciliationUpdateView.as_view(), name="fees_reconciliation_update"),
+    path("fees_reconciliation/<int:pk>/delete/", views.FeesReconciliationDeleteView.as_view(), name="fees_reconciliation_delete"),
+    path("fees_reconciliation/<int:pk>/print/", views.FeesReconciliationPrintView.as_view(), name="fees_reconciliation_print"),
+    path("fees_reconciliation/analytics/", views.FeesReconciliationAnalyticsView.as_view(), name="fees_reconciliation_analytics"),
+    path("fees_reconciliation/export/csv/", views.export_fees_reconciliation_csv, name="fees_reconciliation_export_csv"),
+    path("fees_reconciliation/export/json/", views.export_fees_reconciliation_json, name="fees_reconciliation_export_json"),
 ]
