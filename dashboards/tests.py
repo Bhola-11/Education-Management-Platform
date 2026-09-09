@@ -1,2 +1,2 @@
 from django.test import TestCase
-from dashboards.tests_dashboards_teacher import *
+from dashboards.tests_dashboards_student import *
