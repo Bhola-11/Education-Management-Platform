@@ -1,20 +1,20 @@
 """
-URL Routes for Notifications: Notification Center
+URL Routes for Notifications: Email Delivery Queue
 """
 
 from django.urls import path
-from notifications import views_notifications_center as views
+from notifications import views_notifications_email as views
 
 app_name = "notifications"
 
 urlpatterns = [
-    path("notifications_center/", views.NotificationsCenterListView.as_view(), name="notifications_center_list"),
-    path("notifications_center/<int:pk>/", views.NotificationsCenterDetailView.as_view(), name="notifications_center_detail"),
-    path("notifications_center/create/", views.NotificationsCenterCreateView.as_view(), name="notifications_center_create"),
-    path("notifications_center/<int:pk>/edit/", views.NotificationsCenterUpdateView.as_view(), name="notifications_center_update"),
-    path("notifications_center/<int:pk>/delete/", views.NotificationsCenterDeleteView.as_view(), name="notifications_center_delete"),
-    path("notifications_center/<int:pk>/print/", views.NotificationsCenterPrintView.as_view(), name="notifications_center_print"),
-    path("notifications_center/analytics/", views.NotificationsCenterAnalyticsView.as_view(), name="notifications_center_analytics"),
-    path("notifications_center/export/csv/", views.export_notifications_center_csv, name="notifications_center_export_csv"),
-    path("notifications_center/export/json/", views.export_notifications_center_json, name="notifications_center_export_json"),
+    path("notifications_email/", views.NotificationsEmailListView.as_view(), name="notifications_email_list"),
+    path("notifications_email/<int:pk>/", views.NotificationsEmailDetailView.as_view(), name="notifications_email_detail"),
+    path("notifications_email/create/", views.NotificationsEmailCreateView.as_view(), name="notifications_email_create"),
+    path("notifications_email/<int:pk>/edit/", views.NotificationsEmailUpdateView.as_view(), name="notifications_email_update"),
+    path("notifications_email/<int:pk>/delete/", views.NotificationsEmailDeleteView.as_view(), name="notifications_email_delete"),
+    path("notifications_email/<int:pk>/print/", views.NotificationsEmailPrintView.as_view(), name="notifications_email_print"),
+    path("notifications_email/analytics/", views.NotificationsEmailAnalyticsView.as_view(), name="notifications_email_analytics"),
+    path("notifications_email/export/csv/", views.export_notifications_email_csv, name="notifications_email_export_csv"),
+    path("notifications_email/export/json/", views.export_notifications_email_json, name="notifications_email_export_json"),
 ]
