@@ -1,2 +1,2 @@
 from django.db import models
-from certificates.models_certificates_templates import *
+from certificates.models_certificates_issuance import *
