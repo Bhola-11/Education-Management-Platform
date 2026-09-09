@@ -1,20 +1,20 @@
 """
-URL Routes for Analytics: Institutional Financial Analytics
+URL Routes for Analytics: Attendance Attrition Models
 """
 
 from django.urls import path
-from analytics import views_analytics_financial as views
+from analytics import views_analytics_attendance_attrition as views
 
 app_name = "analytics"
 
 urlpatterns = [
-    path("analytics_financial/", views.AnalyticsFinancialListView.as_view(), name="analytics_financial_list"),
-    path("analytics_financial/<int:pk>/", views.AnalyticsFinancialDetailView.as_view(), name="analytics_financial_detail"),
-    path("analytics_financial/create/", views.AnalyticsFinancialCreateView.as_view(), name="analytics_financial_create"),
-    path("analytics_financial/<int:pk>/edit/", views.AnalyticsFinancialUpdateView.as_view(), name="analytics_financial_update"),
-    path("analytics_financial/<int:pk>/delete/", views.AnalyticsFinancialDeleteView.as_view(), name="analytics_financial_delete"),
-    path("analytics_financial/<int:pk>/print/", views.AnalyticsFinancialPrintView.as_view(), name="analytics_financial_print"),
-    path("analytics_financial/analytics/", views.AnalyticsFinancialAnalyticsView.as_view(), name="analytics_financial_analytics"),
-    path("analytics_financial/export/csv/", views.export_analytics_financial_csv, name="analytics_financial_export_csv"),
-    path("analytics_financial/export/json/", views.export_analytics_financial_json, name="analytics_financial_export_json"),
+    path("analytics_attendance_attrition/", views.AnalyticsAttendanceAttritionListView.as_view(), name="analytics_attendance_attrition_list"),
+    path("analytics_attendance_attrition/<int:pk>/", views.AnalyticsAttendanceAttritionDetailView.as_view(), name="analytics_attendance_attrition_detail"),
+    path("analytics_attendance_attrition/create/", views.AnalyticsAttendanceAttritionCreateView.as_view(), name="analytics_attendance_attrition_create"),
+    path("analytics_attendance_attrition/<int:pk>/edit/", views.AnalyticsAttendanceAttritionUpdateView.as_view(), name="analytics_attendance_attrition_update"),
+    path("analytics_attendance_attrition/<int:pk>/delete/", views.AnalyticsAttendanceAttritionDeleteView.as_view(), name="analytics_attendance_attrition_delete"),
+    path("analytics_attendance_attrition/<int:pk>/print/", views.AnalyticsAttendanceAttritionPrintView.as_view(), name="analytics_attendance_attrition_print"),
+    path("analytics_attendance_attrition/analytics/", views.AnalyticsAttendanceAttritionAnalyticsView.as_view(), name="analytics_attendance_attrition_analytics"),
+    path("analytics_attendance_attrition/export/csv/", views.export_analytics_attendance_attrition_csv, name="analytics_attendance_attrition_export_csv"),
+    path("analytics_attendance_attrition/export/json/", views.export_analytics_attendance_attrition_json, name="analytics_attendance_attrition_export_json"),
 ]
