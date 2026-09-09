@@ -1,20 +1,20 @@
 """
-URL Routes for Academics: Programs & Degrees
+URL Routes for Academics: Academic Calendar
 """
 
 from django.urls import path
-from academics import views_academics_programs as views
+from academics import views_academics_calendar as views
 
 app_name = "academics"
 
 urlpatterns = [
-    path("academics_programs/", views.AcademicsProgramsListView.as_view(), name="academics_programs_list"),
-    path("academics_programs/<int:pk>/", views.AcademicsProgramsDetailView.as_view(), name="academics_programs_detail"),
-    path("academics_programs/create/", views.AcademicsProgramsCreateView.as_view(), name="academics_programs_create"),
-    path("academics_programs/<int:pk>/edit/", views.AcademicsProgramsUpdateView.as_view(), name="academics_programs_update"),
-    path("academics_programs/<int:pk>/delete/", views.AcademicsProgramsDeleteView.as_view(), name="academics_programs_delete"),
-    path("academics_programs/<int:pk>/print/", views.AcademicsProgramsPrintView.as_view(), name="academics_programs_print"),
-    path("academics_programs/analytics/", views.AcademicsProgramsAnalyticsView.as_view(), name="academics_programs_analytics"),
-    path("academics_programs/export/csv/", views.export_academics_programs_csv, name="academics_programs_export_csv"),
-    path("academics_programs/export/json/", views.export_academics_programs_json, name="academics_programs_export_json"),
+    path("academics_calendar/", views.AcademicsCalendarListView.as_view(), name="academics_calendar_list"),
+    path("academics_calendar/<int:pk>/", views.AcademicsCalendarDetailView.as_view(), name="academics_calendar_detail"),
+    path("academics_calendar/create/", views.AcademicsCalendarCreateView.as_view(), name="academics_calendar_create"),
+    path("academics_calendar/<int:pk>/edit/", views.AcademicsCalendarUpdateView.as_view(), name="academics_calendar_update"),
+    path("academics_calendar/<int:pk>/delete/", views.AcademicsCalendarDeleteView.as_view(), name="academics_calendar_delete"),
+    path("academics_calendar/<int:pk>/print/", views.AcademicsCalendarPrintView.as_view(), name="academics_calendar_print"),
+    path("academics_calendar/analytics/", views.AcademicsCalendarAnalyticsView.as_view(), name="academics_calendar_analytics"),
+    path("academics_calendar/export/csv/", views.export_academics_calendar_csv, name="academics_calendar_export_csv"),
+    path("academics_calendar/export/json/", views.export_academics_calendar_json, name="academics_calendar_export_json"),
 ]
