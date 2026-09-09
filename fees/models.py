@@ -1,2 +1,2 @@
 from django.db import models
-from fees.models_fees_structures import *
+from fees.models_fees_invoicing import *
