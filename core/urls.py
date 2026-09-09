@@ -1,20 +1,20 @@
 """
-URL Routes for Core: Core Architecture
+URL Routes for Core: Global Search Indexer
 """
 
 from django.urls import path
-from core import views_core_base_models as views
+from core import views_core_global_search as views
 
 app_name = "core"
 
 urlpatterns = [
-    path("core_base_models/", views.CoreBaseModelsListView.as_view(), name="core_base_models_list"),
-    path("core_base_models/<int:pk>/", views.CoreBaseModelsDetailView.as_view(), name="core_base_models_detail"),
-    path("core_base_models/create/", views.CoreBaseModelsCreateView.as_view(), name="core_base_models_create"),
-    path("core_base_models/<int:pk>/edit/", views.CoreBaseModelsUpdateView.as_view(), name="core_base_models_update"),
-    path("core_base_models/<int:pk>/delete/", views.CoreBaseModelsDeleteView.as_view(), name="core_base_models_delete"),
-    path("core_base_models/<int:pk>/print/", views.CoreBaseModelsPrintView.as_view(), name="core_base_models_print"),
-    path("core_base_models/analytics/", views.CoreBaseModelsAnalyticsView.as_view(), name="core_base_models_analytics"),
-    path("core_base_models/export/csv/", views.export_core_base_models_csv, name="core_base_models_export_csv"),
-    path("core_base_models/export/json/", views.export_core_base_models_json, name="core_base_models_export_json"),
+    path("core_global_search/", views.CoreGlobalSearchListView.as_view(), name="core_global_search_list"),
+    path("core_global_search/<int:pk>/", views.CoreGlobalSearchDetailView.as_view(), name="core_global_search_detail"),
+    path("core_global_search/create/", views.CoreGlobalSearchCreateView.as_view(), name="core_global_search_create"),
+    path("core_global_search/<int:pk>/edit/", views.CoreGlobalSearchUpdateView.as_view(), name="core_global_search_update"),
+    path("core_global_search/<int:pk>/delete/", views.CoreGlobalSearchDeleteView.as_view(), name="core_global_search_delete"),
+    path("core_global_search/<int:pk>/print/", views.CoreGlobalSearchPrintView.as_view(), name="core_global_search_print"),
+    path("core_global_search/analytics/", views.CoreGlobalSearchAnalyticsView.as_view(), name="core_global_search_analytics"),
+    path("core_global_search/export/csv/", views.export_core_global_search_csv, name="core_global_search_export_csv"),
+    path("core_global_search/export/json/", views.export_core_global_search_json, name="core_global_search_export_json"),
 ]
