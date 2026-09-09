@@ -1,2 +1,2 @@
 from django.test import TestCase
-from certificates.tests_certificates_verification import *
+from certificates.tests_certificates_revocation import *
