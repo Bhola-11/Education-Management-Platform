@@ -1,2 +1,2 @@
 from django.contrib import admin
-from fees.admin_fees_structures import *
+from fees.admin_fees_invoicing import *
