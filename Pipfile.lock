@@ -1,0 +1,20 @@
+{
+    "_meta": {
+        "hash": {"sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"},
+        "pipfile-spec": 6,
+        "requires": {"python_version": "3.11"},
+        "sources": [{"name": "pypi", "url": "https://pypi.org/simple", "verify_ssl": true}]
+    },
+    "default": {
+        "asgiref": {"version": "==3.11.0"},
+        "django": {"version": "==5.0.6"},
+        "django-environ": {"version": "==0.11.2"},
+        "sqlparse": {"version": "==0.5.5"},
+        "tzdata": {"version": "==2025.3"}
+    },
+    "develop": {
+        "pytest": {"version": "==9.1.1"},
+        "pytest-cov": {"version": "==7.1.0"},
+        "pytest-django": {"version": "==4.14.0"}
+    }
+}
