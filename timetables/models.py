@@ -1,2 +1,2 @@
 from django.db import models
-from timetables.models_timetables_substitutions import *
+from timetables.models_timetables_views_grid import *

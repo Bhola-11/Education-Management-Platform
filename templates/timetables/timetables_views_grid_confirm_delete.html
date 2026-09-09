@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Confirm Deletion | {{ object.name }}{% endblock %}
+
+{% block breadcrumbs %}
+<a href="/dashboards/">Home</a> &raquo; <a href="{% url 'timetables:timetables_views_grid_list' %}">Timetable Visualizer</a> &raquo; <span>Delete</span>
+{% endblock %}
+
+{% block content %}
+<div class="confirm-delete-card">
+    <h2>Confirm Record Removal</h2>
+    <p>Are you certain you wish to delete the Timetable Visualizer record <strong>"{{ object.name }}" ({{ object.code }})</strong>?</p>
+    <p class="text-danger">Notice: This action permanently cascades across linked entities.</p>
+    
+    <form method="POST">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Confirm Delete</button>
+        <a href="{% url 'timetables:timetables_views_grid_list' %}" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+{% endblock %}

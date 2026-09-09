@@ -1,20 +1,20 @@
 """
-URL Routes for Timetables: Faculty Substitutions
+URL Routes for Timetables: Timetable Visualizer
 """
 
 from django.urls import path
-from timetables import views_timetables_substitutions as views
+from timetables import views_timetables_views_grid as views
 
 app_name = "timetables"
 
 urlpatterns = [
-    path("timetables_substitutions/", views.TimetablesSubstitutionsListView.as_view(), name="timetables_substitutions_list"),
-    path("timetables_substitutions/<int:pk>/", views.TimetablesSubstitutionsDetailView.as_view(), name="timetables_substitutions_detail"),
-    path("timetables_substitutions/create/", views.TimetablesSubstitutionsCreateView.as_view(), name="timetables_substitutions_create"),
-    path("timetables_substitutions/<int:pk>/edit/", views.TimetablesSubstitutionsUpdateView.as_view(), name="timetables_substitutions_update"),
-    path("timetables_substitutions/<int:pk>/delete/", views.TimetablesSubstitutionsDeleteView.as_view(), name="timetables_substitutions_delete"),
-    path("timetables_substitutions/<int:pk>/print/", views.TimetablesSubstitutionsPrintView.as_view(), name="timetables_substitutions_print"),
-    path("timetables_substitutions/analytics/", views.TimetablesSubstitutionsAnalyticsView.as_view(), name="timetables_substitutions_analytics"),
-    path("timetables_substitutions/export/csv/", views.export_timetables_substitutions_csv, name="timetables_substitutions_export_csv"),
-    path("timetables_substitutions/export/json/", views.export_timetables_substitutions_json, name="timetables_substitutions_export_json"),
+    path("timetables_views_grid/", views.TimetablesViewsGridListView.as_view(), name="timetables_views_grid_list"),
+    path("timetables_views_grid/<int:pk>/", views.TimetablesViewsGridDetailView.as_view(), name="timetables_views_grid_detail"),
+    path("timetables_views_grid/create/", views.TimetablesViewsGridCreateView.as_view(), name="timetables_views_grid_create"),
+    path("timetables_views_grid/<int:pk>/edit/", views.TimetablesViewsGridUpdateView.as_view(), name="timetables_views_grid_update"),
+    path("timetables_views_grid/<int:pk>/delete/", views.TimetablesViewsGridDeleteView.as_view(), name="timetables_views_grid_delete"),
+    path("timetables_views_grid/<int:pk>/print/", views.TimetablesViewsGridPrintView.as_view(), name="timetables_views_grid_print"),
+    path("timetables_views_grid/analytics/", views.TimetablesViewsGridAnalyticsView.as_view(), name="timetables_views_grid_analytics"),
+    path("timetables_views_grid/export/csv/", views.export_timetables_views_grid_csv, name="timetables_views_grid_export_csv"),
+    path("timetables_views_grid/export/json/", views.export_timetables_views_grid_json, name="timetables_views_grid_export_json"),
 ]
