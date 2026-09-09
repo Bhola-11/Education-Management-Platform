@@ -1,2 +1,2 @@
 from django.db import models
-from notifications.models_notifications_center import *
+from notifications.models_notifications_email import *
