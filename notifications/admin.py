@@ -1,2 +1,2 @@
 from django.contrib import admin
-from notifications.admin_notifications_broadcast import *
+from notifications.admin_notifications_preferences import *
