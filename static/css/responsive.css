@@ -1,0 +1,7 @@
+/* Mobile and Tablet Breakpoint Standards */
+@media (max-width: 768px) {
+    .app-layout { flex-direction: column; }
+    .app-sidebar { width: 100%; height: auto; }
+    .kpi-banner-grid, .metrics-grid { grid-template-columns: 1fr; }
+    .content-area { padding: 1rem; }
+}
