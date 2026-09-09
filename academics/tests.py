@@ -1,2 +1,2 @@
 from django.test import TestCase
-from academics.tests_academics_courses import *
+from academics.tests_academics_subjects import *
