@@ -1,0 +1,1 @@
+"""EduTrack academics package."""

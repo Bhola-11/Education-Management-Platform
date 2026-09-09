@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}EduTrack Enterprise Platform{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    {% block extra_css %}{% endblock %}
+</head>
+<body class="edutrack-body">
+    <div class="app-layout">
+        {% include "includes/sidebar.html" %}
+        <div class="main-viewport">
+            {% include "includes/header.html" %}
+            {% include "includes/messages.html" %}
+            <main class="content-area">
+                <div class="content-header mb-3">
+                    <div class="breadcrumbs">{% block breadcrumbs %}{% endblock %}</div>
+                    <div class="actions">{% block page_actions %}{% endblock %}</div>
+                </div>
+                {% block content %}{% endblock %}
+            </main>
+            {% include "includes/footer.html" %}
+        </div>
+    </div>
+    <script src="/static/js/app.js"></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
