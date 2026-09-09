@@ -1,20 +1,20 @@
 """
-URL Routes for Assignments: Assignment Grading
+URL Routes for Assignments: Academic Integrity
 """
 
 from django.urls import path
-from assignments import views_assignments_grading as views
+from assignments import views_assignments_plagiarism as views
 
 app_name = "assignments"
 
 urlpatterns = [
-    path("assignments_grading/", views.AssignmentsGradingListView.as_view(), name="assignments_grading_list"),
-    path("assignments_grading/<int:pk>/", views.AssignmentsGradingDetailView.as_view(), name="assignments_grading_detail"),
-    path("assignments_grading/create/", views.AssignmentsGradingCreateView.as_view(), name="assignments_grading_create"),
-    path("assignments_grading/<int:pk>/edit/", views.AssignmentsGradingUpdateView.as_view(), name="assignments_grading_update"),
-    path("assignments_grading/<int:pk>/delete/", views.AssignmentsGradingDeleteView.as_view(), name="assignments_grading_delete"),
-    path("assignments_grading/<int:pk>/print/", views.AssignmentsGradingPrintView.as_view(), name="assignments_grading_print"),
-    path("assignments_grading/analytics/", views.AssignmentsGradingAnalyticsView.as_view(), name="assignments_grading_analytics"),
-    path("assignments_grading/export/csv/", views.export_assignments_grading_csv, name="assignments_grading_export_csv"),
-    path("assignments_grading/export/json/", views.export_assignments_grading_json, name="assignments_grading_export_json"),
+    path("assignments_plagiarism/", views.AssignmentsPlagiarismListView.as_view(), name="assignments_plagiarism_list"),
+    path("assignments_plagiarism/<int:pk>/", views.AssignmentsPlagiarismDetailView.as_view(), name="assignments_plagiarism_detail"),
+    path("assignments_plagiarism/create/", views.AssignmentsPlagiarismCreateView.as_view(), name="assignments_plagiarism_create"),
+    path("assignments_plagiarism/<int:pk>/edit/", views.AssignmentsPlagiarismUpdateView.as_view(), name="assignments_plagiarism_update"),
+    path("assignments_plagiarism/<int:pk>/delete/", views.AssignmentsPlagiarismDeleteView.as_view(), name="assignments_plagiarism_delete"),
+    path("assignments_plagiarism/<int:pk>/print/", views.AssignmentsPlagiarismPrintView.as_view(), name="assignments_plagiarism_print"),
+    path("assignments_plagiarism/analytics/", views.AssignmentsPlagiarismAnalyticsView.as_view(), name="assignments_plagiarism_analytics"),
+    path("assignments_plagiarism/export/csv/", views.export_assignments_plagiarism_csv, name="assignments_plagiarism_export_csv"),
+    path("assignments_plagiarism/export/json/", views.export_assignments_plagiarism_json, name="assignments_plagiarism_export_json"),
 ]
