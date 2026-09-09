@@ -1,2 +1,2 @@
 from django.db import models
-from library.models_library_fines import *
+from library.models_library_opac_views import *
