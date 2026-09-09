@@ -1,20 +1,20 @@
 """
-URL Routes for Certificates: Cryptographic Verification
+URL Routes for Certificates: Certificate Revocation Registry
 """
 
 from django.urls import path
-from certificates import views_certificates_verification as views
+from certificates import views_certificates_revocation as views
 
 app_name = "certificates"
 
 urlpatterns = [
-    path("certificates_verification/", views.CertificatesVerificationListView.as_view(), name="certificates_verification_list"),
-    path("certificates_verification/<int:pk>/", views.CertificatesVerificationDetailView.as_view(), name="certificates_verification_detail"),
-    path("certificates_verification/create/", views.CertificatesVerificationCreateView.as_view(), name="certificates_verification_create"),
-    path("certificates_verification/<int:pk>/edit/", views.CertificatesVerificationUpdateView.as_view(), name="certificates_verification_update"),
-    path("certificates_verification/<int:pk>/delete/", views.CertificatesVerificationDeleteView.as_view(), name="certificates_verification_delete"),
-    path("certificates_verification/<int:pk>/print/", views.CertificatesVerificationPrintView.as_view(), name="certificates_verification_print"),
-    path("certificates_verification/analytics/", views.CertificatesVerificationAnalyticsView.as_view(), name="certificates_verification_analytics"),
-    path("certificates_verification/export/csv/", views.export_certificates_verification_csv, name="certificates_verification_export_csv"),
-    path("certificates_verification/export/json/", views.export_certificates_verification_json, name="certificates_verification_export_json"),
+    path("certificates_revocation/", views.CertificatesRevocationListView.as_view(), name="certificates_revocation_list"),
+    path("certificates_revocation/<int:pk>/", views.CertificatesRevocationDetailView.as_view(), name="certificates_revocation_detail"),
+    path("certificates_revocation/create/", views.CertificatesRevocationCreateView.as_view(), name="certificates_revocation_create"),
+    path("certificates_revocation/<int:pk>/edit/", views.CertificatesRevocationUpdateView.as_view(), name="certificates_revocation_update"),
+    path("certificates_revocation/<int:pk>/delete/", views.CertificatesRevocationDeleteView.as_view(), name="certificates_revocation_delete"),
+    path("certificates_revocation/<int:pk>/print/", views.CertificatesRevocationPrintView.as_view(), name="certificates_revocation_print"),
+    path("certificates_revocation/analytics/", views.CertificatesRevocationAnalyticsView.as_view(), name="certificates_revocation_analytics"),
+    path("certificates_revocation/export/csv/", views.export_certificates_revocation_csv, name="certificates_revocation_export_csv"),
+    path("certificates_revocation/export/json/", views.export_certificates_revocation_json, name="certificates_revocation_export_json"),
 ]
