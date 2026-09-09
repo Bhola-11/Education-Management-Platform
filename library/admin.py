@@ -1,2 +1,2 @@
 from django.contrib import admin
-from library.admin_library_reservations import *
+from library.admin_library_fines import *
