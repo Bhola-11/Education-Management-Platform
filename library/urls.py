@@ -1,20 +1,20 @@
 """
-URL Routes for Library: Book Circulation Desk
+URL Routes for Library: Reservations & Holds
 """
 
 from django.urls import path
-from library import views_library_circulation as views
+from library import views_library_reservations as views
 
 app_name = "library"
 
 urlpatterns = [
-    path("library_circulation/", views.LibraryCirculationListView.as_view(), name="library_circulation_list"),
-    path("library_circulation/<int:pk>/", views.LibraryCirculationDetailView.as_view(), name="library_circulation_detail"),
-    path("library_circulation/create/", views.LibraryCirculationCreateView.as_view(), name="library_circulation_create"),
-    path("library_circulation/<int:pk>/edit/", views.LibraryCirculationUpdateView.as_view(), name="library_circulation_update"),
-    path("library_circulation/<int:pk>/delete/", views.LibraryCirculationDeleteView.as_view(), name="library_circulation_delete"),
-    path("library_circulation/<int:pk>/print/", views.LibraryCirculationPrintView.as_view(), name="library_circulation_print"),
-    path("library_circulation/analytics/", views.LibraryCirculationAnalyticsView.as_view(), name="library_circulation_analytics"),
-    path("library_circulation/export/csv/", views.export_library_circulation_csv, name="library_circulation_export_csv"),
-    path("library_circulation/export/json/", views.export_library_circulation_json, name="library_circulation_export_json"),
+    path("library_reservations/", views.LibraryReservationsListView.as_view(), name="library_reservations_list"),
+    path("library_reservations/<int:pk>/", views.LibraryReservationsDetailView.as_view(), name="library_reservations_detail"),
+    path("library_reservations/create/", views.LibraryReservationsCreateView.as_view(), name="library_reservations_create"),
+    path("library_reservations/<int:pk>/edit/", views.LibraryReservationsUpdateView.as_view(), name="library_reservations_update"),
+    path("library_reservations/<int:pk>/delete/", views.LibraryReservationsDeleteView.as_view(), name="library_reservations_delete"),
+    path("library_reservations/<int:pk>/print/", views.LibraryReservationsPrintView.as_view(), name="library_reservations_print"),
+    path("library_reservations/analytics/", views.LibraryReservationsAnalyticsView.as_view(), name="library_reservations_analytics"),
+    path("library_reservations/export/csv/", views.export_library_reservations_csv, name="library_reservations_export_csv"),
+    path("library_reservations/export/json/", views.export_library_reservations_json, name="library_reservations_export_json"),
 ]
