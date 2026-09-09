@@ -1,2 +1,2 @@
 from django.test import TestCase
-from library.tests_library_circulation import *
+from library.tests_library_reservations import *
