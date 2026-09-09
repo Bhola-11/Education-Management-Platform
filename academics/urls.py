@@ -1,20 +1,20 @@
 """
-URL Routes for Academics: Course Catalog
+URL Routes for Academics: Subject Architecture
 """
 
 from django.urls import path
-from academics import views_academics_courses as views
+from academics import views_academics_subjects as views
 
 app_name = "academics"
 
 urlpatterns = [
-    path("academics_courses/", views.AcademicsCoursesListView.as_view(), name="academics_courses_list"),
-    path("academics_courses/<int:pk>/", views.AcademicsCoursesDetailView.as_view(), name="academics_courses_detail"),
-    path("academics_courses/create/", views.AcademicsCoursesCreateView.as_view(), name="academics_courses_create"),
-    path("academics_courses/<int:pk>/edit/", views.AcademicsCoursesUpdateView.as_view(), name="academics_courses_update"),
-    path("academics_courses/<int:pk>/delete/", views.AcademicsCoursesDeleteView.as_view(), name="academics_courses_delete"),
-    path("academics_courses/<int:pk>/print/", views.AcademicsCoursesPrintView.as_view(), name="academics_courses_print"),
-    path("academics_courses/analytics/", views.AcademicsCoursesAnalyticsView.as_view(), name="academics_courses_analytics"),
-    path("academics_courses/export/csv/", views.export_academics_courses_csv, name="academics_courses_export_csv"),
-    path("academics_courses/export/json/", views.export_academics_courses_json, name="academics_courses_export_json"),
+    path("academics_subjects/", views.AcademicsSubjectsListView.as_view(), name="academics_subjects_list"),
+    path("academics_subjects/<int:pk>/", views.AcademicsSubjectsDetailView.as_view(), name="academics_subjects_detail"),
+    path("academics_subjects/create/", views.AcademicsSubjectsCreateView.as_view(), name="academics_subjects_create"),
+    path("academics_subjects/<int:pk>/edit/", views.AcademicsSubjectsUpdateView.as_view(), name="academics_subjects_update"),
+    path("academics_subjects/<int:pk>/delete/", views.AcademicsSubjectsDeleteView.as_view(), name="academics_subjects_delete"),
+    path("academics_subjects/<int:pk>/print/", views.AcademicsSubjectsPrintView.as_view(), name="academics_subjects_print"),
+    path("academics_subjects/analytics/", views.AcademicsSubjectsAnalyticsView.as_view(), name="academics_subjects_analytics"),
+    path("academics_subjects/export/csv/", views.export_academics_subjects_csv, name="academics_subjects_export_csv"),
+    path("academics_subjects/export/json/", views.export_academics_subjects_json, name="academics_subjects_export_json"),
 ]
