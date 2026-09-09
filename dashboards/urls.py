@@ -1,20 +1,20 @@
 """
-URL Routes for Dashboards: Executive Dashboard
+URL Routes for Dashboards: Dean Academic Dashboard
 """
 
 from django.urls import path
-from dashboards import views_dashboards_admin as views
+from dashboards import views_dashboards_principal as views
 
 app_name = "dashboards"
 
 urlpatterns = [
-    path("dashboards_admin/", views.DashboardsAdminListView.as_view(), name="dashboards_admin_list"),
-    path("dashboards_admin/<int:pk>/", views.DashboardsAdminDetailView.as_view(), name="dashboards_admin_detail"),
-    path("dashboards_admin/create/", views.DashboardsAdminCreateView.as_view(), name="dashboards_admin_create"),
-    path("dashboards_admin/<int:pk>/edit/", views.DashboardsAdminUpdateView.as_view(), name="dashboards_admin_update"),
-    path("dashboards_admin/<int:pk>/delete/", views.DashboardsAdminDeleteView.as_view(), name="dashboards_admin_delete"),
-    path("dashboards_admin/<int:pk>/print/", views.DashboardsAdminPrintView.as_view(), name="dashboards_admin_print"),
-    path("dashboards_admin/analytics/", views.DashboardsAdminAnalyticsView.as_view(), name="dashboards_admin_analytics"),
-    path("dashboards_admin/export/csv/", views.export_dashboards_admin_csv, name="dashboards_admin_export_csv"),
-    path("dashboards_admin/export/json/", views.export_dashboards_admin_json, name="dashboards_admin_export_json"),
+    path("dashboards_principal/", views.DashboardsPrincipalListView.as_view(), name="dashboards_principal_list"),
+    path("dashboards_principal/<int:pk>/", views.DashboardsPrincipalDetailView.as_view(), name="dashboards_principal_detail"),
+    path("dashboards_principal/create/", views.DashboardsPrincipalCreateView.as_view(), name="dashboards_principal_create"),
+    path("dashboards_principal/<int:pk>/edit/", views.DashboardsPrincipalUpdateView.as_view(), name="dashboards_principal_update"),
+    path("dashboards_principal/<int:pk>/delete/", views.DashboardsPrincipalDeleteView.as_view(), name="dashboards_principal_delete"),
+    path("dashboards_principal/<int:pk>/print/", views.DashboardsPrincipalPrintView.as_view(), name="dashboards_principal_print"),
+    path("dashboards_principal/analytics/", views.DashboardsPrincipalAnalyticsView.as_view(), name="dashboards_principal_analytics"),
+    path("dashboards_principal/export/csv/", views.export_dashboards_principal_csv, name="dashboards_principal_export_csv"),
+    path("dashboards_principal/export/json/", views.export_dashboards_principal_json, name="dashboards_principal_export_json"),
 ]
