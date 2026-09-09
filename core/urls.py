@@ -1,20 +1,20 @@
 """
-URL Routes for Core: Institutional Settings
+URL Routes for Core: Security & Penetration Tests
 """
 
 from django.urls import path
-from core import views_core_system_settings as views
+from core import views_security_and_permissions_suite as views
 
 app_name = "core"
 
 urlpatterns = [
-    path("core_system_settings/", views.CoreSystemSettingsListView.as_view(), name="core_system_settings_list"),
-    path("core_system_settings/<int:pk>/", views.CoreSystemSettingsDetailView.as_view(), name="core_system_settings_detail"),
-    path("core_system_settings/create/", views.CoreSystemSettingsCreateView.as_view(), name="core_system_settings_create"),
-    path("core_system_settings/<int:pk>/edit/", views.CoreSystemSettingsUpdateView.as_view(), name="core_system_settings_update"),
-    path("core_system_settings/<int:pk>/delete/", views.CoreSystemSettingsDeleteView.as_view(), name="core_system_settings_delete"),
-    path("core_system_settings/<int:pk>/print/", views.CoreSystemSettingsPrintView.as_view(), name="core_system_settings_print"),
-    path("core_system_settings/analytics/", views.CoreSystemSettingsAnalyticsView.as_view(), name="core_system_settings_analytics"),
-    path("core_system_settings/export/csv/", views.export_core_system_settings_csv, name="core_system_settings_export_csv"),
-    path("core_system_settings/export/json/", views.export_core_system_settings_json, name="core_system_settings_export_json"),
+    path("security_and_permissions_suite/", views.SecurityAndPermissionsSuiteListView.as_view(), name="security_and_permissions_suite_list"),
+    path("security_and_permissions_suite/<int:pk>/", views.SecurityAndPermissionsSuiteDetailView.as_view(), name="security_and_permissions_suite_detail"),
+    path("security_and_permissions_suite/create/", views.SecurityAndPermissionsSuiteCreateView.as_view(), name="security_and_permissions_suite_create"),
+    path("security_and_permissions_suite/<int:pk>/edit/", views.SecurityAndPermissionsSuiteUpdateView.as_view(), name="security_and_permissions_suite_update"),
+    path("security_and_permissions_suite/<int:pk>/delete/", views.SecurityAndPermissionsSuiteDeleteView.as_view(), name="security_and_permissions_suite_delete"),
+    path("security_and_permissions_suite/<int:pk>/print/", views.SecurityAndPermissionsSuitePrintView.as_view(), name="security_and_permissions_suite_print"),
+    path("security_and_permissions_suite/analytics/", views.SecurityAndPermissionsSuiteAnalyticsView.as_view(), name="security_and_permissions_suite_analytics"),
+    path("security_and_permissions_suite/export/csv/", views.export_security_and_permissions_suite_csv, name="security_and_permissions_suite_export_csv"),
+    path("security_and_permissions_suite/export/json/", views.export_security_and_permissions_suite_json, name="security_and_permissions_suite_export_json"),
 ]
