@@ -1,2 +1,2 @@
 from django.db import models
-from dashboards.models_dashboards_student import *
+from dashboards.models_dashboards_parent import *
