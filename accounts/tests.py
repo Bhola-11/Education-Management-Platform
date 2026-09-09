@@ -1,2 +1,2 @@
 from django.test import TestCase
-from accounts.tests_accounts_mfa_security import *
+from accounts.tests_accounts_and_academics_suite import *
