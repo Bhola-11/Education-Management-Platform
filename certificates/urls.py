@@ -1,20 +1,20 @@
 """
-URL Routes for Certificates: Certificate Template Designer
+URL Routes for Certificates: Certificate Issuance Pipeline
 """
 
 from django.urls import path
-from certificates import views_certificates_templates as views
+from certificates import views_certificates_issuance as views
 
 app_name = "certificates"
 
 urlpatterns = [
-    path("certificates_templates/", views.CertificatesTemplatesListView.as_view(), name="certificates_templates_list"),
-    path("certificates_templates/<int:pk>/", views.CertificatesTemplatesDetailView.as_view(), name="certificates_templates_detail"),
-    path("certificates_templates/create/", views.CertificatesTemplatesCreateView.as_view(), name="certificates_templates_create"),
-    path("certificates_templates/<int:pk>/edit/", views.CertificatesTemplatesUpdateView.as_view(), name="certificates_templates_update"),
-    path("certificates_templates/<int:pk>/delete/", views.CertificatesTemplatesDeleteView.as_view(), name="certificates_templates_delete"),
-    path("certificates_templates/<int:pk>/print/", views.CertificatesTemplatesPrintView.as_view(), name="certificates_templates_print"),
-    path("certificates_templates/analytics/", views.CertificatesTemplatesAnalyticsView.as_view(), name="certificates_templates_analytics"),
-    path("certificates_templates/export/csv/", views.export_certificates_templates_csv, name="certificates_templates_export_csv"),
-    path("certificates_templates/export/json/", views.export_certificates_templates_json, name="certificates_templates_export_json"),
+    path("certificates_issuance/", views.CertificatesIssuanceListView.as_view(), name="certificates_issuance_list"),
+    path("certificates_issuance/<int:pk>/", views.CertificatesIssuanceDetailView.as_view(), name="certificates_issuance_detail"),
+    path("certificates_issuance/create/", views.CertificatesIssuanceCreateView.as_view(), name="certificates_issuance_create"),
+    path("certificates_issuance/<int:pk>/edit/", views.CertificatesIssuanceUpdateView.as_view(), name="certificates_issuance_update"),
+    path("certificates_issuance/<int:pk>/delete/", views.CertificatesIssuanceDeleteView.as_view(), name="certificates_issuance_delete"),
+    path("certificates_issuance/<int:pk>/print/", views.CertificatesIssuancePrintView.as_view(), name="certificates_issuance_print"),
+    path("certificates_issuance/analytics/", views.CertificatesIssuanceAnalyticsView.as_view(), name="certificates_issuance_analytics"),
+    path("certificates_issuance/export/csv/", views.export_certificates_issuance_csv, name="certificates_issuance_export_csv"),
+    path("certificates_issuance/export/json/", views.export_certificates_issuance_json, name="certificates_issuance_export_json"),
 ]
