@@ -1,20 +1,20 @@
 """
-URL Routes for Fees: Scholarships & Waivers
+URL Routes for Fees: Payment Processing
 """
 
 from django.urls import path
-from fees import views_fees_scholarships as views
+from fees import views_fees_payments as views
 
 app_name = "fees"
 
 urlpatterns = [
-    path("fees_scholarships/", views.FeesScholarshipsListView.as_view(), name="fees_scholarships_list"),
-    path("fees_scholarships/<int:pk>/", views.FeesScholarshipsDetailView.as_view(), name="fees_scholarships_detail"),
-    path("fees_scholarships/create/", views.FeesScholarshipsCreateView.as_view(), name="fees_scholarships_create"),
-    path("fees_scholarships/<int:pk>/edit/", views.FeesScholarshipsUpdateView.as_view(), name="fees_scholarships_update"),
-    path("fees_scholarships/<int:pk>/delete/", views.FeesScholarshipsDeleteView.as_view(), name="fees_scholarships_delete"),
-    path("fees_scholarships/<int:pk>/print/", views.FeesScholarshipsPrintView.as_view(), name="fees_scholarships_print"),
-    path("fees_scholarships/analytics/", views.FeesScholarshipsAnalyticsView.as_view(), name="fees_scholarships_analytics"),
-    path("fees_scholarships/export/csv/", views.export_fees_scholarships_csv, name="fees_scholarships_export_csv"),
-    path("fees_scholarships/export/json/", views.export_fees_scholarships_json, name="fees_scholarships_export_json"),
+    path("fees_payments/", views.FeesPaymentsListView.as_view(), name="fees_payments_list"),
+    path("fees_payments/<int:pk>/", views.FeesPaymentsDetailView.as_view(), name="fees_payments_detail"),
+    path("fees_payments/create/", views.FeesPaymentsCreateView.as_view(), name="fees_payments_create"),
+    path("fees_payments/<int:pk>/edit/", views.FeesPaymentsUpdateView.as_view(), name="fees_payments_update"),
+    path("fees_payments/<int:pk>/delete/", views.FeesPaymentsDeleteView.as_view(), name="fees_payments_delete"),
+    path("fees_payments/<int:pk>/print/", views.FeesPaymentsPrintView.as_view(), name="fees_payments_print"),
+    path("fees_payments/analytics/", views.FeesPaymentsAnalyticsView.as_view(), name="fees_payments_analytics"),
+    path("fees_payments/export/csv/", views.export_fees_payments_csv, name="fees_payments_export_csv"),
+    path("fees_payments/export/json/", views.export_fees_payments_json, name="fees_payments_export_json"),
 ]
