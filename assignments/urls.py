@@ -1,20 +1,20 @@
 """
-URL Routes for Assignments: Student Submissions
+URL Routes for Assignments: Evaluation Rubrics
 """
 
 from django.urls import path
-from assignments import views_assignments_submissions as views
+from assignments import views_assignments_rubrics as views
 
 app_name = "assignments"
 
 urlpatterns = [
-    path("assignments_submissions/", views.AssignmentsSubmissionsListView.as_view(), name="assignments_submissions_list"),
-    path("assignments_submissions/<int:pk>/", views.AssignmentsSubmissionsDetailView.as_view(), name="assignments_submissions_detail"),
-    path("assignments_submissions/create/", views.AssignmentsSubmissionsCreateView.as_view(), name="assignments_submissions_create"),
-    path("assignments_submissions/<int:pk>/edit/", views.AssignmentsSubmissionsUpdateView.as_view(), name="assignments_submissions_update"),
-    path("assignments_submissions/<int:pk>/delete/", views.AssignmentsSubmissionsDeleteView.as_view(), name="assignments_submissions_delete"),
-    path("assignments_submissions/<int:pk>/print/", views.AssignmentsSubmissionsPrintView.as_view(), name="assignments_submissions_print"),
-    path("assignments_submissions/analytics/", views.AssignmentsSubmissionsAnalyticsView.as_view(), name="assignments_submissions_analytics"),
-    path("assignments_submissions/export/csv/", views.export_assignments_submissions_csv, name="assignments_submissions_export_csv"),
-    path("assignments_submissions/export/json/", views.export_assignments_submissions_json, name="assignments_submissions_export_json"),
+    path("assignments_rubrics/", views.AssignmentsRubricsListView.as_view(), name="assignments_rubrics_list"),
+    path("assignments_rubrics/<int:pk>/", views.AssignmentsRubricsDetailView.as_view(), name="assignments_rubrics_detail"),
+    path("assignments_rubrics/create/", views.AssignmentsRubricsCreateView.as_view(), name="assignments_rubrics_create"),
+    path("assignments_rubrics/<int:pk>/edit/", views.AssignmentsRubricsUpdateView.as_view(), name="assignments_rubrics_update"),
+    path("assignments_rubrics/<int:pk>/delete/", views.AssignmentsRubricsDeleteView.as_view(), name="assignments_rubrics_delete"),
+    path("assignments_rubrics/<int:pk>/print/", views.AssignmentsRubricsPrintView.as_view(), name="assignments_rubrics_print"),
+    path("assignments_rubrics/analytics/", views.AssignmentsRubricsAnalyticsView.as_view(), name="assignments_rubrics_analytics"),
+    path("assignments_rubrics/export/csv/", views.export_assignments_rubrics_csv, name="assignments_rubrics_export_csv"),
+    path("assignments_rubrics/export/json/", views.export_assignments_rubrics_json, name="assignments_rubrics_export_json"),
 ]
