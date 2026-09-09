@@ -1,2 +1,2 @@
 from django.contrib import admin
-from attendance.admin_attendance_alerts import *
+from attendance.admin_attendance_reports import *
