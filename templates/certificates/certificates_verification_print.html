@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Official Report - {{ record.code }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 2rem; color: #111; }
+        .header-box { border-bottom: 2px solid #000; padding-bottom: 1rem; margin-bottom: 2rem; }
+        .title { font-size: 24px; font-weight: bold; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem; }
+        .item { padding: 0.5rem; border: 1px solid #ccc; }
+        .label { font-weight: bold; font-size: 12px; color: #555; }
+        .val { font-size: 16px; }
+        @media print { .no-print { display: none; } }
+    </style>
+</head>
+<body>
+    <div class="no-print" style="margin-bottom: 1rem;">
+        <button onclick="window.print();" style="padding: 0.5rem 1rem; cursor: pointer;">Print Document</button>
+    </div>
+    <div class="header-box">
+        <div class="title">{{ INSTITUTE_NAME }}</div>
+        <div>Official Domain Dossier: Cryptographic Verification</div>
+    </div>
+    <h2>{{ record.name }} ({{ record.code }})</h2>
+    <p>{{ record.description }}</p>
+    <div class="grid">
+        <div class="item"><div class="label">STATUS</div><div class="val">{{ record.status }}</div></div>
+        <div class="item"><div class="label">CAPACITY</div><div class="val">{{ record.capacity_limit }}</div></div>
+        <div class="item"><div class="label">ALLOCATED</div><div class="val">{{ record.allocated_count }}</div></div>
+        <div class="item"><div class="label">VALUATION</div><div class="val">${{ record.monetary_value }}</div></div>
+    </div>
+</body>
+</html>
