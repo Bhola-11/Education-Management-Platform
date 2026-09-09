@@ -1,20 +1,20 @@
 """
-URL Routes for Accounts: Role-Based Access Control
+URL Routes for Accounts: User Profiles
 """
 
 from django.urls import path
-from accounts import views_accounts_roles_rbac as views
+from accounts import views_accounts_profiles as views
 
 app_name = "accounts"
 
 urlpatterns = [
-    path("accounts_roles_rbac/", views.AccountsRolesRbacListView.as_view(), name="accounts_roles_rbac_list"),
-    path("accounts_roles_rbac/<int:pk>/", views.AccountsRolesRbacDetailView.as_view(), name="accounts_roles_rbac_detail"),
-    path("accounts_roles_rbac/create/", views.AccountsRolesRbacCreateView.as_view(), name="accounts_roles_rbac_create"),
-    path("accounts_roles_rbac/<int:pk>/edit/", views.AccountsRolesRbacUpdateView.as_view(), name="accounts_roles_rbac_update"),
-    path("accounts_roles_rbac/<int:pk>/delete/", views.AccountsRolesRbacDeleteView.as_view(), name="accounts_roles_rbac_delete"),
-    path("accounts_roles_rbac/<int:pk>/print/", views.AccountsRolesRbacPrintView.as_view(), name="accounts_roles_rbac_print"),
-    path("accounts_roles_rbac/analytics/", views.AccountsRolesRbacAnalyticsView.as_view(), name="accounts_roles_rbac_analytics"),
-    path("accounts_roles_rbac/export/csv/", views.export_accounts_roles_rbac_csv, name="accounts_roles_rbac_export_csv"),
-    path("accounts_roles_rbac/export/json/", views.export_accounts_roles_rbac_json, name="accounts_roles_rbac_export_json"),
+    path("accounts_profiles/", views.AccountsProfilesListView.as_view(), name="accounts_profiles_list"),
+    path("accounts_profiles/<int:pk>/", views.AccountsProfilesDetailView.as_view(), name="accounts_profiles_detail"),
+    path("accounts_profiles/create/", views.AccountsProfilesCreateView.as_view(), name="accounts_profiles_create"),
+    path("accounts_profiles/<int:pk>/edit/", views.AccountsProfilesUpdateView.as_view(), name="accounts_profiles_update"),
+    path("accounts_profiles/<int:pk>/delete/", views.AccountsProfilesDeleteView.as_view(), name="accounts_profiles_delete"),
+    path("accounts_profiles/<int:pk>/print/", views.AccountsProfilesPrintView.as_view(), name="accounts_profiles_print"),
+    path("accounts_profiles/analytics/", views.AccountsProfilesAnalyticsView.as_view(), name="accounts_profiles_analytics"),
+    path("accounts_profiles/export/csv/", views.export_accounts_profiles_csv, name="accounts_profiles_export_csv"),
+    path("accounts_profiles/export/json/", views.export_accounts_profiles_json, name="accounts_profiles_export_json"),
 ]

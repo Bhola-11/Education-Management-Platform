@@ -1,2 +1,2 @@
 from django.test import TestCase
-from accounts.tests_accounts_roles_rbac import *
+from accounts.tests_accounts_profiles import *
