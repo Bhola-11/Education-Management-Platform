@@ -1,2 +1,2 @@
 from django.test import TestCase
-from exams.tests_exams_schedules import *
+from exams.tests_exams_hall_seating import *
