@@ -1,20 +1,20 @@
 """
-URL Routes for Timetables: Timetable Matrix
+URL Routes for Timetables: Schedule Conflict Solver
 """
 
 from django.urls import path
-from timetables import views_timetables_entry as views
+from timetables import views_timetables_conflict_detector as views
 
 app_name = "timetables"
 
 urlpatterns = [
-    path("timetables_entry/", views.TimetablesEntryListView.as_view(), name="timetables_entry_list"),
-    path("timetables_entry/<int:pk>/", views.TimetablesEntryDetailView.as_view(), name="timetables_entry_detail"),
-    path("timetables_entry/create/", views.TimetablesEntryCreateView.as_view(), name="timetables_entry_create"),
-    path("timetables_entry/<int:pk>/edit/", views.TimetablesEntryUpdateView.as_view(), name="timetables_entry_update"),
-    path("timetables_entry/<int:pk>/delete/", views.TimetablesEntryDeleteView.as_view(), name="timetables_entry_delete"),
-    path("timetables_entry/<int:pk>/print/", views.TimetablesEntryPrintView.as_view(), name="timetables_entry_print"),
-    path("timetables_entry/analytics/", views.TimetablesEntryAnalyticsView.as_view(), name="timetables_entry_analytics"),
-    path("timetables_entry/export/csv/", views.export_timetables_entry_csv, name="timetables_entry_export_csv"),
-    path("timetables_entry/export/json/", views.export_timetables_entry_json, name="timetables_entry_export_json"),
+    path("timetables_conflict_detector/", views.TimetablesConflictDetectorListView.as_view(), name="timetables_conflict_detector_list"),
+    path("timetables_conflict_detector/<int:pk>/", views.TimetablesConflictDetectorDetailView.as_view(), name="timetables_conflict_detector_detail"),
+    path("timetables_conflict_detector/create/", views.TimetablesConflictDetectorCreateView.as_view(), name="timetables_conflict_detector_create"),
+    path("timetables_conflict_detector/<int:pk>/edit/", views.TimetablesConflictDetectorUpdateView.as_view(), name="timetables_conflict_detector_update"),
+    path("timetables_conflict_detector/<int:pk>/delete/", views.TimetablesConflictDetectorDeleteView.as_view(), name="timetables_conflict_detector_delete"),
+    path("timetables_conflict_detector/<int:pk>/print/", views.TimetablesConflictDetectorPrintView.as_view(), name="timetables_conflict_detector_print"),
+    path("timetables_conflict_detector/analytics/", views.TimetablesConflictDetectorAnalyticsView.as_view(), name="timetables_conflict_detector_analytics"),
+    path("timetables_conflict_detector/export/csv/", views.export_timetables_conflict_detector_csv, name="timetables_conflict_detector_export_csv"),
+    path("timetables_conflict_detector/export/json/", views.export_timetables_conflict_detector_json, name="timetables_conflict_detector_export_json"),
 ]
