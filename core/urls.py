@@ -1,20 +1,20 @@
 """
-URL Routes for Core: Security Audit Trail
+URL Routes for Core: Database Diagnostics & Snapshots
 """
 
 from django.urls import path
-from core import views_core_audit_logging as views
+from core import views_core_backup_restore as views
 
 app_name = "core"
 
 urlpatterns = [
-    path("core_audit_logging/", views.CoreAuditLoggingListView.as_view(), name="core_audit_logging_list"),
-    path("core_audit_logging/<int:pk>/", views.CoreAuditLoggingDetailView.as_view(), name="core_audit_logging_detail"),
-    path("core_audit_logging/create/", views.CoreAuditLoggingCreateView.as_view(), name="core_audit_logging_create"),
-    path("core_audit_logging/<int:pk>/edit/", views.CoreAuditLoggingUpdateView.as_view(), name="core_audit_logging_update"),
-    path("core_audit_logging/<int:pk>/delete/", views.CoreAuditLoggingDeleteView.as_view(), name="core_audit_logging_delete"),
-    path("core_audit_logging/<int:pk>/print/", views.CoreAuditLoggingPrintView.as_view(), name="core_audit_logging_print"),
-    path("core_audit_logging/analytics/", views.CoreAuditLoggingAnalyticsView.as_view(), name="core_audit_logging_analytics"),
-    path("core_audit_logging/export/csv/", views.export_core_audit_logging_csv, name="core_audit_logging_export_csv"),
-    path("core_audit_logging/export/json/", views.export_core_audit_logging_json, name="core_audit_logging_export_json"),
+    path("core_backup_restore/", views.CoreBackupRestoreListView.as_view(), name="core_backup_restore_list"),
+    path("core_backup_restore/<int:pk>/", views.CoreBackupRestoreDetailView.as_view(), name="core_backup_restore_detail"),
+    path("core_backup_restore/create/", views.CoreBackupRestoreCreateView.as_view(), name="core_backup_restore_create"),
+    path("core_backup_restore/<int:pk>/edit/", views.CoreBackupRestoreUpdateView.as_view(), name="core_backup_restore_update"),
+    path("core_backup_restore/<int:pk>/delete/", views.CoreBackupRestoreDeleteView.as_view(), name="core_backup_restore_delete"),
+    path("core_backup_restore/<int:pk>/print/", views.CoreBackupRestorePrintView.as_view(), name="core_backup_restore_print"),
+    path("core_backup_restore/analytics/", views.CoreBackupRestoreAnalyticsView.as_view(), name="core_backup_restore_analytics"),
+    path("core_backup_restore/export/csv/", views.export_core_backup_restore_csv, name="core_backup_restore_export_csv"),
+    path("core_backup_restore/export/json/", views.export_core_backup_restore_json, name="core_backup_restore_export_json"),
 ]

@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Database Diagnostics & Snapshots | Analytics Dashboard{% endblock %}
+
+{% block breadcrumbs %}
+<a href="/dashboards/">Home</a> &raquo; <a href="{% url 'core:core_backup_restore_list' %}">Database Diagnostics & Snapshots</a> &raquo; <span>Analytics</span>
+{% endblock %}
+
+{% block content %}
+<div class="analytics-container">
+    <h2>Database Diagnostics & Snapshots Operational Analytics</h2>
+    
+    <div class="metrics-grid mt-4">
+        <div class="metric-card">
+            <span class="metric-label">Total Catalog Count</span>
+            <span class="metric-value">{{ kpis.total_records }}</span>
+        </div>
+        <div class="metric-card">
+            <span class="metric-label">Active Entities</span>
+            <span class="metric-value text-success">{{ kpis.active_records }}</span>
+        </div>
+        <div class="metric-card">
+            <span class="metric-label">Total Resource Allocation</span>
+            <span class="metric-value">{{ kpis.total_allocated_units }} / {{ kpis.total_capacity_units }}</span>
+        </div>
+        <div class="metric-card">
+            <span class="metric-label">Total Valuation</span>
+            <span class="metric-value text-primary">${{ kpis.total_monetary_value }}</span>
+        </div>
+    </div>
+    
+    <div class="content-card mt-4">
+        <h3>Top Performing CoreBackupRestore Entities</h3>
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Name</th>
+                    <th>Rating Score</th>
+                    <th>Capacity Load</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in top_records %}
+                <tr>
+                    <td><strong>{{ item.code }}</strong></td>
+                    <td>{{ item.name }}</td>
+                    <td>{{ item.score_rating }}</td>
+                    <td>{{ item.allocated_count }} / {{ item.capacity_limit }}</td>
+                </tr>
+                {% empty %}
+                <tr><td colspan="4">No evaluated records available.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
