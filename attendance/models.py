@@ -1,2 +1,2 @@
 from django.db import models
-from attendance.models_attendance_leave_workflow import *
+from attendance.models_attendance_alerts import *
