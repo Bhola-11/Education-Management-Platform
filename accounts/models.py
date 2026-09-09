@@ -1,2 +1,2 @@
 from django.db import models
-from accounts.models_accounts_auth_views import *
+from accounts.models_accounts_mfa_security import *
