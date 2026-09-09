@@ -446,7 +446,11 @@ def _generate_rich_models(app: str, sub: str, ent: str, domain: str, pr_num: int
         ('SLAComplianceRegister', 'Service level agreement compliance tracker for operational responsiveness.'),
         ('IncidentReportRegister', 'Incident ticketing and remediation tracking register.'),
         ('BusinessContinuityPlan', 'Business continuity procedures and failover plan coordinates.'),
-        ('GovernanceAttestationRecord', 'Formal institutional governance attestations and sign-offs.')
+        ('GovernanceAttestationRecord', 'Formal institutional governance attestations and sign-offs.'),
+        ('RiskMitigationProtocol', 'Institutional risk registry, threat scoring, and mitigation control actions.'),
+        ('InteroperabilityGateway', 'External schema normalization and bidirectional data synchronization gateway.'),
+        ('CapacityForecastIndex', 'Predictive demand forecasting, cohort growth simulations, and resource quotas.'),
+        ('SecurityCredentialLedger', 'Cryptographic key rotation, API access tokens, and security credential records.')
     ]
 
     for suffix, purpose in model_entities:
