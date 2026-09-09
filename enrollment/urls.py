@@ -1,20 +1,20 @@
 """
-URL Routes for Enrollment: Course Registration
+URL Routes for Enrollment: Prerequisite Enforcement
 """
 
 from django.urls import path
-from enrollment import views_enrollment_course_reg as views
+from enrollment import views_enrollment_prereq_check as views
 
 app_name = "enrollment"
 
 urlpatterns = [
-    path("enrollment_course_reg/", views.EnrollmentCourseRegListView.as_view(), name="enrollment_course_reg_list"),
-    path("enrollment_course_reg/<int:pk>/", views.EnrollmentCourseRegDetailView.as_view(), name="enrollment_course_reg_detail"),
-    path("enrollment_course_reg/create/", views.EnrollmentCourseRegCreateView.as_view(), name="enrollment_course_reg_create"),
-    path("enrollment_course_reg/<int:pk>/edit/", views.EnrollmentCourseRegUpdateView.as_view(), name="enrollment_course_reg_update"),
-    path("enrollment_course_reg/<int:pk>/delete/", views.EnrollmentCourseRegDeleteView.as_view(), name="enrollment_course_reg_delete"),
-    path("enrollment_course_reg/<int:pk>/print/", views.EnrollmentCourseRegPrintView.as_view(), name="enrollment_course_reg_print"),
-    path("enrollment_course_reg/analytics/", views.EnrollmentCourseRegAnalyticsView.as_view(), name="enrollment_course_reg_analytics"),
-    path("enrollment_course_reg/export/csv/", views.export_enrollment_course_reg_csv, name="enrollment_course_reg_export_csv"),
-    path("enrollment_course_reg/export/json/", views.export_enrollment_course_reg_json, name="enrollment_course_reg_export_json"),
+    path("enrollment_prereq_check/", views.EnrollmentPrereqCheckListView.as_view(), name="enrollment_prereq_check_list"),
+    path("enrollment_prereq_check/<int:pk>/", views.EnrollmentPrereqCheckDetailView.as_view(), name="enrollment_prereq_check_detail"),
+    path("enrollment_prereq_check/create/", views.EnrollmentPrereqCheckCreateView.as_view(), name="enrollment_prereq_check_create"),
+    path("enrollment_prereq_check/<int:pk>/edit/", views.EnrollmentPrereqCheckUpdateView.as_view(), name="enrollment_prereq_check_update"),
+    path("enrollment_prereq_check/<int:pk>/delete/", views.EnrollmentPrereqCheckDeleteView.as_view(), name="enrollment_prereq_check_delete"),
+    path("enrollment_prereq_check/<int:pk>/print/", views.EnrollmentPrereqCheckPrintView.as_view(), name="enrollment_prereq_check_print"),
+    path("enrollment_prereq_check/analytics/", views.EnrollmentPrereqCheckAnalyticsView.as_view(), name="enrollment_prereq_check_analytics"),
+    path("enrollment_prereq_check/export/csv/", views.export_enrollment_prereq_check_csv, name="enrollment_prereq_check_export_csv"),
+    path("enrollment_prereq_check/export/json/", views.export_enrollment_prereq_check_json, name="enrollment_prereq_check_export_json"),
 ]
