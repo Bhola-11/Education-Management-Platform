@@ -1,2 +1,2 @@
 from django.test import TestCase
-from teachers.tests_teachers_workload import *
+from teachers.tests_teachers_views_portal import *

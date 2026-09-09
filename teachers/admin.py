@@ -1,2 +1,2 @@
 from django.contrib import admin
-from teachers.admin_teachers_workload import *
+from teachers.admin_teachers_views_portal import *
