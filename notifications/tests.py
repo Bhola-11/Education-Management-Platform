@@ -1,2 +1,2 @@
 from django.test import TestCase
-from notifications.tests_notifications_email import *
+from notifications.tests_notifications_broadcast import *

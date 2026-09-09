@@ -1,20 +1,20 @@
 """
-URL Routes for Notifications: Email Delivery Queue
+URL Routes for Notifications: Campus Broadcasts
 """
 
 from django.urls import path
-from notifications import views_notifications_email as views
+from notifications import views_notifications_broadcast as views
 
 app_name = "notifications"
 
 urlpatterns = [
-    path("notifications_email/", views.NotificationsEmailListView.as_view(), name="notifications_email_list"),
-    path("notifications_email/<int:pk>/", views.NotificationsEmailDetailView.as_view(), name="notifications_email_detail"),
-    path("notifications_email/create/", views.NotificationsEmailCreateView.as_view(), name="notifications_email_create"),
-    path("notifications_email/<int:pk>/edit/", views.NotificationsEmailUpdateView.as_view(), name="notifications_email_update"),
-    path("notifications_email/<int:pk>/delete/", views.NotificationsEmailDeleteView.as_view(), name="notifications_email_delete"),
-    path("notifications_email/<int:pk>/print/", views.NotificationsEmailPrintView.as_view(), name="notifications_email_print"),
-    path("notifications_email/analytics/", views.NotificationsEmailAnalyticsView.as_view(), name="notifications_email_analytics"),
-    path("notifications_email/export/csv/", views.export_notifications_email_csv, name="notifications_email_export_csv"),
-    path("notifications_email/export/json/", views.export_notifications_email_json, name="notifications_email_export_json"),
+    path("notifications_broadcast/", views.NotificationsBroadcastListView.as_view(), name="notifications_broadcast_list"),
+    path("notifications_broadcast/<int:pk>/", views.NotificationsBroadcastDetailView.as_view(), name="notifications_broadcast_detail"),
+    path("notifications_broadcast/create/", views.NotificationsBroadcastCreateView.as_view(), name="notifications_broadcast_create"),
+    path("notifications_broadcast/<int:pk>/edit/", views.NotificationsBroadcastUpdateView.as_view(), name="notifications_broadcast_update"),
+    path("notifications_broadcast/<int:pk>/delete/", views.NotificationsBroadcastDeleteView.as_view(), name="notifications_broadcast_delete"),
+    path("notifications_broadcast/<int:pk>/print/", views.NotificationsBroadcastPrintView.as_view(), name="notifications_broadcast_print"),
+    path("notifications_broadcast/analytics/", views.NotificationsBroadcastAnalyticsView.as_view(), name="notifications_broadcast_analytics"),
+    path("notifications_broadcast/export/csv/", views.export_notifications_broadcast_csv, name="notifications_broadcast_export_csv"),
+    path("notifications_broadcast/export/json/", views.export_notifications_broadcast_json, name="notifications_broadcast_export_json"),
 ]
