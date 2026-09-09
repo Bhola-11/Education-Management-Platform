@@ -1,0 +1,17 @@
+<aside class="app-sidebar">
+    <div class="sidebar-brand">
+        <h2>[EduTrack]</h2>
+        <span class="subtext">Enterprise Edition</span>
+    </div>
+    <nav class="sidebar-nav">
+        <ul>
+            {% for item in MODULE_NAV_ITEMS %}
+            <li>
+                <a href="{{ item.url }}">
+                    <span class="nav-label">{{ item.name }}</span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</aside>
